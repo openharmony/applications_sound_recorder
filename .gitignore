@@ -1,0 +1,8 @@
+/node_modules
+/local.properties
+**/local.properties
+/.idea
+**/build
+/.hvigor
+.preview
+*/.preview

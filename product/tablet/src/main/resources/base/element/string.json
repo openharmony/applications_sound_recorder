@@ -1,0 +1,16 @@
+{
+  "string": [
+    {
+      "name": "tablet_desc",
+      "value": "description"
+    },
+    {
+      "name": "MainAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "MainAbility_label",
+      "value": "录音机"
+    }
+  ]
+}
