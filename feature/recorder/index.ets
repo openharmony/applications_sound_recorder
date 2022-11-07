@@ -12,6 +12,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+
 export { RecordController, RecordState } from './src/main/ets/controller/RecordController'
 
 export { default as MediaController } from './src/main/ets/controller/MediaController'

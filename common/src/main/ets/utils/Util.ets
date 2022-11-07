@@ -22,18 +22,18 @@ export class Util {
    */
   timeFormat(timestamp: number, hasHour: boolean =  true): string {
     if (timestamp < 0) {
-      return ""
+      return "";
     }
-    let timeStr = ""
-    let hour = Math.floor(timestamp % (24 * 60 * 60 * 1000) / (60 * 60 * 1000))
+    let timeStr = "";
+    let hour = Math.floor(timestamp % (24 * 60 * 60 * 1000) / (60 * 60 * 1000));
     if (hasHour || hour > 0) {
-      timeStr += this.addZero(hour) + ":"
+      timeStr += this.addZero(hour) + ":";
     }
-    let min = Math.floor(timestamp % (60 * 60 * 1000) / (60 * 1000))
-    timeStr += this.addZero(min) + ":"
-    let sec = Math.floor(timestamp % (60 * 1000) / 1000)
-    timeStr += this.addZero(sec)
-    return timeStr
+    let min = Math.floor(timestamp % (60 * 60 * 1000) / (60 * 1000));
+    timeStr += this.addZero(min) + ":";
+    let sec = Math.floor(timestamp % (60 * 1000) / 1000);
+    timeStr += this.addZero(sec);
+    return timeStr;
   }
 
   /**
@@ -42,22 +42,22 @@ export class Util {
    */
   timeFormatMs(timestamp: number): string {
     if (timestamp <= 0) {
-      return "00:00.00"
+      return "00:00.00";
     }
-    let timeStr = ""
-    let hour = Math.floor(timestamp % (24 * 60 * 60 * 1000) / (60 * 60 * 1000))
+    let timeStr = "";
+    let hour = Math.floor(timestamp % (24 * 60 * 60 * 1000) / (60 * 60 * 1000));
     if (hour > 0) {
-      timeStr += this.addZero(hour) + ":"
+      timeStr += this.addZero(hour) + ":";
     }
-    let min = Math.floor(timestamp % (60 * 60 * 1000) / (60 * 1000))
-    timeStr += this.addZero(min) + ":"
-    let sec = Math.floor(timestamp % (60 * 1000) / 1000)
-    timeStr += this.addZero(sec)
+    let min = Math.floor(timestamp % (60 * 60 * 1000) / (60 * 1000));
+    timeStr += this.addZero(min) + ":";
+    let sec = Math.floor(timestamp % (60 * 1000) / 1000);
+    timeStr += this.addZero(sec);
     if (hour < 1) {
-      let mSec = Math.floor(timestamp % 1000 / 10)
-      timeStr += "." + this.addZero(mSec)
+      let mSec = Math.floor(timestamp % 1000 / 10);
+      timeStr += "." + this.addZero(mSec);
     }
-    return timeStr
+    return timeStr;
   }
 
   /**
@@ -65,8 +65,8 @@ export class Util {
    * @param date
    */
   getDateFormat(date: number): string {
-    let nowDate = new Date(date)
-    return nowDate.getFullYear() + "/" + this.addZero(nowDate.getMonth() + 1) + "/" + this.addZero(nowDate.getDate())
+    let nowDate = new Date(date);
+    return nowDate.getFullYear() + "/" + this.addZero(nowDate.getMonth() + 1) + "/" + this.addZero(nowDate.getDate());
   }
 
   /**
@@ -74,24 +74,24 @@ export class Util {
    * @param date
    */
   getTimeFormat(date: number): string {
-    let nowDate = new Date(date)
-    return this.addZero(nowDate.getHours()) + ":" + this.addZero(nowDate.getMinutes()) + ":" + this.addZero(nowDate.getSeconds())
+    let nowDate = new Date(date);
+    return this.addZero(nowDate.getHours()) + ":" + this.addZero(nowDate.getMinutes()) + ":" + this.addZero(nowDate.getSeconds());
   }
 
   /**
    * Gets the current time date
    */
   getDate(): string {
-    let nowDate = new Date()
-    return nowDate.getFullYear() + this.addZero(nowDate.getMonth() + 1) + this.addZero(nowDate.getDate())
+    let nowDate = new Date();
+    return nowDate.getFullYear() + this.addZero(nowDate.getMonth() + 1) + this.addZero(nowDate.getDate());
   }
 
   /**
    * Gets the hour, minute and second of the current time
    */
   getTime(): string {
-    let nowDate = new Date()
-    return this.addZero(nowDate.getHours()) + this.addZero(nowDate.getMinutes()) + this.addZero(nowDate.getSeconds())
+    let nowDate = new Date();
+    return this.addZero(nowDate.getHours()) + this.addZero(nowDate.getMinutes()) + this.addZero(nowDate.getSeconds());
   }
 
   /**
@@ -99,7 +99,7 @@ export class Util {
    * @param num
    */
   addZero(num: number): string{
-    return (num < 10 ? "0" + num : num).toString()
+    return (num < 10 ? "0" + num : num).toString();
   }
 }
 

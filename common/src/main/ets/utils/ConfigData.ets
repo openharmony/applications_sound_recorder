@@ -12,6 +12,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+
 export class ConfigData {
   WH_100_100 = '100%';
   WH_50_100 = '50%';

@@ -1,17 +1,17 @@
 {
-	"license":"ISC",
-	"devDependencies":{},
-	"name":"tablet",
-	"ohos":{
-		"org":"huawei",
-		"directoryLevel":"module",
-		"buildTool":"hvigor"
+	"license": "ISC",
+	"devDependencies": {},
+	"name": "tablet",
+	"ohos": {
+		"org": "huawei",
+		"directoryLevel": "module",
+		"buildTool": "hvigor"
 	},
-	"description":"example description",
-	"repository":{},
-	"version":"1.0.0",
-	"dependencies":{
-		"@ohos/recorder":"file:../../feature/recorder",
-		"@ohos/common":"file:../../common"
+	"description": "example description",
+	"repository": {},
+	"version": "1.0.0",
+	"dependencies": {
+		"@ohos/recorder": "file:../../feature/recorder",
+		"@ohos/common": "file:../../common"
 	}
 }

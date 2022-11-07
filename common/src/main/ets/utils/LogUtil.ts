@@ -12,10 +12,11 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-import HiLog from "@ohos.hilog"
+
+import HiLog from "@ohos.hilog";
 
 const DOMAIN = 0x0500;
-const TAG = "[Recorder]"
+const TAG = "[Recorder]";
 
 /**
  *  log package tool class

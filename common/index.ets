@@ -12,6 +12,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+
 export { default as ConfigData } from './src/main/ets/utils/ConfigData'
 
 export { default as Util } from './src/main/ets/utils/Util'
