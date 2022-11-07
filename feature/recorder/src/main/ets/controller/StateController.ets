@@ -13,9 +13,9 @@
  * limitations under the License.
  */
 
-import { LogUtil } from '@ohos/common'
+import { LogUtil } from '@ohos/common';
 
-const TAG = 'ControlState : '
+const TAG = 'ControlState : ';
 
 export enum ControlState {
   START,
@@ -39,7 +39,7 @@ export class StateController {
    */
   private async notifyStateChanges() {
     if (this.stateUpdateListener) {
-      this.stateUpdateListener(this.state)
+      this.stateUpdateListener(this.state);
     }
   }
 
@@ -47,17 +47,17 @@ export class StateController {
    * Announce the start of recording
    */
   public start() {
-    LogUtil.info(`${TAG} record start.`)
-    this.state = ControlState.START
-    this.notifyStateChanges()
+    LogUtil.info(`${TAG} record start.`);
+    this.state = ControlState.START;
+    this.notifyStateChanges();
   }
 
   /**
    * Announce the end of recording
    */
   public end() {
-    LogUtil.info(`${TAG} record end.`)
-    this.state = ControlState.END
-    this.notifyStateChanges()
+    LogUtil.info(`${TAG} record end.`);
+    this.state = ControlState.END;
+    this.notifyStateChanges();
   }
 }

@@ -12,20 +12,21 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-import mediaLibrary from '@ohos.multimedia.mediaLibrary'
-import { Util } from '@ohos/common'
-import { RecordData } from '../model/RecordData'
-import data_preferences from '@ohos.data.preferences';
-import { LogUtil } from '@ohos/common'
 
-const TAG = 'MediaController : '
+import mediaLibrary from '@ohos.multimedia.mediaLibrary';
+import { Util } from '@ohos/common';
+import { RecordData } from '../model/RecordData';
+import data_preferences from '@ohos.data.preferences';
+import { LogUtil } from '@ohos/common';
+
+const TAG = 'MediaController : ';
 
 class MediaController {
   private mMediaLibrary: mediaLibrary.MediaLibrary = mediaLibrary.getMediaLibrary(globalThis.abilityContext);
-  private preferences: data_preferences.Preferences = undefined
+  private preferences: data_preferences.Preferences = undefined;
 
   constructor() {
-    this.initPreferences()
+    this.initPreferences();
   }
 
   /**
@@ -36,17 +37,17 @@ class MediaController {
   deleteRecord(deleteRecordUri: string, callback: () => void) {
     LogUtil.info(`${TAG} delete Asset. uri: ${deleteRecordUri}`)
     this.mMediaLibrary.deleteAsset(deleteRecordUri).then(() => {
-      LogUtil.info(`${TAG} delete Asset successs.`)
-      callback()
-    })
+      LogUtil.info(`${TAG} delete Asset successs.`);
+      callback();
+    });
   }
 
   /**
    * init Preferences
    */
   async initPreferences() {
-    LogUtil.info(`${TAG} initPreferences.`)
-    this.preferences = await data_preferences.getPreferences(globalThis.abilityContext, 'myRecorderStore')
+    LogUtil.info(`${TAG} initPreferences.`);
+    this.preferences = await data_preferences.getPreferences(globalThis.abilityContext, 'myRecorderStore');
   }
 
   /**
@@ -55,11 +56,11 @@ class MediaController {
    * @param value
    */
   async saveFileDuration(name: string, value: number) {
-    LogUtil.info(`${TAG} saveFileDuration. fileName : ${name}. duration:${value}`)
+    LogUtil.info(`${TAG} saveFileDuration. fileName : ${name}. duration:${value}`);
     if (this.preferences) {
-      await this.preferences.put(name, value)
-      this.preferences.flush()
-      LogUtil.info(`${TAG} save File Duration end.`)
+      await this.preferences.put(name, value);
+      this.preferences.flush();
+      LogUtil.info(`${TAG} save File Duration end.`);
     }
   }
 
@@ -68,49 +69,49 @@ class MediaController {
    * @param name
    */
   async getFileDuration(name: string) {
-    LogUtil.info(`${TAG} getFileDuration. fileName : ${name}.`)
-    return this.preferences.get(name, 0)
+    LogUtil.info(`${TAG} getFileDuration. fileName : ${name}.`);
+    return this.preferences.get(name, 0);
   }
 
   /**
    * query All Audios
    */
   async queryAllAudios() {
-    LogUtil.info(`${TAG} queryAllAudios`)
-    let fileKeyObj = mediaLibrary.FileKey
+    LogUtil.info(`${TAG} queryAllAudios`);
+    let fileKeyObj = mediaLibrary.FileKey;
     let fetchOp = {
       selections: `${fileKeyObj.MEDIA_TYPE}=?`,
       selectionArgs: [`${mediaLibrary.MediaType.AUDIO}`],
     }
-    LogUtil.info(`${TAG} getFileAssets`)
-    const fetchFileResult = await this.mMediaLibrary.getFileAssets(fetchOp)
-    LogUtil.info(`${TAG} Assets count : ${fetchFileResult.getCount()}`)
-    let result: Array<RecordData> = []
+    LogUtil.info(`${TAG} getFileAssets`);
+    const fetchFileResult = await this.mMediaLibrary.getFileAssets(fetchOp);
+    LogUtil.info(`${TAG} Assets count : ${fetchFileResult.getCount()}`);
+    let result: Array<RecordData> = [];
     if (fetchFileResult.getCount() > 0) {
-      let fileAssets = await fetchFileResult.getAllObject()
+      let fileAssets = await fetchFileResult.getAllObject();
       for (let i = 0; i < fileAssets.length; i++) {
-        let record = new RecordData(fileAssets[i])
+        let record = new RecordData(fileAssets[i]);
         if (record.duration == 0) {
-          await record.getDuration()
+          await record.getDuration();
         }
-        result.push(record)
+        result.push(record);
       }
     }
-    return result
+    return result;
   }
 
   /**
    * create Audio File
    */
   async createAudioFile() {
-    LogUtil.info(`${TAG} createAudioFile`)
+    LogUtil.info(`${TAG} createAudioFile`);
     this.mMediaLibrary = mediaLibrary.getMediaLibrary(globalThis.abilityContext);
-    let displayName = Util.getDate() + "_" + Util.getTime() + ".m4a"
-    LogUtil.info(`${TAG} displayName : ${displayName}`)
-    let publicPath = await this.mMediaLibrary.getPublicDirectory(mediaLibrary.DirectoryType.DIR_AUDIO)
-    LogUtil.info(`${TAG} publicPath : ${publicPath}`)
-    return await this.mMediaLibrary.createAsset(mediaLibrary.MediaType.AUDIO, displayName, publicPath)
+    let displayName = Util.getDate() + "_" + Util.getTime() + ".m4a";
+    LogUtil.info(`${TAG} displayName : ${displayName}`);
+    let publicPath = await this.mMediaLibrary.getPublicDirectory(mediaLibrary.DirectoryType.DIR_AUDIO);
+    LogUtil.info(`${TAG} publicPath : ${publicPath}`);
+    return await this.mMediaLibrary.createAsset(mediaLibrary.MediaType.AUDIO, displayName, publicPath);
   }
 }
 
-export default new MediaController()
+export default new MediaController();

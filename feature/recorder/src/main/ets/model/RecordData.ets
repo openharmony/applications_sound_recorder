@@ -12,32 +12,33 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+
 import { default as MediaController } from '../controller/MediaController';
-import mediaLibrary from '@ohos.multimedia.mediaLibrary'
+import mediaLibrary from '@ohos.multimedia.mediaLibrary';
 
 export class RecordData {
-  fileAsset: mediaLibrary.FileAsset
-  title: string
-  duration: number
-  date: number
+  fileAsset: mediaLibrary.FileAsset;
+  title: string;
+  duration: number;
+  date: number;
 
   constructor(fileAsset: mediaLibrary.FileAsset) {
-    this.fileAsset = fileAsset
+    this.fileAsset = fileAsset;
     if (fileAsset) {
       if (fileAsset.duration > 0) {
-        this.duration = fileAsset.duration
+        this.duration = fileAsset.duration;
       } else {
-        this.duration = 0
+        this.duration = 0;
       }
-      this.date = fileAsset.dateAdded
-      this.title = fileAsset.title
+      this.date = fileAsset.dateAdded;
+      this.title = fileAsset.title;
     } else {
-      this.duration = 0
-      this.title = ''
+      this.duration = 0;
+      this.title = '';
     }
   }
 
   async getDuration() {
-    this.duration = Number(await MediaController.getFileDuration(this.fileAsset.title))
+    this.duration = Number(await MediaController.getFileDuration(this.fileAsset.title));
   }
 }

@@ -12,6 +12,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+
 import { ConfigData, Util } from '@ohos/common'
 import { AudioController, AudioState, MediaController, RecordData } from '@ohos/recorder'
 import { StateController, ControlState } from '@ohos/recorder'

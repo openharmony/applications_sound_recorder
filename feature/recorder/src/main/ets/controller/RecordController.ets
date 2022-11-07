@@ -12,11 +12,12 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-import media from '@ohos.multimedia.media'
-import { LogUtil } from '@ohos/common'
+
+import media from '@ohos.multimedia.media';
+import { LogUtil } from '@ohos/common';
 
 const NOTIFY_INTERVAL_MS = 60;
-const TAG = 'RecordController : '
+const TAG = 'RecordController : ';
 
 let audioConfig = {
   audioEncodeBitRate: 22050,
@@ -35,13 +36,13 @@ export enum RecordState {
 }
 
 export class RecordController {
-  private beforePauseTime: number = 0
-  private startTimestamp: number = 0
-  private notifierId: number = -1
+  private beforePauseTime: number = 0;
+  private startTimestamp: number = 0;
+  private notifierId: number = -1;
   private state: RecordState = RecordState.PAUSED;
   private currentTimeMs: number = 0;
   private audioRecorder: media.AudioRecorder = undefined;
-  private timeUpdateListener: (currentTimeMs: number) => void = undefined
+  private timeUpdateListener: (currentTimeMs: number) => void = undefined;
   private stateUpdateListener: (RecordState) => void = undefined;
 
   /**
@@ -49,7 +50,7 @@ export class RecordController {
    */
   private notifyTimeChanges() {
     if (this.timeUpdateListener) {
-      this.timeUpdateListener(this.currentTimeMs)
+      this.timeUpdateListener(this.currentTimeMs);
     }
   }
 
@@ -58,8 +59,8 @@ export class RecordController {
    */
   private async notifyStateChanges() {
     if (this.stateUpdateListener) {
-      LogUtil.info(`${TAG} state update. ${this.state}`)
-      this.stateUpdateListener(this.state)
+      LogUtil.info(`${TAG} state update. ${this.state}`);
+      this.stateUpdateListener(this.state);
     }
   }
 
@@ -68,7 +69,7 @@ export class RecordController {
    * @param listener
    */
   public setTimeUpdateListener(listener: (currentTimeMs: number) => void) {
-    LogUtil.info(`${TAG} setTimeUpdateListener.`)
+    LogUtil.info(`${TAG} setTimeUpdateListener.`);
     this.timeUpdateListener = listener;
   }
 
@@ -77,7 +78,7 @@ export class RecordController {
    * @param listener
    */
   public setStateUpdateListener(listener: (RecordState) => void) {
-    LogUtil.info(`${TAG} setStateUpdateListener.`)
+    LogUtil.info(`${TAG} setStateUpdateListener.`);
     this.stateUpdateListener = listener;
   }
 
@@ -85,15 +86,15 @@ export class RecordController {
    * init AudioRecorder
    */
   initAudioRecorder() {
-    LogUtil.info(`${TAG} initAudioRecorder.`)
-    this.audioRecorder = media.createAudioRecorder()
+    LogUtil.info(`${TAG} initAudioRecorder.`);
+    this.audioRecorder = media.createAudioRecorder();
   }
 
   /**
    * Gets the sound size of the recording
    */
   getSoundVolume() { //todo
-    return Math.random() * 100 + 5
+    return Math.random() * 100 + 5;
   }
 
   /**
@@ -103,18 +104,18 @@ export class RecordController {
   startRecorder(pathName) {
     if (typeof (this.audioRecorder) != 'undefined') {
       this.audioRecorder.on('prepare', () => {
-        LogUtil.info(`${TAG} audioRecorder prepare success.`)
-        this.audioRecorder.start()
+        LogUtil.info(`${TAG} audioRecorder prepare success.`);
+        this.audioRecorder.start();
       })
       this.audioRecorder.on('start', () => {
-        LogUtil.info(`${TAG} audioRecorder start success.`)
-        this.startTime()
+        LogUtil.info(`${TAG} audioRecorder start success.`);
+        this.startTime();
       })
-      audioConfig.uri = pathName
-      LogUtil.info(`${TAG} audioRecorder prepare.`)
-      this.audioRecorder.prepare(audioConfig)
+      audioConfig.uri = pathName;
+      LogUtil.info(`${TAG} audioRecorder prepare.`);
+      this.audioRecorder.prepare(audioConfig);
     } else {
-      LogUtil.error(`${TAG} case failed, audioRecorder is null.`)
+      LogUtil.error(`${TAG} case failed, audioRecorder is null.`);
     }
   }
 
@@ -122,15 +123,15 @@ export class RecordController {
    * start Time
    */
   startTime() {
-    this.state = RecordState.RUNNING
+    this.state = RecordState.RUNNING;
     this.startTimestamp = new Date().getTime();
-    LogUtil.info(`${TAG} audioRecorder show time update start`)
+    LogUtil.info(`${TAG} audioRecorder show time update start`);
     this.notifierId = setInterval(() => {
       let timestamp = new Date().getTime();
-      this.currentTimeMs = this.beforePauseTime + timestamp - this.startTimestamp
-      this.notifyTimeChanges()
-    }, NOTIFY_INTERVAL_MS)
-    this.notifyStateChanges()
+      this.currentTimeMs = this.beforePauseTime + timestamp - this.startTimestamp;
+      this.notifyTimeChanges();
+    }, NOTIFY_INTERVAL_MS);
+    this.notifyStateChanges();
   }
 
   /**
@@ -139,15 +140,15 @@ export class RecordController {
   pause() {
     if (typeof (this.audioRecorder) != `undefined`) {
       this.audioRecorder.on('pause', () => {
-        LogUtil.info(`${TAG} audioRecorder pause success`)
-        clearInterval(this.notifierId)
-        this.notifierId = -1
-        this.beforePauseTime += new Date().getTime() - this.startTimestamp
-        this.state = RecordState.PAUSED
-        this.notifyStateChanges()
+        LogUtil.info(`${TAG} audioRecorder pause success`);
+        clearInterval(this.notifierId);
+        this.notifierId = -1;
+        this.beforePauseTime += new Date().getTime() - this.startTimestamp;
+        this.state = RecordState.PAUSED;
+        this.notifyStateChanges();
       })
-      LogUtil.info(`${TAG} audioRecorder pause`)
-      this.audioRecorder.pause()
+      LogUtil.info(`${TAG} audioRecorder pause`);
+      this.audioRecorder.pause();
     }
   }
 
@@ -157,11 +158,11 @@ export class RecordController {
   resume() {
     if (typeof (this.audioRecorder) != `undefined`) {
       this.audioRecorder.on('resume', () => {
-        LogUtil.info(`${TAG} audioRecorder resume success`)
-        this.startTime()
-      })
-      LogUtil.info(`${TAG} audioRecorder resume`)
-      this.audioRecorder.resume()
+        LogUtil.info(`${TAG} audioRecorder resume success`);
+        this.startTime();
+      });
+      LogUtil.info(`${TAG} audioRecorder resume`);
+      this.audioRecorder.resume();
     }
   }
 
@@ -171,18 +172,18 @@ export class RecordController {
   stop(callback) {
     if (typeof (this.audioRecorder) != `undefined`) {
       this.audioRecorder.on('stop', () => {
-        LogUtil.info(`${TAG} audioRecorder stop success`)
-        this.audioRecorder.release()
-        callback()
-        clearInterval(this.notifierId)
-        this.notifierId = -1
-        this.state = RecordState.IDLE
-        this.currentTimeMs = 0
-        this.notifyStateChanges()
-        this.notifyTimeChanges()
-      })
-      LogUtil.info(`${TAG} audioRecorder stop`)
-      this.audioRecorder.stop()
+        LogUtil.info(`${TAG} audioRecorder stop success`);
+        this.audioRecorder.release();
+        callback();
+        clearInterval(this.notifierId);
+        this.notifierId = -1;
+        this.state = RecordState.IDLE;
+        this.currentTimeMs = 0;
+        this.notifyStateChanges();
+        this.notifyTimeChanges();
+      });
+      LogUtil.info(`${TAG} audioRecorder stop`);
+      this.audioRecorder.stop();
     }
   }
 }

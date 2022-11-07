@@ -12,6 +12,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+
 import { ConfigData } from '@ohos/common'
 import { recordList } from './recordList'
 import { RecordingPage } from './RecordingPage'
