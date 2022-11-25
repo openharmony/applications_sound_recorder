@@ -22,7 +22,7 @@
 ## 目录
 ### 目录结构
 ```
-/compass/
+/recorder/
 ├── common                    # 公共能力层目录
 ├── feature                   # 公共特性层目录
 │   └── model                 # 数据格式目录

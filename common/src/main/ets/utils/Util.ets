@@ -1,5 +1,5 @@
 /**
- * Copyright (c) 2021 Huawei Device Co., Ltd.
+ * Copyright (c) 2022 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
@@ -13,14 +13,15 @@
  * limitations under the License.
  */
 
-export class Util {
+export default class Util {
 
   /**
    * Time format is converted to seconds
+   *
    * @param timestamp
    * @param hasHour
    */
-  timeFormat(timestamp: number, hasHour: boolean =  true): string {
+  static timeFormat(timestamp: number, hasHour: boolean =  true): string {
     if (timestamp < 0) {
       return "";
     }
@@ -38,9 +39,10 @@ export class Util {
 
   /**
    * Time format is converted to milliseconds
+   *
    * @param timestamp
    */
-  timeFormatMs(timestamp: number): string {
+  static timeFormatMs(timestamp: number): string {
     if (timestamp <= 0) {
       return "00:00.00";
     }
@@ -62,18 +64,20 @@ export class Util {
 
   /**
    * Gets the date at the specified time
+   *
    * @param date
    */
-  getDateFormat(date: number): string {
+  static getDateFormat(date: number): string {
     let nowDate = new Date(date);
     return nowDate.getFullYear() + "/" + this.addZero(nowDate.getMonth() + 1) + "/" + this.addZero(nowDate.getDate());
   }
 
   /**
    * Gets the hour, minute and second of the specified time
+   *
    * @param date
    */
-  getTimeFormat(date: number): string {
+  static getTimeFormat(date: number): string {
     let nowDate = new Date(date);
     return this.addZero(nowDate.getHours()) + ":" + this.addZero(nowDate.getMinutes()) + ":" + this.addZero(nowDate.getSeconds());
   }
@@ -81,7 +85,7 @@ export class Util {
   /**
    * Gets the current time date
    */
-  getDate(): string {
+  static getDate(): string {
     let nowDate = new Date();
     return nowDate.getFullYear() + this.addZero(nowDate.getMonth() + 1) + this.addZero(nowDate.getDate());
   }
@@ -89,20 +93,17 @@ export class Util {
   /**
    * Gets the hour, minute and second of the current time
    */
-  getTime(): string {
+  static getTime(): string {
     let nowDate = new Date();
     return this.addZero(nowDate.getHours()) + this.addZero(nowDate.getMinutes()) + this.addZero(nowDate.getSeconds());
   }
 
   /**
    * If the number is less than 10, add "0".
+   *
    * @param num
    */
-  addZero(num: number): string{
+  static addZero(num: number): string{
     return (num < 10 ? "0" + num : num).toString();
   }
 }
-
-let util = new Util();
-
-export default util as Util;
