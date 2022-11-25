@@ -1,5 +1,5 @@
 /**
- * Copyright (c) 2021 Huawei Device Co., Ltd.
+ * Copyright (c) 2022 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
@@ -48,6 +48,7 @@ export class AudioController {
 
   /**
    * Set the time update listener
+   *
    * @param listener
    */
   public setTimeUpdateListener(listener: (currentTimeMs: number) => void) {
@@ -57,6 +58,7 @@ export class AudioController {
 
   /**
    * Set the status update listener
+   *
    * @param listener
    */
   public setStateUpdateListener(listener: (AudioState) => void) {
@@ -85,6 +87,7 @@ export class AudioController {
 
   /**
    * Initialize the audio player
+   *
    * @param playSrc
    * @param callback
    */
@@ -154,8 +157,10 @@ export class AudioController {
       }
     }
   }
+
   /**
    * audioPlayer seek time
+   *
    * @param timeMs
    */
   seek(timeMs: number) {
@@ -217,6 +222,7 @@ export class AudioController {
       this.notifyTimeChanges();
     }, NOTIFY_INTERVAL_MS);
   }
+
   /**
    * stopTimer
    */
@@ -243,4 +249,5 @@ export class AudioController {
       this.audioPlayer = undefined;
     }
   }
+
 }

@@ -1,5 +1,5 @@
 /**
- * Copyright (c) 2021 Huawei Device Co., Ltd.
+ * Copyright (c) 2022 Huawei Device Co., Ltd.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
@@ -21,29 +21,24 @@ const TAG = "[Recorder]";
 /**
  *  log package tool class
  */
-export class LogUtil {
-    debug(msg): void {
+export default class LogUtil {
+    static debug(msg): void {
         HiLog.debug(DOMAIN, TAG, msg);
     }
 
-    log(msg): void {
+    static log(msg): void {
         HiLog.info(DOMAIN, TAG, msg);
     }
 
-    info(msg): void {
+    static info(msg): void {
         HiLog.info(DOMAIN, TAG, msg);
     }
 
-    warn(msg): void {
+    static warn(msg): void {
         HiLog.warn(DOMAIN, TAG, msg);
     }
 
-    error(msg): void {
+    static error(msg): void {
         HiLog.error(DOMAIN, TAG, msg);
     }
 }
-
-let mLogUtil = new LogUtil();
-
-export default mLogUtil as LogUtil
-;
