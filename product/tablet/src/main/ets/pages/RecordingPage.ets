@@ -17,6 +17,8 @@ import { ConfigData, Util } from '@ohos/common'
 import { RecordController, MediaController, RecordState } from '@ohos/recorder'
 import mediaLibrary from '@ohos.multimedia.mediaLibrary'
 import { StateController } from '@ohos/recorder'
+import prompt from '@ohos.prompt';
+import call from '@ohos.telephony.call';
 
 const TIME_INTERVAL_S = 2;
 const TIME_COUNT = 2 * 6 + 1;
@@ -179,11 +181,16 @@ export struct RecordingPage {
         .backgroundColor($r("app.color.white"))
         .onClick(async () => {
           if (this.state == RecordState.IDLE) {
-            this.stateController.start()
-            this.recordController.initAudioRecorder()
-            this.fileAsset = await MediaController.createAudioFile()
-            let fd = await this.fileAsset.open('Rw')
-            this.recordController.startRecorder(`fd://${fd}`)
+            let hasCall = await call.hasCall()
+            if (hasCall) {
+              prompt.showToast({ message: $r('app.string.has_call_hint') })
+            } else {
+              this.stateController.start()
+              this.recordController.initAudioRecorder()
+              this.fileAsset = await MediaController.createAudioFile()
+              let fd = await this.fileAsset.open('Rw')
+              this.recordController.startRecorder(`fd://${fd}`)
+            }
           } else {
             this.recordController.stop(() => {
               this.initHeightList()

@@ -39,6 +39,10 @@
     {
       "name": "delete",
       "value": "删除"
+    },
+    {
+      "name": "has_call_hint",
+      "value": "通话状态无法录音"
     }
   ]
 }
