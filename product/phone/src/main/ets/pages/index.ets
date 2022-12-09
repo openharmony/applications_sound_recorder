@@ -16,6 +16,8 @@
 import { ConfigData, Util } from '@ohos/common'
 import router from '@ohos.router';
 import { AudioController, AudioState, MediaController, RecordData } from '@ohos/recorder'
+import call from '@ohos.telephony.call';
+import prompt from '@ohos.prompt';
 
 @Entry
 @Component
@@ -228,11 +230,16 @@ struct Index {
         .backgroundColor($r("app.color.white"))
         .shadow({ radius: $r("app.float.distance_16"), color: $r("app.color.shadow_color") })
         .margin({ bottom: $r("app.float.distance_32"), top: $r("app.float.distance_16") })
-        .onClick(() => {
+        .onClick(async() => {
           this.audioController.stop()
-          router.replace({
-            url: "pages/RecordingPage"
-          })
+          let hasCall = await call.hasCall()
+          if (hasCall) {
+            prompt.showToast({ message: $r('app.string.has_call_hint') })
+          } else {
+            router.replace({
+              url: "pages/RecordingPage"
+            })
+          }
         })
       }
       .height(ConfigData.WH_100_100)
