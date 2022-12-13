@@ -14,6 +14,7 @@
  */
 
 import Ability from '@ohos.application.Ability'
+import Notification from '@ohos.notification';
 
 export default class MainAbility extends Ability {
     onCreate(want, launchParam) {
@@ -23,20 +24,24 @@ export default class MainAbility extends Ability {
     }
 
     onDestroy() {
+        Notification.cancelAll()
         console.log("[Demo] MainAbility onDestroy")
     }
 
     onWindowStageCreate(windowStage) {
         // Main window is created, set main page for this ability
         console.log("[Demo] MainAbility onWindowStageCreate")
-
-        windowStage.loadContent("pages/index", (err, data) => {
-            if (err.code) {
-                console.error('Failed to load the content. Cause:' + JSON.stringify(err));
-                return;
-            }
-            console.info('Succeeded in loading the content. Data: ' + JSON.stringify(data))
-        });
+        this.context.requestPermissionsFromUser(['ohos.permission.MICROPHONE', 'ohos.permission.WRITE_MEDIA', 'ohos.permission.READ_MEDIA']).then(() => {
+            Notification.requestEnableNotification().then(() => {
+                windowStage.loadContent("pages/index", (err, data) => {
+                    if (err.code) {
+                        console.error('Failed to load the content. Cause:' + JSON.stringify(err));
+                        return;
+                    }
+                    console.info('Succeeded in loading the content. Data: ' + JSON.stringify(data))
+                });
+            })
+        })
     }
 
     onWindowStageDestroy() {

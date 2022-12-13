@@ -43,6 +43,14 @@
     {
       "name": "has_call_hint",
       "value": "通话状态无法录音"
+    },
+    {
+      "name": "recording_hint",
+      "value": "录音机正在录音"
+    },
+    {
+      "name": "suspend_record_hint",
+      "value": "录音机暂停录音"
     }
   ]
 }

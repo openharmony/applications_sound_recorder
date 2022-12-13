@@ -50,9 +50,7 @@ struct Index {
   }
 
   aboutToAppear() {
-    globalThis.abilityContext.requestPermissionsFromUser(['ohos.permission.MICROPHONE', 'ohos.permission.WRITE_MEDIA', 'ohos.permission.READ_MEDIA'], () => {
-      this.getAudios()
-    })
+    this.getAudios()
     this.audioController.setTimeUpdateListener((currentTime: number) => {
       this.currentTime = currentTime
     })

@@ -49,9 +49,7 @@ export struct recordList {
   }
 
   aboutToAppear() {
-    globalThis.abilityContext.requestPermissionsFromUser(['ohos.permission.MICROPHONE', 'ohos.permission.WRITE_MEDIA', 'ohos.permission.READ_MEDIA'], (result) => {
-      this.getAudios()
-    })
+    this.getAudios()
     this.stateController.setStateUpdateListener((state) => {
       if (state == ControlState.START) {
         this.disable = true
