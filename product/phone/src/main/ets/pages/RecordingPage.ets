@@ -53,6 +53,12 @@ struct RecordingPage {
     this.initHeightList()
   }
 
+  aboutToDisappear() {
+    if (this.state != RecordState.IDLE) {
+      this.recordController.stop()
+    }
+  }
+
   initHeightList() {
     this.heightList = []
     for (let index = 0; index < VOICE_FREQUENCY; index++) {

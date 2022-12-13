@@ -55,6 +55,12 @@ export struct RecordingPage {
     }
   }
 
+  aboutToDisappear() {
+    if (this.state != RecordState.IDLE) {
+      this.recordController.stop()
+    }
+  }
+
   build() {
     Column() {
       Column() {
