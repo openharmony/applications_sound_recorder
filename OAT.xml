@@ -30,6 +30,18 @@
                     name="figures/record.png"
                     type="filepath"/>
                 <filteritem
+                    desc="安装流程图，无需修改"
+                    name="figures/signature.png"
+                    type="filepath"/>
+                <filteritem
+                    desc="安装流程图，无需修改"
+                    name="figures/buildHap.png"
+                    type="filepath"/>
+                <filteritem
+                    desc="安装流程图，无需修改"
+                    name="figures/install.png"
+                    type="filepath"/>
+                <filteritem
                     desc="应用内置资源文件，无需修改"
                     name="product/phone/src/main/resources/base/media/icon.png"
                     type="filepath"/>
