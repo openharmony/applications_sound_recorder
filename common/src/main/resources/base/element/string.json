@@ -1,0 +1,56 @@
+{
+  "string": [
+    {
+      "name": "page_show",
+      "value": "page from npm package"
+    },
+    {
+      "name": "title",
+      "value": "录音机"
+    },
+    {
+      "name": "search_recording_files",
+      "value": "搜索录音文件"
+    },
+    {
+      "name": "mark",
+      "value": "标记"
+    },
+    {
+      "name": "pause",
+      "value": "暂停"
+    },
+    {
+      "name": "continue_record",
+      "value": "继续"
+    },
+    {
+      "name": "predict_hint",
+      "value": "预计还能录制10小时以上"
+    },
+    {
+      "name": "delete_hint",
+      "value": "是否删除此条录音?"
+    },
+    {
+      "name": "cancel",
+      "value": "取消"
+    },
+    {
+      "name": "delete",
+      "value": "删除"
+    },
+    {
+      "name": "has_call_hint",
+      "value": "通话状态无法录音"
+    },
+    {
+      "name": "recording_hint",
+      "value": "录音机正在录音"
+    },
+    {
+      "name": "suspend_record_hint",
+      "value": "录音机暂停录音"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "color": [
+    {
+      "name": "white",
+      "value": "#FFFFFF"
+    },
+    {
+      "name": "background_color",
+      "value": "#F1F3F5"
+    },
+    {
+      "name": "shadow_color",
+      "value": "#11000000"
+    },
+    {
+      "name": "pointer_color",
+      "value": "#007DFF"
+    },
+    {
+      "name": "warn_color",
+      "value": "#FF595A"
+    },
+    {
+      "name": "hint_color",
+      "value": "#007DFF"
+    },
+    {
+      "name": "text_color",
+      "value": "#182431"
+    }
+  ]
+}
