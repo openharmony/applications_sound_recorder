@@ -4,14 +4,14 @@
 The Recorder Application can record audio through a microphone and complete playback.
 The Recorder Application is developed using the extended TS language (ArkTS), and the main structure is as follows:
 ![](./figures/record.png)
-- **product**
-  Business form layer: Distinguish different products, different screens of various forms of application, including personalized services, component configuration, and personalized resource packages.
+- **Product**
+  Business form layer: Distinguish different products, different screens of various forms of application, including personalized services, component configuration, and personalized resource packages(JS/PNG/String for different products).
 
-- **feature**
-  Common Feature layer: An abstract collection of common feature components that can be referenced by various application forms.
+- **Feature**
+  Common Feature layer: An abstract collection of common feature components that can be referenced by various application forms(Recording, playback, control center).
 
-- **common**
-  Common Capability Layer: The basic set of capabilities, modules that every application form must rely on, including utility classes and common resource packs
+- **Common**
+  Common Capability Layer: The basic set of capabilities, modules that every application form must rely on, including utility classes and common resource packs.
 
 ## Directory
 ### Directory structure
@@ -25,7 +25,7 @@ The Recorder Application is developed using the extended TS language (ArkTS), an
 ```
 
 ## Install
-After the application is signed and packaged, run the `hdc_std install "hap package address "`command to install the application
+After the application is signed and packaged, run the `hdc_std install "hap package address "`command to install the application.
 ![](./figures/signature.png)
 ![](./figures/buildHap.png)
 ![](./figures/install.png)
