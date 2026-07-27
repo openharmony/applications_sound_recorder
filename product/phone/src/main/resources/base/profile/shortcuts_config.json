@@ -1,0 +1,34 @@
+{
+  "shortcuts": [
+    {
+      "shortcutId": "id_start_record",
+      "label": "$string:start_record",
+      "icon": "$media:ic_start_record",
+      "wants": [
+        {
+          "bundleName": "com.ohos.soundrecorder",
+          "moduleName": "phone",
+          "abilityName": "MainAbility",
+          "parameters": {
+            "shortCutPar": "shortCutStartRecord"
+          }
+        }
+      ]
+    },
+    {
+      "shortcutId": "id_record_list",
+      "label": "$string:record_list",
+      "icon": "$media:ic_list",
+      "wants": [
+        {
+          "bundleName": "com.ohos.soundrecorder",
+          "moduleName": "phone",
+          "abilityName": "MainAbility",
+          "parameters": {
+            "shortCutPar": "shortCutRecordList"
+          }
+        }
+      ]
+    }
+  ]
+}

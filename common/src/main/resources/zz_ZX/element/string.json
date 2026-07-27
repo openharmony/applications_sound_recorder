@@ -1,0 +1,712 @@
+{
+    "string":[
+        {
+            "name":"stop_save",
+            "value":"[TS_882666]_Storage too low to continue recording. Recording saved."
+        },
+        {
+            "name":"has_call_hint",
+            "value":"[TS_882669]_Unable to record while a call is in progress."
+        },
+        {
+            "name":"delete_hint",
+            "value":"[TS_882714]_Delete this recording?"
+        },
+        {
+            "name":"cannot_recording",
+            "value":"[TS_882731]_Insufficient storage."
+        },
+        {
+            "name":"renamed",
+            "value":"[TS_882675]_Renamed."
+        },
+        {
+            "name":"search_recording_files",
+            "value":"[TS_882705]_Search"
+        },
+        {
+            "name":"rename_filter",
+            "value":"[TS_882687]_Name can't contain / \\ : * ? \" < > |"
+        },
+        {
+            "name":"maximum_length",
+            "value":"[TS_882697]_Maximum length reached"
+        },
+        {
+            "name":"open_speaker",
+            "value":"[TS_882711]_Loudspeaker on."
+        },
+        {
+            "name":"voice_retail",
+            "value":"[TS_882670]_Details"
+        },
+        {
+            "name":"closed_speaker",
+            "value":"[TS_882661]_Loudspeaker off."
+        },
+        {
+            "name":"rename_speaker",
+            "value":"[TS_882676]_Rename this recording"
+        },
+        {
+            "name":"on_sure",
+            "value":"[TS_882688]_OK"
+        },
+        {
+            "name":"about",
+            "value":"[TS_882689]_About"
+        },
+        {
+            "name":"mark",
+            "value":"[TS_882680]_Tag"
+        },
+        {
+            "name":"voice_share",
+            "value":"[TS_882696]_Share"
+        },
+        {
+            "name":"has_screen_hint",
+            "value":"[TS_882707]_Another recording app is already running in the background. Please close it first."
+        },
+        {
+            "name":"file_rename",
+            "value":"[TS_882672]_Rename"
+        },
+        {
+            "name":"delete",
+            "value":"[TS_882685]_Delete"
+        },
+        {
+            "name":"no_name",
+            "value":"[TS_882654]_No name entered"
+        },
+        {
+            "name":"predict_hint",
+            "value":"[TS_882652]_You can record for more than %1$d hours"
+        },
+        {
+            "name":"set_phone_voice",
+            "value":"[TS_882693]_Set as ringtone"
+        },
+        {
+            "name":"less_than_60",
+            "value":"[TS_882730]_Storage low"
+        },
+        {
+            "name":"close_speaker",
+            "value":"[TS_882690]_Playback speed can't be changed when the speaker is off."
+        },
+        {
+            "name":"rename_marker",
+            "value":"[TS_882694]_Rename this tag"
+        },
+        {
+            "name":"title",
+            "value":"[TS_882658]_Recorder"
+        },
+        {
+            "name":"titles",
+            "value":"[TS_882659]_Record"
+        },
+        {
+            "name":"cancel",
+            "value":"[TS_882682]_Cancel"
+        },
+        {
+            "name":"rename_over",
+            "value":"[TS_882695]_File name already exists"
+        },
+        {
+            "name":"delete_all_record",
+            "value":"[TS_920529]_Delete all recordings?"
+        },
+        {
+            "name":"go_to_setting",
+            "value":"[TS_920522]_Go to Settings"
+        },
+        {
+            "name":"store_as_filename",
+            "value":"[TS_920511]_Saved as %1$s."
+        },
+        {
+            "name":"no_records",
+            "value":"[TS_920520]_No recordings"
+        },
+        {
+            "name":"toolbar_select_all",
+            "value":"[TS_920510]_Select all"
+        },
+        {
+            "name":"toolbar_cancel_select_all",
+            "value":"[TS_920515]_Deselect all"
+        },
+        {
+            "name":"toolbar_more",
+            "value":"[TS_920532]_More"
+        },
+        {
+            "name":"start_recording",
+            "value":"[TS_920512]_Recording started. Calls and notifications muted."
+        },
+        {
+            "name":"end_recording",
+            "value":"[TS_920528]_Recording ended. Calls and notifications unmuted."
+        },
+        {
+            "name":"call_recording",
+            "value":"[TS_920516]_Call recordings"
+        },
+        {
+            "name":"no_select",
+            "value":"[TS_920530]_None selected"
+        },
+        {
+            "name":"detailDialog_close",
+            "value":"[TS_920534]_Close"
+        },
+        {
+            "name":"mark_no_name",
+            "value":"[TS_920519]_No name entered"
+        },
+        {
+            "name":"mark_filter",
+            "value":"[TS_920524]_Name can't contain / \\ : * ? \" < > |"
+        },
+        {
+            "name":"pause_recording",
+            "value":"[TS_920521]_Recording paused. Calls and notifications unmuted."
+        },
+        {
+            "name":"detailDialog_name",
+            "value":"[TS_920514]_Name: %s"
+        },
+        {
+            "name":"detailDialog_time",
+            "value":"[TS_920526]_Time: %s"
+        },
+        {
+            "name":"detailDialog_size",
+            "value":"[TS_920527]_Size: %s"
+        },
+        {
+            "name":"pause",
+            "value":"[TS_882713]_Pause"
+        },
+        {
+            "name":"end",
+            "value":"[TS_954326]_End"
+        },
+        {
+            "name":"play",
+            "value":"[TS_946436]_Play"
+        },
+        {
+            "name":"back",
+            "value":"[TS_946439]_Back"
+        },
+        {
+            "name":"detailDialog_name_huge_layout",
+            "value":"[TS_948249]_Name:"
+        },
+        {
+            "name":"detailDialog_size_huge_layout",
+            "value":"[TS_948248]_Size:"
+        },
+        {
+            "name":"detailDialog_time_huge_layout",
+            "value":"[TS_948250]_Time:"
+        },
+        {
+            "name":"current_location_time",
+            "value":"[TS_956288]_Current position, %s."
+        },
+        {
+            "name":"content_already_played",
+            "value":"[TS_956285]_Played: %s"
+        },
+        {
+            "name":"total_duration",
+            "value":"[TS_953939]_Total duration %s"
+        },
+        {
+            "name":"resume",
+            "value":"[TS_956287]_Resume"
+        },
+        {
+            "name":"available_more_options",
+            "value":"[TS_953941]_more options are available"
+        },
+        {
+            "name":"speed_play",
+            "value":"[TS_956286]_Speed"
+        },
+        {
+            "name":"more_options",
+            "value":"[TS_954325]_More options"
+        },
+        {
+            "name":"notice_record_pause",
+            "value":"[TS_920523]_Paused"
+        },
+        {
+            "name":"notice_recording",
+            "value":"[TS_920513]_Recording"
+        },
+        {
+            "name":"size_upper_limit",
+            "value":"[TS_928427]_Recording has reached the size limit."
+        },
+        {
+            "name":"number_upper_limit",
+            "value":"[TS_928428]_Maximum number of recordings reached. Delete unwanted recordings to make space."
+        },
+        {
+            "name":"label_permission_read_audio",
+            "value":"[TS_882709]_This is used to read call recordings."
+        },
+        {
+            "name":"label_permission_read_audio_text",
+            "value":"[TS_920509]_Recorder requires the Music & audio permission"
+        },
+        {
+            "name":"untitledRecording",
+            "value":"[TS_928511]_Unnamed recording"
+        },
+        {
+            "name":"label_permission_microphone_title",
+            "value":"[TS_929329]_Allow Recorder to access Microphone"
+        },
+        {
+            "name":"label_permission_read_audio_title",
+            "value":"[TS_929328]_Recorder requires the Music & audio permission"
+        },
+        {
+            "name":"permission_welcome_description",
+            "value":"[TS_934936]_This app requires an Internet connection and the %s permission, and needs to read audio files as well as location information to provide audio recording services. By tapping Agree, you agree to these terms."
+        },
+        {
+            "name":"permission_welcome_music_and_audio",
+            "value":"[TS_934934]_Music & audio"
+        },
+        {
+            "name":"deleting",
+            "value":"[TS_951148]_Deleting…"
+        },
+        {
+            "name":"file_list_refresh",
+            "value":"[TS_954324]_Refresh"
+        },
+        {
+            "name":"file_has_been_deleted",
+            "value":"[TS_954323]_File has been deleted"
+        },
+        {
+            "name":"file_has_been_deleted_description",
+            "value":"[TS_954329]_Some recordings have been deleted. Please refresh the list."
+        },
+        {
+            "name":"permission_welcome_service_description",
+            "value":"[TS_952397]_Record audio with ease."
+        },
+        {
+            "name":"menu_multiselect",
+            "value":"[TS_944760]_Select multiple"
+        },
+        {
+            "name":"end_unmute_notification",
+            "value":"[TS_962663]_Recording ended. Notifications unmuted."
+        },
+        {
+            "name":"start_mute_notification",
+            "value":"[TS_962661]_Recording started. Notifications muted."
+        },
+        {
+            "name":"pause_unmute_notification",
+            "value":"[TS_962662]_Recording paused. Notifications unmuted."
+        },
+        {
+            "name":"serial_number",
+            "value":"[TS_966058]_Number %s"
+        },
+        {
+            "name":"count_list_one",
+            "value":"[TS_963336]_One item, %s"
+        },
+        {
+            "name":"collapsed",
+            "value":"[TS_963330]_Collapsed"
+        },
+        {
+            "name":"expanded",
+            "value":"[TS_963331]_Expanded"
+        },
+        {
+            "name":"deleted",
+            "value":"[TS_963332]_%s deleted."
+        },
+        {
+            "name":"count_list_info_one",
+            "value":"[TS_963329]_%1$d to %2$d, %3$s"
+        },
+        {
+            "name":"start",
+            "value":"[TS_954327]_Start"
+        },
+        {
+            "name":"start_record",
+            "value":"[TS_966650]_Start"
+        },
+        {
+            "name":"data_sort",
+            "value":"[TS_967278]_Sort"
+        },
+        {
+            "name":"smart_summary",
+            "value":"[TS_974961]_Summary"
+        },
+        {
+            "name":"first_delete_dialog_summary_one",
+            "value":"[TS_977968]_This recording will be deleted from this device. It will be kept in \"Recently deleted\" for %d days."
+        },
+        {
+            "name":"recent_delete_description",
+            "value":"[TS_977678]_Deleted recordings are kept here for %d days."
+        },
+        {
+            "name":"audio_recordings",
+            "value":"[TS_977970]_Audio recordings"
+        },
+        {
+            "name":"recording_delete",
+            "value":"[TS_977677]_Permanently delete"
+        },
+        {
+            "name":"recent_delete_dialog_summary",
+            "value":"[TS_977681]_This recording will be permanently deleted from this device."
+        },
+        {
+            "name":"recent_delete_dialog_title",
+            "value":"[TS_977683]_Delete?"
+        },
+        {
+            "name":"recording_recover",
+            "value":"[TS_977682]_Restore"
+        },
+        {
+            "name":"all_recording_delete",
+            "value":"[TS_977676]_Delete all"
+        },
+        {
+            "name":"first_delete_dialog_summary",
+            "value":"[TS_977679]_These recordings will be deleted from this device. They will be kept in \"Recently deleted\" for %d days."
+        },
+        {
+            "name":"recent_delete_dialog_summary_multi",
+            "value":"[TS_977969]_These recordings will be permanently deleted from this device."
+        },
+        {
+            "name":"all_record",
+            "value":"[TS_977684]_All"
+        },
+        {
+            "name":"all_recording_recover",
+            "value":"[TS_977675]_Restore all"
+        },
+        {
+            "name":"recent_delete",
+            "value":"[TS_977680]_Recently deleted"
+        },
+        {
+            "name":"record_list",
+            "value":"[TS_966651]_Recordings"
+        },
+        {
+            "name":"main_remain_days",
+            "value":"[TS_980527]_%1$s %2$s"
+        },
+        {
+            "name":"sort_mode_0",
+            "value":"[TS_967281]_Newest to oldest"
+        },
+        {
+            "name":"sort_mode_1",
+            "value":"[TS_967279]_Oldest to newest"
+        },
+        {
+            "name":"sort_mode_2",
+            "value":"[TS_967280]_Name"
+        },
+        {
+            "name":"searching",
+            "value":"[TS_967984]_Search"
+        },
+        {
+            "name":"copy_right",
+            "value":"[TS_976740]_Copyright © %1$d–%2$d  All rights reserved."
+        },
+        {
+            "name":"version_info",
+            "value":"[TS_976742]_Version"
+        },
+        {
+            "name":"about_privacy",
+            "value":"[TS_976743]_Privacy statements"
+        },
+        {
+            "name":"collapse_side_navigation_bar",
+            "value":"[TS_981268]_Close side menu"
+        },
+        {
+            "name":"show_side_navigation_bar",
+            "value":"[TS_981252]_Open side menu"
+        },
+        {
+            "name":"record_to_text",
+            "value":"[TS_982082]_Convert to text"
+        },
+        {
+            "name":"concat_three_strings",
+            "value":"[TS_983131]_%1$s %2$s %3$s"
+        },
+        {
+            "name":"recovering",
+            "value":"[TS_993096]_Restoring…"
+        },
+        {
+            "name":"accessibility_long_press",
+            "value":"[TS_993098]_Double tap and hold to bring up more options"
+        },
+        {
+            "name":"accessibility_double_click",
+            "value":"[TS_993097]_Double-tap to activate"
+        },
+        {
+            "name":"allow_access",
+            "value":"[TS_996264]_Allow access"
+        },
+        {
+            "name":"access_location",
+            "value":"[TS_996263]_Recorder requires Location access to name recordings by location."
+        },
+        {
+            "name":"accessibility_right_swipe",
+            "value":"[TS_993100]_Double-tap and hold, then swipe right to collapse additional options"
+        },
+        {
+            "name":"accessibility_left_swipe",
+            "value":"[TS_993099]_Double-tap and hold, then swipe left to expand additional options"
+        },
+        {
+            "name":"detailDialog_path",
+            "value":"[TS_999122]_Location: %s"
+        },
+        {
+            "name":"drag_quantity_limit",
+            "value":"[TS_1002734]_Max %d items can be dragged at a time."
+        },
+        {
+            "name":"collect_personal_data",
+            "value":"[TS_1010636]_Personal information collected"
+        },
+        {
+            "name":"marked",
+            "value":"[TS_1049037]_Tagged"
+        },
+        {
+            "name":"accessibility_drag_down_to_vassistant",
+            "value":"[TS_1039994]_Double tap and hold, then drag downwards to Celia"
+        },
+        {
+            "name":"saved",
+            "value":"[TS_1053053]_Saved"
+        },
+        {
+            "name":"disable_voice_enhancement",
+            "value":"[TS_1057968]_Voice enhancement disabled."
+        },
+        {
+            "name":"enable_voice_enhancement",
+            "value":"[TS_1057967]_Voice enhancement enabled."
+        },
+        {
+            "name":"open_skip_mute",
+            "value":"[TS_1067004]_Enable skip silences"
+        },
+        {
+            "name":"close_skip_mute",
+            "value":"[TS_1067005]_Disable skip silences"
+        },
+        {
+            "name":"retranslate",
+            "value":"[TS_1058463]_Transcribe again"
+        },
+        {
+            "name":"user_filepath_on_phone",
+            "value":"[TS_1088220]_Files/My phone/Sounds"
+        },
+        {
+            "name":"agree",
+            "value":"[TS_1079461]_Agree"
+        },
+        {
+            "name":"migration_remaining_tips",
+            "value":"[TS_1088225]_Some of your recordings were not successfully synced to \"%s\". Continue syncing them now?"
+        },
+        {
+            "name":"migration_data_preparing",
+            "value":"[TS_1079458]_Preparing data…"
+        },
+        {
+            "name":"user_filepath_on_pc",
+            "value":"[TS_1088223]_Files/Users/Personal/Audio/SoundRecorder"
+        },
+        {
+            "name":"user_filepath_on_pad",
+            "value":"[TS_1088222]_Files/My tablet/Personal/Audio/SoundRecorder"
+        },
+        {
+            "name":"migrating_records",
+            "value":"[TS_1084899]_Syncing audio recordings %s…"
+        },
+        {
+            "name":"migration_cancel_tips_title",
+            "value":"[TS_1079462]_Cancel sync?"
+        },
+        {
+            "name":"migration_cancel",
+            "value":"[TS_1083327]_Cancel sync"
+        },
+        {
+            "name":"migration_completed",
+            "value":"[TS_1079460]_Recordings successfully synced"
+        },
+        {
+            "name":"migration_cancel_tips",
+            "value":"[TS_1088219]_Your recordings are currently being synced to \"%s\". If you cancel syncing now, you won't be able to view and manage them from this folder."
+        },
+        {
+            "name":"migration_restricted_tips",
+            "value":"[TS_1083325]_Unable to do this while recordings are being synced. Try again later."
+        },
+        {
+            "name":"migrating_call_records",
+            "value":"[TS_1079457]_Syncing call recordings %s…"
+        },
+        {
+            "name":"migration_continue",
+            "value":"[TS_1083328]_Don't cancel sync"
+        },
+        {
+            "name":"migration_tips",
+            "value":"[TS_1088224]_Would you like to sync your past recordings to \"%s\"?\n\nOnce synced, you'll be able to view and manage them directly from this folder in Files."
+        },
+        {
+            "name":"headset_recording",
+            "value":"[TS_1089082]_Headphone recordings"
+        },
+        {
+            "name":"mark_added_talkback",
+            "value":"[TS_1091913]_Added"
+        },
+        {
+            "name":"transcribed_talkback",
+            "value":"[TS_1091914]_Transcribed"
+        },
+        {
+            "name":"mark_position_at_talkback",
+            "value":"[TS_1091915]_Navigated to"
+        },
+        {
+            "name":"migrating_records_number",
+            "value":"[TS_1100292]_%1$s, %2$s"
+        },
+        {
+            "name":"voice_enhancement_open",
+            "value":"[TS_1109976]_Voice enhancement enabled."
+        },
+        {
+            "name":"voice_enhancement_close",
+            "value":"[TS_1109977]_Voice enhancement disabled."
+        },
+        {
+            "name":"mute_skip_disabled",
+            "value":"[TS_1109978]_Silences will not be skipped."
+        },
+        {
+            "name":"mute_skip_enabled",
+            "value":"[TS_1109975]_Silences will be skipped."
+        },
+        {
+            "name":"migration_resume",
+            "value":"[TS_1105209]_Resume"
+        },
+        {
+            "name":"network_disconnection_transcribe_stop",
+            "value":"[TS_1123606]_No Internet connection. Transcription paused."
+        },
+        {
+            "name":"privacy_statement_dialog",
+            "value":"[TS_1122150]_The transcription and smart summary features require an Internet connection and need to read and upload/transfer audio files. For more details about how your personal information is processed, refer to the %s."
+        },
+        {
+            "name":"enable_realtime_transfer",
+            "value":"[TS_1122149]_Turn on real-time transcription"
+        },
+        {
+            "name":"network_connection_interrupt",
+            "value":"[TS_1123607]_Network connection error. Check your network settings."
+        },
+        {
+            "name":"recorder_privacy_statement",
+            "value":"[TS_1122152]_Statement About Recorder and Privacy"
+        },
+        {
+            "name":"off_realtime_transfer",
+            "value":"[TS_1122148]_Turn off real-time transcription"
+        },
+        {
+            "name":"next_step",
+            "value":"[TS_1125922]_Next"
+        },
+        {
+            "name":"record_timeout",
+            "value":"[TS_1125923]_Max duration for a single recording reached."
+        },
+        {
+            "name":"retranslate_text",
+            "value":"[TS_1125924]_Restarting the transcription will clear any edits you've made, including information about speakers."
+        },
+        {
+            "name":"help_and_feedback",
+            "value":"[TS_1134302]_Help & feedback"
+        },
+        {
+            "name":"audiokit_media_recording",
+            "value":"[TS_1140107]_Media recording"
+        },
+        {
+            "name":"audiokit_external_recording",
+            "value":"[TS_1140105]_External audio recording"
+        },
+        {
+            "name":"audiokit_call_recording",
+            "value":"[TS_1140106]_Call recording"
+        },
+        {
+            "name":"realtime_transfer_turned_off",
+            "value":"[TS_1147594]_Real-time transcription turned off."
+        },
+        {
+            "name":"realtime_transfer_enabled",
+            "value":"[TS_1147595]_Real-time transcription turned on."
+        },
+        {
+            "name":"realtime_transfer_button",
+            "value":"[TS_1149182]_Real-time transcription"
+        },
+        {
+            "name":"all_recordings",
+            "value":"[TS_1132607]_All recordings"
+        }
+    ]
+}

@@ -1,0 +1,74 @@
+{
+    "string":[
+        {
+            "name":"unInstallAppContent",
+            "value":"Thao tác này cũng sẽ xóa các bản ghi âm khỏi thiết bị của bạn.",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"label_permission_microphone",
+            "value":"Quyền này được sử dụng để ghi âm thanh.",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"label_permission_read_audio_text",
+            "value":"Máy ghi âm yêu cầu quyền truy cập Nhạc và âm thanh",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"label_permission_write_audio",
+            "value":"Quyền này dùng để sửa đổi bản ghi âm cuộc gọi.",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"label_permission_read_audio",
+            "value":"Quyền này dùng để đọc bản ghi âm cuộc gọi.",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"used_to_named",
+            "value":"Quyền này dùng để đặt tên cho bản ghi âm.",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"record_audio",
+            "value":"Ghi âm",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"MainAbility_label",
+            "value":"Máy ghi âm",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"label_permission_microphone_text",
+            "value":"Máy ghi âm yêu cầu quyền truy cập Micrô",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"headset_recording",
+            "value":"Bản ghi âm qua tai nghe",
+            "attr":{
+                "priority":"translate"
+            }
+        }
+    ]
+}

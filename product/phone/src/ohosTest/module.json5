@@ -1,9 +1,8 @@
 {
   "module": {
-    "name": "phone_test",
+    "name": "entry_test",
     "type": "feature",
-    "srcEntrance": "./ets/Application/TestAbilityStage.ts",
-    "description": "$string:entry_test_desc",
+    "description": "$string:module_test_desc",
     "mainElement": "TestAbility",
     "deviceTypes": [
       "default"
@@ -11,17 +10,16 @@
     "deliveryWithInstall": true,
     "installationFree": false,
     "pages": "$profile:test_pages",
-    "uiSyntax": "ets",
     "abilities": [
       {
         "name": "TestAbility",
-        "srcEntrance": "./ets/TestAbility/TestAbility.ts",
+        "srcEntry": "./ets/testability/TestAbility.ets",
         "description": "$string:TestAbility_desc",
-        "icon": "$media:icon",
+        "icon": "$media:app_icon",
         "label": "$string:TestAbility_label",
         "visible": true,
-        "startWindowIcon": "$media:icon",
-        "startWindowBackground": "$color:white",
+        "startWindowIcon": "$media:app_icon",
+        "startWindowBackground": "$color:start_window_background",
         "skills": [
           {
             "actions": [

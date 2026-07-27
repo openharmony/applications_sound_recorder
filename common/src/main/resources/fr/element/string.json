@@ -1,0 +1,1236 @@
+{
+    "string":[
+        {
+            "name":"open_skip_mute",
+            "value":"Activer l'ignorance des silences",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"close_skip_mute",
+            "value":"Désactiver l'ignorance des silences",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"file_list_refresh",
+            "value":"Actualiser",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"store_as_filename",
+            "value":"Enregistré comme %1$s.",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"delete_hint",
+            "value":"Supprimer cet enregistrement ?",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"back",
+            "value":"Retour",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"saved",
+            "value":"Enregistré",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"maximum_length",
+            "value":"Taille maximale atteinte",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"closed_speaker",
+            "value":"Le haut-parleur est désactivé.",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"end",
+            "value":"Terminer",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"detailDialog_name_huge_layout",
+            "value":"Nom :",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"pause_recording",
+            "value":"Enregistrement mis en pause. Le son des appels et notifications est activé.",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"voice_share",
+            "value":"Partager",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"play",
+            "value":"Lecture",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"content_already_played",
+            "value":"Lu : %s",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"start",
+            "value":"Démarrer",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"no_select",
+            "value":"Aucune sélection",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"file_has_been_deleted",
+            "value":"Le fichier a été supprimé",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"set_phone_voice",
+            "value":"Sonnerie",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"collapsed",
+            "value":"Réduit",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"no_records",
+            "value":"Aucun enregistrement",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"resume",
+            "value":"Reprendre",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"start_recording",
+            "value":"Début de l'enregistrement. Le son des appels et notifications est désactivé.",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"expanded",
+            "value":"Agrandi",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"end_recording",
+            "value":"Fin de l'enregistrement. Le son des appels et notifications est activé.",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"pause",
+            "value":"Pause",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"accessibility_double_click",
+            "value":"Tapoter deux fois pour activer",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"cannot_recording",
+            "value":"Espace de stockage insuffisant.",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"renamed",
+            "value":"Renommé.",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"disable_voice_enhancement",
+            "value":"Fonctionnalité Amélioration vocale désactivée.",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"search_recording_files",
+            "value":"Rechercher",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"deleted",
+            "value":"L'étiquette %s a été supprimée.",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"open_speaker",
+            "value":"Le haut-parleur est activé.",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"current_location_time",
+            "value":"Position actuelle, %s.",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"detailDialog_size_huge_layout",
+            "value":"Taille :",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"detailDialog_time_huge_layout",
+            "value":"Date :",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"toolbar_select_all",
+            "value":"Sélect. tout",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"speed_play",
+            "value":"Vitesse",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"delete",
+            "value":"Supprimer",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"predict_hint",
+            "value":"Plus de %1$d heures peuvent être enregistrées",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"less_than_60",
+            "value":"Espace de stockage réduit",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"enable_voice_enhancement",
+            "value":"Fonctionnalité Amélioration vocale activée.",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"delete_all_record",
+            "value":"Supprimer tous les enregistrements ?",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"toolbar_cancel_select_all",
+            "value":"Désélect. tout",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"titles",
+            "value":"Enregistrer",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"cancel",
+            "value":"Annuler",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"detailDialog_path",
+            "value":"Emplacement : %s",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"stop_save",
+            "value":"Espace de stockage insuffisant pour continuer l'enregistrement. Enregistrement sauvegardé.",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"has_call_hint",
+            "value":"L'enregistrement pendant l'appel ne peut pas se faire.",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"copy_right",
+            "value":"Copyright © %1$d - %2$d  Tous droits réservés.",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"allow_access",
+            "value":"Autoriser l'accès",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"notice_recording",
+            "value":"Enregistrement",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"untitledRecording",
+            "value":"Enregistrement sans nom",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"sort_mode_0",
+            "value":"Du plus récent au plus ancien",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"deleting",
+            "value":"Suppression en cours.",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"sort_mode_1",
+            "value":"Du plus ancien au plus récent",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"collapse_side_navigation_bar",
+            "value":"Fermer le menu latéral",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"sort_mode_2",
+            "value":"Nom",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"end_unmute_notification",
+            "value":"Fin de l'enregistrement. Le son des notifications est activé.",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"record_list",
+            "value":"Enregistrements",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"start_record",
+            "value":"Démarrer",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"recent_delete_description",
+            "value":"Les enregistrements supprimés sont conservés ici pendant %d jours.",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"audio_recordings",
+            "value":"Enregistrements audio",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"voice_retail",
+            "value":"Détails",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"on_sure",
+            "value":"OK",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"about",
+            "value":"À propos",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"label_permission_microphone_title",
+            "value":"Autoriser Enregistreur sonore à accéder à Microphone",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"detailDialog_close",
+            "value":"Fermer",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"mark",
+            "value":"Tag",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"permission_welcome_description",
+            "value":"Cette application nécessite une connexion Internet et l'autorisation %s, et doit lire les fichiers audio ainsi que les informations de localisation pour fournir des services d'enregistrement audio. En touchant sur Accepter, vous acceptez les conditions.",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"label_permission_read_audio_title",
+            "value":"Enregistreur sonore nécessite l'autorisation Musique et audio",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"recording_delete",
+            "value":"Supprimer définitivement",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"detailDialog_name",
+            "value":"Nom : %s",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"data_sort",
+            "value":"Trier",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"smart_summary",
+            "value":"Résumé",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"rename_marker",
+            "value":"Renommer ce tag",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"main_remain_days",
+            "value":"%1$s %2$s",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"title",
+            "value":"Enregistreur sonore",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"recent_delete_dialog_summary",
+            "value":"Cet enregistrement sera définitivement supprimé de cet appareil.",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"access_location",
+            "value":"Enregistreur sonore nécessite l'accès aux informations de localisation pour nommer les enregistrements en fonction de leur emplacement.",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"recent_delete_dialog_title",
+            "value":"Supprimer ?",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"rename_over",
+            "value":"Ce nom de fichier existe déjà",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"drag_quantity_limit",
+            "value":"Un nombre maximum de %d éléments pouvant être déplacés simultanément.",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"version_info",
+            "value":"Version",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"recording_recover",
+            "value":"Restaurer",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"go_to_setting",
+            "value":"Accéder aux Paramètres",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"notice_record_pause",
+            "value":"En pause",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"detailDialog_time",
+            "value":"Date/heure : %s",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"all_recording_delete",
+            "value":"Tout supprimer",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"label_permission_read_audio_text",
+            "value":"Enregistreur sonore nécessite l'autorisation Musique et audio",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"mark_no_name",
+            "value":"Aucun nom saisi",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"start_mute_notification",
+            "value":"Début de l'enregistrement. Le son des notifications est désactivé.",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"first_delete_dialog_summary",
+            "value":"Ces enregistrements seront supprimés de cet appareil. Ils seront conservés dans la section \"Récemment supprimés\" pour %d jours.",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"recent_delete_dialog_summary_multi",
+            "value":"Ces enregistrements seront définitivement supprimés de cet appareil.",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"mark_filter",
+            "value":"Le nom ne peut pas contenir / \\ : * ? \" < > |",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"all_record",
+            "value":"Tout",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"permission_welcome_service_description",
+            "value":"Enregistrez de l'audio en toute simplicité.",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"number_upper_limit",
+            "value":"Le nombre maximum d'enregistrements a été atteint. Veuillez supprimer les enregistrements indésirables pour libérer de l'espace.",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"rename_filter",
+            "value":"Le nom ne peut pas contenir / \\ : * ? \" < > |",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"pause_unmute_notification",
+            "value":"Enregistrement mis en pause. Le son des notifications est activé.",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"all_recording_recover",
+            "value":"Tout restaurer",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"rename_speaker",
+            "value":"Renommer cet enregistrement",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"about_privacy",
+            "value":"Déclarations relatives à la vie privée",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"toolbar_more",
+            "value":"Plus",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"has_screen_hint",
+            "value":"Une autre application d'enregistrement est déjà en cours d'exécution en arrière-plan. Veuillez d'abord la fermer.",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"file_rename",
+            "value":"Renommer",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"file_has_been_deleted_description",
+            "value":"Certains enregistrements ont été supprimés. Veuillez actualiser la liste.",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"searching",
+            "value":"Rechercher",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"recent_delete",
+            "value":"Récemment supprimés",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"permission_welcome_music_and_audio",
+            "value":"Musique et audio",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"no_name",
+            "value":"Aucun nom saisi",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"detailDialog_size",
+            "value":"Taille : %s",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"call_recording",
+            "value":"Enregistrements d'appels",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"close_speaker",
+            "value":"La vitesse de lecture ne peut pas être modifiée lorsque le haut-parleur est désactivé.",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"collect_personal_data",
+            "value":"Informations/données personnelles recueillies",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"size_upper_limit",
+            "value":"La taille maximale de l'enregistrement est atteinte.",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"recovering",
+            "value":"Restauration en cours.",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"label_permission_read_audio",
+            "value":"Cette autorisation permet de lire les enregistrements d'appels.",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"menu_multiselect",
+            "value":"Sélection multiple",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"user_filepath_on_phone",
+            "value":"Fichiers/Mon téléphone/Sons",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"agree",
+            "value":"Accepter",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"migration_remaining_tips",
+            "value":"Certains de vos enregistrements n'ont pas été synchronisés avec succès avec \"%s\". Continuer à les synchroniser maintenant ?",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"migration_data_preparing",
+            "value":"Préparation des données en cours.",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"user_filepath_on_pc",
+            "value":"Fichiers/Utilisateurs/Personnel/Audio/EnregistreurAudio",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"user_filepath_on_pad",
+            "value":"Fichiers/Ma tablette/Personnel/Audio/EnregistreurAudio",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"migrating_records",
+            "value":"Synchronisation des enregistrements audio en cours %s",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"migration_cancel_tips_title",
+            "value":"Annuler la synchronisation ?",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"migration_cancel",
+            "value":"Annuler la synchronisation",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"migration_completed",
+            "value":"Les enregistrements ont été synchronisés avec succès",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"migration_cancel_tips",
+            "value":"Vos enregistrements sont actuellement en cours de synchronisation avec \"%s\". Si vous annulez la synchronisation maintenant, vous ne pourrez pas les afficher et les gérer à partir de ce dossier.",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"migration_restricted_tips",
+            "value":"Cette action n'est pas prise en charge pendant que les enregistrements sont en cours de synchronisation. Veuillez réessayer ultérieurement.",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"migrating_call_records",
+            "value":"Synchronisation des enregistrements d'appels en cours %s",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"migration_continue",
+            "value":"Ne pas annuler la synchronisation",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"migration_tips",
+            "value":"Synchroniser vos anciens enregistrements avec \"%s\" ?\n\nAprès la synchronisation, vous pouvez les afficher et les gérer directement à partir de ce dossier dans Fichiers.",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"headset_recording",
+            "value":"Enregistrements au casque",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"first_delete_dialog_summary_one",
+            "value":"Cet enregistrement sera supprimé de cet appareil. Il sera conservé dans la rubrique \"Récemment supprimés\" pendant %d jours.",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"retranslate",
+            "value":"Transcrire à nouveau",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"mark_added_talkback",
+            "value":"Ajouté",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"transcribed_talkback",
+            "value":"Transcrit",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"mark_position_at_talkback",
+            "value":"Accéder à",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"serial_number",
+            "value":"Numéro %s",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"marked",
+            "value":"Étiquette ajoutée",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"count_list_one",
+            "value":"Un élément, %s",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"accessibility_drag_down_to_vassistant",
+            "value":"Toucher deux fois et maintenir, puis faire glisser vers le bas jusqu'à Celia",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"accessibility_long_press",
+            "value":"Toucher deux fois et maintenir pour faire apparaître d'autres options",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"total_duration",
+            "value":"Temps total : %s",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"show_side_navigation_bar",
+            "value":"Ouvrir le menu latéral",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"concat_three_strings",
+            "value":"%1$s %2$s %3$s",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"more_options",
+            "value":"Plus d'options",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"count_list_info_one",
+            "value":"%1$d à %2$d, %3$s",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"record_to_text",
+            "value":"Convertir en texte",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"accessibility_right_swipe",
+            "value":"Toucher deux fois et maintenir, puis faire glisser vers la droite pour réduire les options supplémentaires",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"accessibility_left_swipe",
+            "value":"Toucher deux fois et maintenir, puis faire glisser vers la gauche pour étendre les options supplémentaires",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"migrating_records_number",
+            "value":"%1$s, %2$s",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"voice_enhancement_open",
+            "value":"Fonctionnalité Amélioration vocale activée.",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"voice_enhancement_close",
+            "value":"Fonctionnalité Amélioration vocale désactivée.",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"mute_skip_disabled",
+            "value":"Les silences ne sont pas ignorés.",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"mute_skip_enabled",
+            "value":"Les silences sont ignorés.",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"migration_resume",
+            "value":"Reprendre",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"privacy_statement_dialog",
+            "value":"Les fonctionnalités de transcription et de résumé intelligent nécessitent une connexion Internet et doivent lire et transférer les fichiers audio. Pour plus de détails sur la manière dont vos informations/données personnelles sont traitées, veuillez vous référer à la %s.",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"enable_realtime_transfer",
+            "value":"Activer la transcription en temps réel",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"recorder_privacy_statement",
+            "value":"Déclaration relative à la vie privée Enregistreur sonore",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"off_realtime_transfer",
+            "value":"Désactiver la transcription en temps réel",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"network_disconnection_transcribe_stop",
+            "value":"Aucune connexion Internet. Transcription mise en pause.",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"network_connection_interrupt",
+            "value":"Erreur de connexion réseau. Veuillez vérifier les paramètres réseau.",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"next_step",
+            "value":"Suivant",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"record_timeout",
+            "value":"La durée maximum d'un seul enregistrement a été atteinte.",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"retranslate_text",
+            "value":"Le redémarrage de la transcription va entraîner la suppression de toutes les modifications que vous avez effectuées, y compris les informations sur les haut-parleurs.",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"help_and_feedback",
+            "value":"Aide et avis/retour",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"audiokit_media_recording",
+            "value":"Enregistrement multimédia",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"audiokit_external_recording",
+            "value":"Enregistrement audio externe",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"audiokit_call_recording",
+            "value":"Enregistrement d'appel",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"realtime_transfer_turned_off",
+            "value":"Transcription en temps réel désactivée.",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"realtime_transfer_enabled",
+            "value":"Transcription en temps réel activée.",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"realtime_transfer_button",
+            "value":"Transcription en temps réel",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"all_recordings",
+            "value":"Tous les enregistrements",
+            "attr":{
+                "priority":"translate"
+            }
+        }
+    ]
+}

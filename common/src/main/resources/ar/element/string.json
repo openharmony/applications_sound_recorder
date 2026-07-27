@@ -1,0 +1,1236 @@
+{
+    "string":[
+        {
+            "name":"open_skip_mute",
+            "value":"تشغيل تخطي الأجزاء الصامتة",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"close_skip_mute",
+            "value":"إيقاف تخطي الأجزاء الصامتة",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"stop_save",
+            "value":"مساحة التخزين غير كافية لمتابعة التسجيل، تم حفظ التسجيل",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"has_call_hint",
+            "value":"يتعذر التسجيل أثناء وجود مكالمة جارية",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"copy_right",
+            "value":"حقوق الملكية © %1$d‏ -‏ %2$d هواوي. جميع الحقوق محفوظة.",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"file_list_refresh",
+            "value":"تحديث",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"store_as_filename",
+            "value":"تم حفظ التسجيل باسم \"\u202a%1$s\u202c\"",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"first_delete_dialog_summary_one",
+            "value":"سيُحذف هذا التسجيل من هذا الجهاز. وسيُحتفظ به في مجلد \"المحذوفات مؤخرًا\" لمدة %d يومًا.",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"allow_access",
+            "value":"السماح بالوصول",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"delete_hint",
+            "value":"هل تريد حذف هذا التسجيل؟",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"notice_recording",
+            "value":"قيد التسجيل",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"back",
+            "value":"رجوع",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"untitledRecording",
+            "value":"تسجيل بلا اسم",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"sort_mode_0",
+            "value":"الأحدث إلى الأقدم",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"deleting",
+            "value":"جارٍ الحذف…",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"sort_mode_1",
+            "value":"الأقدم إلى الأحدث",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"sort_mode_2",
+            "value":"الاسم",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"end_unmute_notification",
+            "value":"انتهى التسجيل، وتم إلغاء كتم الإشعارات",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"record_list",
+            "value":"التسجيلات",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"saved",
+            "value":"تم الحفظ",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"start_record",
+            "value":"بدء",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"recent_delete_description",
+            "value":"سيُحتفظ بالتسجيلات المحذوفة هنا لمدة %d يومًا.",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"audio_recordings",
+            "value":"التسجيلات الصوتية",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"maximum_length",
+            "value":"تم بلوغ الحد الأقصى للطول",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"voice_retail",
+            "value":"التفاصيل",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"closed_speaker",
+            "value":"تم إيقاف مكبر الصوت",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"end",
+            "value":"إنهاء",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"on_sure",
+            "value":"موافق",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"about",
+            "value":"حول",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"label_permission_microphone_title",
+            "value":"هل تسمح لمسجل الصوت باستخدام/الوصول إلى الميكروفون؟",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"detailDialog_close",
+            "value":"إغلاق",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"mark",
+            "value":"علامة",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"detailDialog_name_huge_layout",
+            "value":"الاسم:",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"pause_recording",
+            "value":"تم إيقاف التسجيل مؤقتًا، وتم إلغاء كتم الإشعارات والمكالمات",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"voice_share",
+            "value":"مشاركة",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"play",
+            "value":"تشغيل",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"content_already_played",
+            "value":"تم التشغيل: %s",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"start",
+            "value":"بدء",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"permission_welcome_description",
+            "value":"يحتاج هذا التطبيق إلى الاتصال بالإنترنت ومنحه الإذن باستخدام/الوصول إلى %s، كما يحتاج إلى قراءة الملفات الصوتية بالإضافة إلى معلومات الموقع لتوفير خدمات تسجيل الصوت. بالنقر على \"أوافق\"، فأنت تعني بذلك موافقتك على هذه البنود.",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"label_permission_read_audio_title",
+            "value":"يحتاج مسجل الصوت إلى منحه إذن الموسيقى والصوتيات",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"recording_delete",
+            "value":"حذف نهائي",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"no_select",
+            "value":"لم تحدد أي تسجيل",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"file_has_been_deleted",
+            "value":"لقد تم حذف الملف",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"detailDialog_name",
+            "value":"الاسم:‏ \u202a%s\u202c",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"data_sort",
+            "value":"فرز",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"set_phone_voice",
+            "value":"تعيين كنغمة رنين",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"smart_summary",
+            "value":"الملخص",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"collapsed",
+            "value":"تم الطي",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"no_records",
+            "value":"لا توجد تسجيلات",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"rename_marker",
+            "value":"إعادة تسمية هذه العلامة",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"main_remain_days",
+            "value":"‏%1$s‏ %2$s",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"title",
+            "value":"مسجل الصوت",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"recent_delete_dialog_summary",
+            "value":"سيُحذف هذا التسجيل نهائيًا من هذا الجهاز.",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"access_location",
+            "value":"يحتاج مسجل الصوت إلى منحه الإذن بالوصول إلى الموقع لتسمية التسجيلات استنادًا إلى موقع تسجيلها.",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"recent_delete_dialog_title",
+            "value":"هل تريد الحذف؟",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"resume",
+            "value":"استئناف",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"rename_over",
+            "value":"اسم الملف هذا موجودٌ بالفعل",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"start_recording",
+            "value":"بدأ التسجيل، وتم كتم الإشعارات والمكالمات",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"drag_quantity_limit",
+            "value":"يمكن سحب %d عنصرًا كحدٍ أقصى في المرة الواحدة",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"version_info",
+            "value":"الإصدار",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"recording_recover",
+            "value":"استعادة",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"go_to_setting",
+            "value":"الإعدادات",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"expanded",
+            "value":"تم التوسيع",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"end_recording",
+            "value":"انتهى التسجيل، وتم إلغاء كتم الإشعارات والمكالمات",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"notice_record_pause",
+            "value":"متوقف مؤقتًا",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"pause",
+            "value":"إيقاف مؤقت",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"detailDialog_time",
+            "value":"الوقت:‏ %s",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"all_recording_delete",
+            "value":"حذف الكل",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"accessibility_double_click",
+            "value":"انقر نقرًا مزدوجًا للتفعيل",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"label_permission_read_audio_text",
+            "value":"يحتاج مسجل الصوت إلى منحه إذن الموسيقى والصوتيات",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"mark_no_name",
+            "value":"لم يتم إدخال اسم",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"start_mute_notification",
+            "value":"بدأ التسجيل، وتم كتم الإشعارات",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"first_delete_dialog_summary",
+            "value":"ستُحذف هذه التسجيلات من هذا الجهاز. وسيُحتفظ بها في مجلد \"المحذوفات مؤخرًا\" لمدة %d يومًا.",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"recent_delete_dialog_summary_multi",
+            "value":"ستُحذف هذه التسجيلات نهائيًا من هذا الجهاز.",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"cannot_recording",
+            "value":"السعة التخزينية غير كافية",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"mark_filter",
+            "value":"لا يمكن أن يحتوي الاسم على الرموز / \\ : * ? \" < > |",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"renamed",
+            "value":"تمت إعادة تسمية التسجيل.",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"all_record",
+            "value":"الكل",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"permission_welcome_service_description",
+            "value":"تسجيل الصوت بسهولة.",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"disable_voice_enhancement",
+            "value":"تم إيقاف تشغيل ميزة تحسين الصوت",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"search_recording_files",
+            "value":"بحث...",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"deleted",
+            "value":"تم حذف %s",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"number_upper_limit",
+            "value":"بلغ عدد التسجيلات الحد الأقصى، يُرجى حذف التسجيلات غير المرغوب فيها لإفراغ بعض المساحة",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"rename_filter",
+            "value":"لا يمكن أن يحتوي الاسم على الرموز / \\ : * ? \" < > |",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"pause_unmute_notification",
+            "value":"تم إيقاف التسجيل مؤقتًا، وتم إلغاء كتم الإشعارات",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"open_speaker",
+            "value":"تم تشغيل مكبر الصوت",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"current_location_time",
+            "value":"الموضع الحالي، %s",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"all_recording_recover",
+            "value":"استعادة الكل",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"rename_speaker",
+            "value":"إعادة تسمية هذا التسجيل",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"about_privacy",
+            "value":"بيانات الخصوصية",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"toolbar_more",
+            "value":"المزيد",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"has_screen_hint",
+            "value":"أحد تطبيقات التسجيل يعمل في الخلفية بالفعل، يُرجى أولًا إغلاقه",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"detailDialog_size_huge_layout",
+            "value":"الحجم:",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"file_rename",
+            "value":"إعادة التسمية",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"file_has_been_deleted_description",
+            "value":"حُذفت بعض التسجيلات. يُرجى تجديد القائمة.",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"detailDialog_time_huge_layout",
+            "value":"تاريخ الإنشاء:",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"searching",
+            "value":"بحث",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"recent_delete",
+            "value":"المحذوفات مؤخرًا",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"permission_welcome_music_and_audio",
+            "value":"الموسيقى والصوتيات",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"toolbar_select_all",
+            "value":"تحديد الكل",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"speed_play",
+            "value":"السرعة",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"delete",
+            "value":"حذف",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"no_name",
+            "value":"لم يتم إدخال اسم",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"predict_hint",
+            "value":"يمكنك مواصلة التسجيل حوالي %1$d ساعات إضافية",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"detailDialog_size",
+            "value":"الحجم:‏ %s",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"less_than_60",
+            "value":"السعة التخزينية منخفضة",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"call_recording",
+            "value":"تسجيلات المكالمات",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"enable_voice_enhancement",
+            "value":"تم تشغيل ميزة تحسين الصوت",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"delete_all_record",
+            "value":"هل تريد حذف جميع التسجيلات؟",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"close_speaker",
+            "value":"لا يمكن تغيير سرعة التشغيل عندما يكون مكبر الصوت مغلقًا",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"toolbar_cancel_select_all",
+            "value":"إلغاء تحديد الكل",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"collect_personal_data",
+            "value":"المعلومات الشخصية المُجمَّعة",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"titles",
+            "value":"تسجيل",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"size_upper_limit",
+            "value":"بلغ حجم التسجيل الحد الأقصى",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"recovering",
+            "value":"جارٍ الاستعادة…",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"label_permission_read_audio",
+            "value":"يُستخدم هذا الإذن لقراءة تسجيلات المكالمات.",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"cancel",
+            "value":"إلغاء",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"menu_multiselect",
+            "value":"اختيار متعدد",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"detailDialog_path",
+            "value":"مكان الحفظ: \u202a%s\u202c",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"user_filepath_on_phone",
+            "value":"مدير الملفات/هاتفي/الأصوات",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"agree",
+            "value":"أوافق",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"migration_remaining_tips",
+            "value":"لم تنجح مزامنة بعض تسجيلاتك إلى \"%s\". هل تريد متابعة مزامنتها الآن؟",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"migration_data_preparing",
+            "value":"جارٍ تجهيز البيانات…",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"user_filepath_on_pc",
+            "value":"مدير الملفات/المستخدمون/الملفات الشخصية/الملفات الصوتية/مسجل الصوت",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"user_filepath_on_pad",
+            "value":"مدير الملفات/جهازي اللوحي/الملفات الصوتية/مسجل الصوت",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"migrating_records",
+            "value":"جارٍ مزامنة التسجيلات الصوتية %s…",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"migration_cancel_tips_title",
+            "value":"هل تريد إلغاء المزامنة؟",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"migration_cancel",
+            "value":"إلغاء المزامنة",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"migration_completed",
+            "value":"تمت مزامنة التسجيلات بنجاح",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"migration_cancel_tips",
+            "value":"جارٍ حاليًا مزامنة تسجيلاتك إلى \"%s\". إذا ألغيت المزامنة الآن، فلن تتمكن من عرضها وإدارتها من هذا المجلد.",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"migration_restricted_tips",
+            "value":"يتعذّر إجراء هذا في أثناء مزامنة التسجيلات، تُرجى إعادة المحاولة لاحقًا",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"migrating_call_records",
+            "value":"جارٍ مزامنة تسجيلات المكالمات %s…",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"migration_continue",
+            "value":"عدم إلغاء المزامنة",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"migration_tips",
+            "value":"هل تريد مزامنة تسجيلاتك السابقة إلى \"%s\"؟\n\nبمجرد مزامنتها، ستتمكن من عرضها وإدارتها من هذا المجلد في \"مدير الملفات\".",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"headset_recording",
+            "value":"تسجيلات سماعة الرأس",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"retranslate",
+            "value":"إعادة التفريغ الصوتي",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"mark_added_talkback",
+            "value":"تمت الإضافة",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"transcribed_talkback",
+            "value":"تم تحويل الكلام إلى نص",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"mark_position_at_talkback",
+            "value":"تم الانتقال إلى",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"collapse_side_navigation_bar",
+            "value":"إغلاق القائمة الجانبية",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"serial_number",
+            "value":"رقم %s",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"marked",
+            "value":"تمت إضافة علامة",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"count_list_one",
+            "value":"عنصر واحد، %s",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"accessibility_drag_down_to_vassistant",
+            "value":"انقر مرتين ثم مطولاً، ثم اسحب لأسفل تجاه Celia",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"accessibility_long_press",
+            "value":"انقر مرتين ثم مطولاً لعرض المزيد من الخيارات",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"total_duration",
+            "value":"إجمالي المدة %s",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"show_side_navigation_bar",
+            "value":"فتح القائمة الجانبية",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"concat_three_strings",
+            "value":"%1$s %2$s %3$s",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"more_options",
+            "value":"المزيد من الخيارات",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"count_list_info_one",
+            "value":"%1$d إلى %2$d، %3$s",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"record_to_text",
+            "value":"تحويل إلى نص",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"accessibility_right_swipe",
+            "value":"انقر مرتين ثم مطولاً، ثم اسحب لليسار لطي الخيارات الإضافية",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"accessibility_left_swipe",
+            "value":"انقر مرتين ثم مطولاً، ثم اسحب لليمين لتوسيع خيارات إضافية",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"migrating_records_number",
+            "value":"%1$s، ‏%2$s",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"voice_enhancement_open",
+            "value":"تم تشغيل ميزة تحسين الصوت",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"voice_enhancement_close",
+            "value":"تم إيقاف تشغيل ميزة تحسين الصوت",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"mute_skip_disabled",
+            "value":"لن يتم تخطي الأجزاء الصامتة",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"mute_skip_enabled",
+            "value":"سيتم تخطي الأجزاء الصامتة",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"migration_resume",
+            "value":"استئناف",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"privacy_statement_dialog",
+            "value":"تتطلب ميزتا تحويل الكلام إلى نص والملخص الذكي الاتصال بالإنترنت وتحتاجان إلى قراءة الملفات الصوتية ورفعها/نقلها. يمكنك الاطلاع على %s لمعرفة المزيد من التفاصيل عن كيفية معالجة معلوماتك الشخصية.",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"enable_realtime_transfer",
+            "value":"تشغيل تحويل الكلام إلى نص في الوقت الفعلي",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"recorder_privacy_statement",
+            "value":"البيان المتعلق بمسجل الصوت والخصوصية",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"off_realtime_transfer",
+            "value":"إيقاف تحويل الكلام إلى نص في الوقت الفعلي",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"network_disconnection_transcribe_stop",
+            "value":"توقفت عملية التفريغ الصوتي لعدم الاتصال بالإنترنت",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"network_connection_interrupt",
+            "value":"حدثت مشكلة في اتصال الشبكة. يُرجى التحقق من إعدادات الشبكة.",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"next_step",
+            "value":"التالي",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"record_timeout",
+            "value":"بلغت مدة التسجيل الواحد الحد الأقصى",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"retranslate_text",
+            "value":"ستؤدي إعادة تشغيل عملية التفريغ الصوتي إلى مسح أي تعديلات أجريتها، بما في ذلك معلومات المتحدثين.",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"help_and_feedback",
+            "value":"المساعدة والإفادة",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"audiokit_media_recording",
+            "value":"تسجيل الوسائط",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"audiokit_external_recording",
+            "value":"تسجيل الصوت الخارجي",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"audiokit_call_recording",
+            "value":"تسجيل المكالمات",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"realtime_transfer_turned_off",
+            "value":"تم إيقاف ميزة التحويل الفوري للكلام إلى نص",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"realtime_transfer_enabled",
+            "value":"تم تشغيل ميزة التحويل الفوري للكلام إلى نص",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"realtime_transfer_button",
+            "value":"التحويل الفوري للكلام إلى نص",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"all_recordings",
+            "value":"جميع التسجيلات",
+            "attr":{
+                "priority":"translate"
+            }
+        }
+    ]
+}

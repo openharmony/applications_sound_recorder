@@ -1,0 +1,11 @@
+{
+    "string":[
+        {
+            "name":"app_name",
+            "value":"录音机",
+            "attr":{
+                "priority":"translate"
+            }
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "database_manager",
+  "version": "1.0.0",
+  "description": "database manager",
+  "main": "index.ets",
+  "author": "",
+  "license": "",
+  "dependencies": {
+    "@ohos/common": "file:../../common"
+  }
+}

@@ -1,0 +1,11 @@
+{
+    "string":[
+        {
+            "name":"app_name",
+            "value":"音声レコーダー",
+            "attr":{
+                "priority":"translate"
+            }
+        }
+    ]
+}

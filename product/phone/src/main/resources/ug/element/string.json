@@ -1,0 +1,90 @@
+{
+    "string":[
+        {
+            "name":"phone_desc",
+            "value":"description"
+        },
+        {
+            "name":"MainAbility_desc",
+            "value":"description"
+        },
+        {
+            "name":"PhoneFormAbility_desc",
+            "value":"form_description"
+        },
+        {
+            "name":"PhoneFormAbility_label",
+            "value":"form_label"
+        },
+        {
+            "name":"MainAbility_label",
+            "value":"ئۈنئالغۇ",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"unInstallAppContent",
+            "value":"ئۈنئالغۇ ئۆچۈرۈلسە، ئۈسكۈنىدىكى ئالغان ئۈنمۇ ئۆچىدۇ، ئۆچۈرەمسىز؟",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"label_permission_read_audio",
+            "value":"بۇ ئىجازەت چاقىرىقتىن ئالغان ئۈننى ئوقۇشقا ئىشلىتىلىدۇ.",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"label_permission_write_audio",
+            "value":"بۇ ئىجازەت سۆزلىشىش خاتىرىسىنى ئۆزگەرتىش ئۈچۈن ئىشلىتىلىدۇ.",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"label_permission_microphone",
+            "value":"بۇ ئىجازەت ئۈن ئېلىش ئۈچۈن ئىشلىتىلىدۇ.",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"label_permission_microphone_text",
+            "value":"تەڭشەكتىن ئۈنئالغۇ ئۈچۈن مىكروفون ئىجازىتى بېرىڭ",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"label_permission_read_audio_text",
+            "value":"تەڭشەكتىن ئۈنئالغۇ ئۈچۈن مۇزىكا ۋە ئاۋاز ئىجازىتى بېرىڭ",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"used_to_named",
+            "value":"بۇ ئىجازەت ئالغان ئۈن ھۆججىتىگە ئىسىم قويۇش ئۈچۈن ئىشلىتىلىدۇ.",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"record_audio",
+            "value":"ئۈن ئېلىش",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"headset_recording",
+            "value":"تىڭشىغۇچتا ئالغان ئۈن",
+            "attr":{
+                "priority":"translate"
+            }
+        }
+    ]
+}

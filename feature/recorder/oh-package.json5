@@ -1,0 +1,13 @@
+{
+  "license": "ISC",
+  "devDependencies": {},
+  "name": "@ohos/recorder",
+  "description": "a npm package which contains arkUI2.0 page",
+  "main": "index.ets",
+  "version": "1.0.0",
+  "dynamicDependencies": {},
+  "dependencies": {
+    "@ohos/common": "file:../../common",
+    "@ohos/fileManager": "file:../../feature/file_manager"
+  }
+}

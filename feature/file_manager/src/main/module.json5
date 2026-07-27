@@ -1,0 +1,10 @@
+{
+  "module": {
+    "name": "file_manager",
+    "type": "har",
+    "deviceTypes": [
+      "default",
+      "tablet"
+    ]
+  }
+}

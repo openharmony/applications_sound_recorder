@@ -1,0 +1,11 @@
+{
+    "string":[
+        {
+            "name":"accessibility_long_press",
+            "value":"Double click and hold to bring up more options",
+            "attr":{
+                "priority":"translate"
+            }
+        }
+    ]
+}

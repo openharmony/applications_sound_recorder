@@ -4,10 +4,28 @@
   },
   "targets": [
     {
-      "name": "default"
+      "name": "default",
+      "output": {
+        "artifactName": "SoundRecorder" // hap产物名称
+      }
     },
     {
-      "name": "ohosTest",
+      "name": "ohosTest"
     }
+  ],
+  "buildOptionSet": [
+    {
+      "name": "release",
+      "arkOptions": {
+        "obfuscation": {
+          "ruleOptions": {
+            "enable": true,
+            "files": [
+              "./obfuscation-rules.txt"
+            ]
+          }
+        }
+      }
+    },
   ]
 }

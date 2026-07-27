@@ -1,0 +1,64 @@
+{
+  "forms": [
+    {
+      "name": "LockscreenForm",
+      "displayName": "$string:title",
+      "description": "$string:record_audio",
+      "src": "./ets/widget/pages/LockscreenForm.ets",
+      "uiSyntax": "arkts",
+      "window": {
+        "designWidth": 720,
+        "autoDesignWidth": true
+      },
+      "colorMode": "auto",
+      "isDynamic": true,
+      "isDefault": false,
+      "updateEnabled": false,
+      "defaultDimension": "1*1",
+      "renderingMode": "singleColor",
+      "supportDimensions": [
+        "1*1"
+      ]
+    },
+    {
+      "name": "Record2x1Form",
+      "displayName": "$string:title",
+      "description": "$string:record_audio",
+      "src": "./ets/widget/pages/Record2x1Form.ets",
+      "uiSyntax": "arkts",
+      "window": {
+        "designWidth": 720,
+        "autoDesignWidth": true
+      },
+      "colorMode": "auto",
+      "isDynamic": true,
+      "isDefault": true,
+      "updateEnabled": false,
+      "defaultDimension": "1*2",
+      "supportDimensions": [
+        "1*2"
+      ],
+      "formVisibleNotify": true
+    },
+    {
+      "name": "Record2x2Form",
+      "displayName": "$string:title",
+      "description": "$string:record_audio",
+      "src": "./ets/widget/pages/Record2x2Form.ets",
+      "uiSyntax": "arkts",
+      "window": {
+        "designWidth": 720,
+        "autoDesignWidth": true
+      },
+      "colorMode": "auto",
+      "isDynamic": true,
+      "isDefault": false,
+      "updateEnabled": false,
+      "defaultDimension": "2*2",
+      "supportDimensions": [
+        "2*2"
+      ],
+      "formVisibleNotify": true
+    }
+  ]
+}

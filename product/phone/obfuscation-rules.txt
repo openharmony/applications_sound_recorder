@@ -1,0 +1,139 @@
+# Define project specific obfuscation rules here.
+# You can include the obfuscation configuration files in the current module's build-profile.json5.
+#
+
+# Obfuscation options:
+# -disable-obfuscation: disable all obfuscations
+# -enable-property-obfuscation: obfuscate the property names
+# -enable-toplevel-obfuscation: obfuscate the names in the global scope
+# -compact: remove unnecessary blank spaces and all line feeds
+# -remove-log: remove all console.* statements
+# -print-namecache: print the name cache that contains the mapping from the old names to new names
+# -apply-namecache: reuse the given cache file
+
+# Keep options:
+# -keep-property-name: specifies property names that you want to keep
+# -keep-global-name: specifies names that you want to keep in the global scope
+
+-enable-export-obfuscation
+-enable-property-obfuscation
+-enable-filename-obfuscation
+-remove-log
+-enable-toplevel-obfuscation
+-keep
+../../oh_modules
+-keep filepath
+../../common/src/main/ets/model/RecordData.ets
+../../common/src/main/ets/model/JsonData.ets
+../../common/src/main/ets/model/TransferData.ets
+../../common/src/main/ets/model/RecordingData.ets
+-keep-file-name
+Application
+MainAbility
+pages
+Index
+WelcomePage
+MyAbilityStage
+LockscreenForm
+Record2x1Form
+Record2x2Form
+PhoneFormAbility
+-keep-property-name
+px
+vp
+_declaration
+_instruction
+_attributes
+_text
+_cdata
+_doctype
+_comment
+_parent
+_type
+_name
+_elements
+pushParams
+failedCount
+midContent
+bottomContent
+timeSize
+duplicateCount
+shortCutPar
+happenTime
+isForeground
+isUserBehavior
+operationScenario
+operationCount
+operationStatus
+successCount
+failCount
+PNAMEID
+PVERSIONID
+VALUE
+DURATION
+FILEID
+SUCCESS
+FROM
+ENTER_FROM
+NAMES
+IParams
+NUM
+PAGE
+STATE
+ENTRANCE
+shortCutPar
+RECORD_TIME
+CountInfo
+AUDIO_DATA
+TABLE_DATA
+ERROR_INFO
+MODE
+recordFile
+milliseconds
+taggedText
+event
+isTagged
+tagText
+asrTaskId
+task_id
+engine_type
+recognize_token
+consumed_order_id
+supplier
+transcribeUri
+aiContent
+operation
+RESULT
+targetPage
+nextState
+hw_button_accessibility_text
+faultDescription
+faultSuggestion
+publisherBundleName
+COMPONENT_NAME
+PARTITION_NAME
+FILE_OR_FOLDER_PATH
+FILE_OR_FOLDER_SIZE
+basename
+modifyTime
+extname
+inode
+lastStatus
+originPath
+newPath
+createdAt
+action
+actionTime
+processing
+tipsCount
+SUCCESS_RATE
+COMPLETION_RATE
+CALL_RECORD_NUM
+NORMAL_RECORD_NUM
+lastFailCode
+todoList
+isAdd
+recorderTime
+-keep-global-name
+pafAppid
+bName
