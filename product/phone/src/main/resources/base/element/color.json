@@ -3,6 +3,14 @@
     {
       "name": "white",
       "value": "#FFFFFF"
+    },
+    {
+      "name": "red",
+      "value": "#FB654E"
+    },
+    {
+      "name": "gray",
+      "value": "#D9DADC"
     }
   ]
 }

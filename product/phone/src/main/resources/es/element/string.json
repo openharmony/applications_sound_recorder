@@ -1,0 +1,74 @@
+{
+    "string":[
+        {
+            "name":"label_permission_microphone",
+            "value":"Se utiliza para grabar audio.",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"MainAbility_label",
+            "value":"Grabadora",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"unInstallAppContent",
+            "value":"Esta acción también eliminará las grabaciones de tu dispositivo.",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"label_permission_read_audio_text",
+            "value":"Grabadora requiere el permiso de Música y audio",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"label_permission_write_audio",
+            "value":"Permite modificar grabaciones de llamadas.",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"label_permission_read_audio",
+            "value":"Permite la lectura de grabaciones de llamadas.",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"used_to_named",
+            "value":"Se utiliza para asignar un nombre a las grabaciones.",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"record_audio",
+            "value":"Grabar audio",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"label_permission_microphone_text",
+            "value":"Grabadora requiere el permiso de Micrófono",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"headset_recording",
+            "value":"Grabaciones de auriculares",
+            "attr":{
+                "priority":"translate"
+            }
+        }
+    ]
+}

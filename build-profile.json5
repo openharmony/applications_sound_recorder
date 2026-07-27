@@ -1,16 +1,51 @@
 {
   "app": {
-    "signingConfigs": [],
-    "compileSdkVersion": 9,
-    "compatibleSdkVersion": 9,
     "products": [
       {
         "name": "default",
         "signingConfig": "default",
+        "compileSdkVersion": 23,
+        //        "compatibleSdkVersionStage": "beta1",
+        "compatibleSdkVersion": 20,
+        "runtimeOS": "OpenHarmony",
+        "targetSdkVersion": "20",
+        "buildOption": {
+          "nativeCompiler": "BiSheng"
+        }
+      }
+    ],
+    "signingConfigs": [
+      {
+        "name": "default",
+        "material": {
+          "storeFile": "signature/OpenHarmony.p12",
+          "storePassword": "00000016FFCA5972474F9CAB4FAE75DD124ADF2C9F95C4CDCECB78C7D27C31AE7F29A362C9E6",
+          "keyAlias": "OpenHarmony Application Release",
+          "keyPassword": "0000001659C887AA3791D339FFB791D13B09AD5AAB4EA95F93B23F03DEDA66F3602615C544B9",
+          "signAlg": "SHA256withECDSA",
+          "profile": "signature/soundRecorder.p7b",
+          "certpath": "signature/OpenHarmonyApplication.cer"
+        }
       }
     ]
   },
   "modules": [
+    {
+      "name": "common",
+      "srcPath": "./common"
+    },
+    {
+      "name": "recorder",
+      "srcPath": "./feature/recorder",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    },
     {
       "name": "phone",
       "srcPath": "./product/phone",
@@ -24,8 +59,16 @@
       ]
     },
     {
-      "name": "tablet",
-      "srcPath": "./product/tablet",
+      "name": "file_manager",
+      "srcPath": "./feature/file_manager"
+    },
+    {
+      "name": "database_manager",
+      "srcPath": "./feature/database_manager"
+    },
+    {
+      "name": "recorderFA",
+      "srcPath": "./feature/recorderFA",
       "targets": [
         {
           "name": "default",
@@ -34,14 +77,6 @@
           ]
         }
       ]
-    },
-    {
-      "name": "common",
-      "srcPath": "./common"
-    },
-    {
-      "name": "recorder",
-      "srcPath": "./feature/recorder"
     }
   ]
 }

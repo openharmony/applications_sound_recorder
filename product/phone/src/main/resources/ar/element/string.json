@@ -1,0 +1,74 @@
+{
+    "string":[
+        {
+            "name":"unInstallAppContent",
+            "value":"سيؤدي هذا أيضًا إلى حذف التسجيلات من جهازك.",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"label_permission_microphone",
+            "value":"يُستخدم هذا الإذن لتسجيل الصوت.",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"label_permission_read_audio_text",
+            "value":"يحتاج مسجل الصوت إلى منحه إذن الموسيقى والصوتيات",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"label_permission_write_audio",
+            "value":"يُستخدم هذا الإذن لتعديل تسجيلات المكالمات.",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"label_permission_read_audio",
+            "value":"يُستخدم هذا الإذن لقراءة تسجيلات المكالمات.",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"used_to_named",
+            "value":"يُستخدم هذا الإذن لتسمية التسجيلات.",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"record_audio",
+            "value":"تسجيل الصوت",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"MainAbility_label",
+            "value":"مسجل الصوت",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"label_permission_microphone_text",
+            "value":"يحتاج مسجل الصوت إلى منحه إذن الميكروفون",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"headset_recording",
+            "value":"تسجيلات سماعة الرأس",
+            "attr":{
+                "priority":"translate"
+            }
+        }
+    ]
+}

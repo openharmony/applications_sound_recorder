@@ -1,0 +1,60 @@
+{
+    "string":[
+        {
+            "name":"phone_desc",
+            "value":"[TS_882667]_description"
+        },
+        {
+            "name":"label_permission_read_audio",
+            "value":"[TS_882709]_This is used to read call recordings."
+        },
+        {
+            "name":"label_permission_microphone",
+            "value":"[TS_882673]_This is used to record audio."
+        },
+        {
+            "name":"MainAbility_desc",
+            "value":"[TS_882671]_description"
+        },
+        {
+            "name":"MainAbility_label",
+            "value":"[TS_882681]_Recorder"
+        },
+        {
+            "name":"label_permission_read_audio_text",
+            "value":"[TS_920509]_Recorder requires the Music & audio permission"
+        },
+        {
+            "name":"label_permission_microphone_text",
+            "value":"[TS_920525]_Recorder requires the Microphone permission"
+        },
+        {
+            "name":"used_to_named",
+            "value":"[TS_928510]_This is used for naming recordings."
+        },
+        {
+            "name":"label_permission_write_audio",
+            "value":"[TS_967368]_This is used to modify call recordings."
+        },
+        {
+            "name":"unInstallAppContent",
+            "value":"[TS_979299]_This will also delete recordings from your device."
+        },
+        {
+            "name":"PhoneFormAbility_label",
+            "value":"[TS_1021021]_form_label"
+        },
+        {
+            "name":"record_audio",
+            "value":"[TS_1021019]_Record audio"
+        },
+        {
+            "name":"PhoneFormAbility_desc",
+            "value":"[TS_1021020]_form_description"
+        },
+        {
+            "name":"headset_recording",
+            "value":"[TS_1089082]_Headphone recordings"
+        }
+    ]
+}

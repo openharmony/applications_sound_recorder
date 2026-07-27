@@ -2,26 +2,43 @@
   "module": {
     "name": "phone",
     "type": "entry",
-    "srcEntrance": "./ets/Application/MyAbilityStage.ts",
+    "srcEntry": "./ets/Application/MyAbilityStage.ets",
     "description": "$string:phone_desc",
     "mainElement": "MainAbility",
     "deviceTypes": [
-      "default"
+      "default",
+      "tablet"
     ],
     "deliveryWithInstall": true,
+    "metadata": [
+      {
+        "name": "unInstallAppContent",
+        "value": "$string:unInstallAppContent"
+      },
+      {
+        "name": "license_file_path",
+        "value": "/system/etc/noticeFile/SoundRecorder_OpenSource.html"
+      },
+      {
+        "name": "ability.realTimeTranscription",
+        "value": "1"
+      }
+    ],
     "installationFree": false,
     "pages": "$profile:main_pages",
-    "uiSyntax": "ets",
     "abilities": [
       {
         "name": "MainAbility",
-        "srcEntrance": "./ets/MainAbility/MainAbility.ts",
+        "srcEntry": "./ets/MainAbility/MainAbility.ets",
         "description": "$string:MainAbility_desc",
-        "icon": "$media:icon",
+        "icon": "$media:recorderIcon",
         "label": "$string:MainAbility_label",
-        "startWindowIcon": "$media:icon",
-        "startWindowBackground": "$color:white",
-        "visible": true,
+        "startWindowIcon": "$media:starting_window",
+        "startWindowBackground": "$color:start_window_background",
+        "exported": true,
+        "permissions": [
+          "ohos.permission.GET_BUNDLE_INFO"
+        ],
         "skills": [
           {
             "entities": [
@@ -31,18 +48,114 @@
               "action.system.home"
             ]
           }
+        ],
+        "backgroundModes": [
+          "audioRecording",
+          "audioPlayback"
+        ],
+        "orientation": "follow_desktop",
+        "metadata": [
+          {
+            "name": "ohos.ability.shortcuts",
+            "resource": "$profile:shortcuts_config"
+          }
+        ],
+        "minWindowWidth": 620,
+        "minWindowHeight": 560
+      }
+    ],
+    "extensionAbilities": [
+      {
+        "name": "PhoneFormAbility",
+        "srcEntry": "./ets/form/PhoneFormAbility.ets",
+        "label": "$string:PhoneFormAbility_label",
+        "description": "$string:PhoneFormAbility_desc",
+        "type": "form",
+        "metadata": [
+          {
+            "name": "ohos.extension.form",
+            "resource": "$profile:form_config"
+          }
         ]
       }
     ],
     "requestPermissions": [
       {
-        "name": "ohos.permission.MICROPHONE"
+        "name": "ohos.permission.MICROPHONE",
+        "reason": "$string:label_permission_microphone",
+        "usedScene": {
+          "abilities": [
+            "MainAbility"
+          ]
+        }
       },
       {
-        "name": "ohos.permission.WRITE_MEDIA"
+        "name": "ohos.permission.ACCESS_NOTIFICATION_POLICY"
       },
       {
-        "name": "ohos.permission.READ_MEDIA"
+        "name": "ohos.permission.GET_TELEPHONY_STATE"
+      },
+      {
+        "name": "ohos.permission.KEEP_BACKGROUND_RUNNING"
+      },
+      {
+        "name": "ohos.permission.LOCATION",
+        "reason": "$string:used_to_named",
+        "usedScene": {
+          "abilities": [
+            "MainAbility"
+          ]
+        }
+      },
+      {
+        "name": "ohos.permission.APPROXIMATELY_LOCATION",
+        "reason": "$string:used_to_named",
+        "usedScene": {
+          "abilities": [
+            "MainAbility"
+          ]
+        }
+      },
+      {
+        "name": "ohos.permission.SET_UNREMOVABLE_NOTIFICATION",
+        "usedScene": {
+          "abilities": [
+            "MainAbility"
+          ]
+        }
+      },
+      {
+        "name": "ohos.permission.VIBRATE"
+      },
+      {
+        "name": "ohos.permission.WAKEUP_VOICE"
+      },
+      {
+        "name": "ohos.permission.FILE_ACCESS_PERSIST"
+      },
+      {
+        "name": "ohos.permission.GET_NETWORK_INFO"
+      },
+      {
+        "name": "ohos.permission.PUBLISH_SYSTEM_COMMON_EVENT"
+      },
+      {
+        "name": "ohos.permission.MODIFY_AUDIO_SETTINGS"
+      },
+      {
+        "name": "ohos.permission.FILE_ACCESS_MANAGER"
+      },
+      {
+        "name": "ohos.permission.GET_BUNDLE_INFO"
+      },
+      {
+        "name": "ohos.permission.ACCESS_HIVIEWCARE"
+      },
+      {
+        "name": "ohos.permission.LAUNCH_DATA_PRIVACY_CENTER"
+      },
+      {
+        "name": "ohos.permission.START_ABILITIES_FROM_BACKGROUND"
       }
     ]
   }

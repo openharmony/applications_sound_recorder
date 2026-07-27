@@ -1,0 +1,12 @@
+{
+  "src": [
+    "pages/Index",
+    "pages/Home",
+    "pages/DigestPage",
+    "pages/RecordingPage",
+    "pages/RecordPlayPage",
+    "pages/AboutPage",
+    "pages/privacy",
+    "pages/PrivacyPageIndex"
+  ]
+}
