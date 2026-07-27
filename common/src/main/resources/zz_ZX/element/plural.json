@@ -1,0 +1,352 @@
+{
+    "plural":[
+        {
+            "name":"predict_hint_plural",
+            "value":[
+                {
+                    "quantity":"one",
+                    "value":"[TS_921124]_You can record for %1$s more hour"
+                },
+                {
+                    "quantity":"other",
+                    "value":"[TS_921126]_You can record for %1$s more hours"
+                },
+                {
+                    "quantity":"zero",
+                    "value":"[TS_921121]_You can record for %1$s more hours"
+                },
+                {
+                    "quantity":"few",
+                    "value":"[TS_921111]_You can record for %1$s more hours"
+                },
+                {
+                    "quantity":"many",
+                    "value":"[TS_921118]_You can record for %1$s more hours"
+                },
+                {
+                    "quantity":"two",
+                    "value":"[TS_921116]_You can record for %1$s more hours"
+                }
+            ]
+        },
+        {
+            "name":"selected_recording_plural",
+            "value":[
+                {
+                    "quantity":"one",
+                    "value":"[TS_921122]_%1$d recording selected"
+                },
+                {
+                    "quantity":"other",
+                    "value":"[TS_921110]_%1$d recordings selected"
+                },
+                {
+                    "quantity":"zero",
+                    "value":"[TS_921120]_%1$d recordings selected"
+                },
+                {
+                    "quantity":"few",
+                    "value":"[TS_921112]_%1$d recordings selected"
+                },
+                {
+                    "quantity":"many",
+                    "value":"[TS_921113]_%1$d recordings selected"
+                },
+                {
+                    "quantity":"two",
+                    "value":"[TS_921117]_%1$d recordings selected"
+                }
+            ]
+        },
+        {
+            "name":"partial_delete_record_plural",
+            "value":[
+                {
+                    "quantity":"one",
+                    "value":"[TS_922466]_Delete %1$d recording?"
+                },
+                {
+                    "quantity":"other",
+                    "value":"[TS_922463]_Delete %1$d recordings?"
+                },
+                {
+                    "quantity":"zero",
+                    "value":"[TS_922467]_Delete %1$d recordings?"
+                },
+                {
+                    "quantity":"few",
+                    "value":"[TS_922465]_Delete %1$d recordings?"
+                },
+                {
+                    "quantity":"many",
+                    "value":"[TS_922464]_Delete %1$d recordings?"
+                },
+                {
+                    "quantity":"two",
+                    "value":"[TS_922462]_Delete %1$d recordings?"
+                }
+            ]
+        },
+        {
+            "name":"partial_select_plural",
+            "value":[
+                {
+                    "quantity":"other",
+                    "value":"[TS_921119]_%1$d items selected"
+                },
+                {
+                    "quantity":"one",
+                    "value":"[TS_921123]_%1$d item selected"
+                },
+                {
+                    "quantity":"zero",
+                    "value":"[TS_921114]_%1$d items selected"
+                },
+                {
+                    "quantity":"few",
+                    "value":"[TS_921115]_%1$d items selected"
+                },
+                {
+                    "quantity":"many",
+                    "value":"[TS_921125]_%1$d items selected"
+                },
+                {
+                    "quantity":"two",
+                    "value":"[TS_921127]_%1$d items selected"
+                }
+            ]
+        },
+        {
+            "name":"count_list_info_two",
+            "value":[
+                {
+                    "quantity":"other",
+                    "value":"[TS_963327]_%d items"
+                },
+                {
+                    "quantity":"one",
+                    "value":"[TS_963335]_%d item"
+                },
+                {
+                    "quantity":"zero",
+                    "value":"[TS_963334]_%d items"
+                },
+                {
+                    "quantity":"few",
+                    "value":"[TS_963333]_%d items"
+                },
+                {
+                    "quantity":"many",
+                    "value":"[TS_963326]_%d items"
+                },
+                {
+                    "quantity":"two",
+                    "value":"[TS_963328]_%d items"
+                }
+            ]
+        },
+        {
+            "name":"remaining_days_plural",
+            "value":[
+                {
+                    "quantity":"one",
+                    "value":"[TS_980378]_(%d day left)"
+                },
+                {
+                    "quantity":"other",
+                    "value":"[TS_980377]_(%d days left)"
+                },
+                {
+                    "quantity":"zero",
+                    "value":"[TS_980373]_(%d days left)"
+                },
+                {
+                    "quantity":"few",
+                    "value":"[TS_980375]_(%d days left)"
+                },
+                {
+                    "quantity":"many",
+                    "value":"[TS_980376]_(%d days left)"
+                },
+                {
+                    "quantity":"two",
+                    "value":"[TS_980374]_(%d days left)"
+                }
+            ]
+        },
+        {
+            "name":"search_result_plural",
+            "value":[
+                {
+                    "quantity":"other",
+                    "value":"[TS_967978]_Found %1$d items"
+                },
+                {
+                    "quantity":"one",
+                    "value":"[TS_967982]_Found %1$d item"
+                },
+                {
+                    "quantity":"zero",
+                    "value":"[TS_967979]_Found %1$d items"
+                },
+                {
+                    "quantity":"few",
+                    "value":"[TS_967980]_Found %1$d items"
+                },
+                {
+                    "quantity":"many",
+                    "value":"[TS_967981]_Found %1$d items"
+                },
+                {
+                    "quantity":"two",
+                    "value":"[TS_967983]_Found %1$d items"
+                }
+            ]
+        },
+        {
+            "name":"minute_plural",
+            "value":[
+                {
+                    "quantity":"other",
+                    "value":"[TS_981608]_%d minutes"
+                },
+                {
+                    "quantity":"one",
+                    "value":"[TS_981612]_%d minute"
+                },
+                {
+                    "quantity":"zero",
+                    "value":"[TS_981610]_%d minutes"
+                },
+                {
+                    "quantity":"few",
+                    "value":"[TS_981605]_%d minutes"
+                },
+                {
+                    "quantity":"many",
+                    "value":"[TS_981619]_%d minutes"
+                },
+                {
+                    "quantity":"two",
+                    "value":"[TS_981616]_%d minutes"
+                }
+            ]
+        },
+        {
+            "name":"hour_plural",
+            "value":[
+                {
+                    "quantity":"other",
+                    "value":"[TS_981622]_%d hours"
+                },
+                {
+                    "quantity":"one",
+                    "value":"[TS_981621]_%d hour"
+                },
+                {
+                    "quantity":"zero",
+                    "value":"[TS_981615]_%d hours"
+                },
+                {
+                    "quantity":"few",
+                    "value":"[TS_981618]_%d hours"
+                },
+                {
+                    "quantity":"many",
+                    "value":"[TS_981614]_%d hours"
+                },
+                {
+                    "quantity":"two",
+                    "value":"[TS_981607]_%d hours"
+                }
+            ]
+        },
+        {
+            "name":"second_plural",
+            "value":[
+                {
+                    "quantity":"one",
+                    "value":"[TS_981613]_%d second"
+                },
+                {
+                    "quantity":"other",
+                    "value":"[TS_981609]_%d seconds"
+                },
+                {
+                    "quantity":"zero",
+                    "value":"[TS_981611]_%d seconds"
+                },
+                {
+                    "quantity":"few",
+                    "value":"[TS_981606]_%d seconds"
+                },
+                {
+                    "quantity":"many",
+                    "value":"[TS_981620]_%d seconds"
+                },
+                {
+                    "quantity":"two",
+                    "value":"[TS_981617]_%d seconds"
+                }
+            ]
+        },
+        {
+            "name":"migrating_records_complete_number",
+            "value":[
+                {
+                    "quantity":"other",
+                    "value":"[TS_1100855]_Synced %1$d items"
+                },
+                {
+                    "quantity":"one",
+                    "value":"[TS_1100856]_Synced %1$d item"
+                },
+                {
+                    "quantity":"zero",
+                    "value":"[TS_1100857]_Synced %1$d items"
+                },
+                {
+                    "quantity":"few",
+                    "value":"[TS_1100853]_Synced %1$d items"
+                },
+                {
+                    "quantity":"many",
+                    "value":"[TS_1100854]_Synced %1$d items"
+                },
+                {
+                    "quantity":"two",
+                    "value":"[TS_1100862]_Synced %1$d items"
+                }
+            ]
+        },
+        {
+            "name":"migrating_records_remain_number",
+            "value":[
+                {
+                    "quantity":"other",
+                    "value":"[TS_1100860]_%1$d remaining"
+                },
+                {
+                    "quantity":"one",
+                    "value":"[TS_1100858]_%1$d remaining"
+                },
+                {
+                    "quantity":"zero",
+                    "value":"[TS_1100863]_%1$d remaining"
+                },
+                {
+                    "quantity":"few",
+                    "value":"[TS_1100861]_%1$d remaining"
+                },
+                {
+                    "quantity":"many",
+                    "value":"[TS_1100859]_%1$d remaining"
+                },
+                {
+                    "quantity":"two",
+                    "value":"[TS_1100864]_%1$d remaining"
+                }
+            ]
+        }
+    ]
+}

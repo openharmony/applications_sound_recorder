@@ -1,0 +1,15 @@
+{
+  "license": "ISC",
+  "devDependencies": {},
+  "name": "phone",
+  "description": "example description",
+  "version": "1.0.0",
+  "dynamicDependencies": {},
+  "dependencies": {
+    "@ohos/common": "file:../../common",
+    "@ohos/databaseManager": "file:../../feature/database_manager",
+    "@ohos/fileManager": "file:../../feature/file_manager",
+    "@ohos/recorder": "file:../../feature/recorder",
+    "@ohos/recorderFA": "file:../../feature/recorderFA"
+  }
+}

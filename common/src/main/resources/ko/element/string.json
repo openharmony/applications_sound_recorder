@@ -1,0 +1,1235 @@
+{
+    "string":[
+        {
+            "name":"open_skip_mute",
+            "value":"소리 없는 부분 건너뛰기 실행",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"close_skip_mute",
+            "value":"소리 없는 부분 건너뛰기 종료",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"stop_save",
+            "value":"저장 공간이 너무 적어서 녹음을 계속할 수 없습니다. 녹음이 저장되었습니다.",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"has_call_hint",
+            "value":"통화 중에는 녹음할 수 없습니다.",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"copy_right",
+            "value":"Copyright © %1$d–%2$d  All rights reserved.",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"store_as_filename",
+            "value":"%1$s(으)로 저장됨.",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"allow_access",
+            "value":"액세스 허용",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"delete_hint",
+            "value":"이 녹음 파일을 삭제할까요?",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"notice_recording",
+            "value":"녹음 중",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"back",
+            "value":"뒤로",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"untitledRecording",
+            "value":"이름 없음 녹음",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"sort_mode_0",
+            "value":"최신순",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"deleting",
+            "value":"삭제 중…",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"sort_mode_1",
+            "value":"오래된순",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"collapse_side_navigation_bar",
+            "value":"사이드 메뉴 닫기",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"sort_mode_2",
+            "value":"이름",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"end_unmute_notification",
+            "value":"녹음이 종료되었습니다. 알림 음소거가 해제되었습니다.",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"record_list",
+            "value":"녹음",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"saved",
+            "value":"저장됨",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"start_record",
+            "value":"시작",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"recent_delete_description",
+            "value":"삭제된 녹음은 %d일 동안 여기에 보관됩니다.",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"audio_recordings",
+            "value":"오디오 녹음",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"maximum_length",
+            "value":"최대 길이입니다",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"voice_retail",
+            "value":"상세정보",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"closed_speaker",
+            "value":"확성기 사용 중단.",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"end",
+            "value":"종료",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"on_sure",
+            "value":"확인",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"about",
+            "value":"정보",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"label_permission_microphone_title",
+            "value":"녹음기가 마이크에 액세스하도록 허용",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"detailDialog_close",
+            "value":"닫기",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"mark",
+            "value":"태그",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"detailDialog_name_huge_layout",
+            "value":"이름:",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"pause_recording",
+            "value":"녹음이 일시 정지되었습니다. 통화 및 알림이 음소거 해제되었습니다.",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"voice_share",
+            "value":"공유",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"play",
+            "value":"재생",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"content_already_played",
+            "value":"재생됨: %s",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"start",
+            "value":"시작",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"permission_welcome_description",
+            "value":"이 앱은 인터넷 연결과 %s 권한이 필요하며, 오디오 녹음 서비스를 제공하기 위해 오디오 파일 및 위치 정보를 읽어야 합니다. 동의를 탭하면 해당 약관에 동의함을 의미합니다.",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"label_permission_read_audio_title",
+            "value":"녹음기에 음악 및 오디오 권한 필요",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"recording_delete",
+            "value":"영구적으로 삭제",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"no_select",
+            "value":"선택되지 않음",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"file_has_been_deleted",
+            "value":"파일이 삭제되었습니다",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"detailDialog_name",
+            "value":"이름: %s",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"data_sort",
+            "value":"정렬",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"set_phone_voice",
+            "value":"벨소리로 설정",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"smart_summary",
+            "value":"요약",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"collapsed",
+            "value":"축소됨",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"no_records",
+            "value":"녹음파일 없음",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"rename_marker",
+            "value":"이 태그 이름 바꾸기",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"main_remain_days",
+            "value":"%1$s %2$s",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"title",
+            "value":"녹음기",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"recent_delete_dialog_summary",
+            "value":"이 녹음은 이 장치에서 영구적으로 삭제됩니다.",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"access_location",
+            "value":"녹음기에 위치별로 녹음 이름을 지정하려면 위치 액세스 권한이 필요합니다.",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"recent_delete_dialog_title",
+            "value":"삭제할까요?",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"resume",
+            "value":"계속",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"rename_over",
+            "value":"파일 이름이 이미 있습니다",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"start_recording",
+            "value":"녹음이 시작되었습니다. 통화 및 알림이 음소거되었습니다.",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"drag_quantity_limit",
+            "value":"한 번에 최대 %d개 항목을 드래그할 수 있습니다.",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"version_info",
+            "value":"버전",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"recording_recover",
+            "value":"복원",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"go_to_setting",
+            "value":"설정으로 이동",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"expanded",
+            "value":"확장됨",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"end_recording",
+            "value":"녹음이 종료되었습니다. 통화 및 알림이 음소거 해제되었습니다.",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"notice_record_pause",
+            "value":"일시 정지됨",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"pause",
+            "value":"일시 정지",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"detailDialog_time",
+            "value":"시간: %s",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"all_recording_delete",
+            "value":"모두 삭제",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"accessibility_double_click",
+            "value":"두 번 탭하여 활성화",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"label_permission_read_audio_text",
+            "value":"녹음기에 음악 및 오디오 권한 필요",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"mark_no_name",
+            "value":"입력된 이름이 없습니다",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"start_mute_notification",
+            "value":"녹음이 시작되었습니다. 알림이 음소거되었습니다.",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"first_delete_dialog_summary",
+            "value":"이 녹음은 이 장치에서 삭제됩니다. %d일 동안 \"최근 삭제\" 상태로 유지됩니다.",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"recent_delete_dialog_summary_multi",
+            "value":"이 녹음 파일은 이 장치에서 영구적으로 삭제됩니다.",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"cannot_recording",
+            "value":"저장 공간이 부족합니다.",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"mark_filter",
+            "value":"이름에 포함할 수 없는 문자 / \\ : * ? \" < > |",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"renamed",
+            "value":"이름을 성공적으로 변경하였습니다.",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"all_record",
+            "value":"전체",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"permission_welcome_service_description",
+            "value":"간편하게 오디오를 녹음하십시오.",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"disable_voice_enhancement",
+            "value":"음성 향상이 종료되었습니다.",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"search_recording_files",
+            "value":"검색",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"deleted",
+            "value":"%s 삭제됨.",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"number_upper_limit",
+            "value":"최대 녹음 수에 도달했습니다. 불필요한 녹음을 삭제하여 공간을 확보하십시오.",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"rename_filter",
+            "value":"이름에 포함할 수 없는 문자 / \\ : * ? \" < > |",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"pause_unmute_notification",
+            "value":"녹음이 일시 정지되었습니다. 알림 음소거가 해제되었습니다.",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"open_speaker",
+            "value":"확성기 사용.",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"current_location_time",
+            "value":"현재 위치, %s.",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"all_recording_recover",
+            "value":"모두 복원",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"rename_speaker",
+            "value":"녹음 이름 바꾸기",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"about_privacy",
+            "value":"개인 정보 보호 방침",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"toolbar_more",
+            "value":"더 보기",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"has_screen_hint",
+            "value":"다른 녹음 앱이 이미 백그라운드에서 실행 중입니다. 먼저 닫아주십시오.",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"detailDialog_size_huge_layout",
+            "value":"크기:",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"file_rename",
+            "value":"이름 변경",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"file_has_been_deleted_description",
+            "value":"일부 녹음은 삭제되었습니다. 목록을 새로 고치십시오.",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"detailDialog_time_huge_layout",
+            "value":"시간:",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"searching",
+            "value":"검색",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"recent_delete",
+            "value":"최근 삭제",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"permission_welcome_music_and_audio",
+            "value":"음악 및 오디오",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"toolbar_select_all",
+            "value":"모두 선택",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"speed_play",
+            "value":"속도",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"delete",
+            "value":"삭제",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"no_name",
+            "value":"입력된 이름이 없습니다",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"predict_hint",
+            "value":"%1$d시간 이상의 녹음이 가능합니다",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"detailDialog_size",
+            "value":"크기: %s",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"less_than_60",
+            "value":"저장 공간 부족",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"call_recording",
+            "value":"통화 녹음",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"enable_voice_enhancement",
+            "value":"음성 향상이 실행되었습니다.",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"delete_all_record",
+            "value":"모든 녹음 파일을 삭제할까요?",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"close_speaker",
+            "value":"스피커가 꺼져 있으면 재생 속도를 변경할 수 없습니다.",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"toolbar_cancel_select_all",
+            "value":"모두 선택 취소",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"collect_personal_data",
+            "value":"수집되는 개인정보",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"titles",
+            "value":"녹음",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"size_upper_limit",
+            "value":"녹음이 크기 제한에 도달했습니다.",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"recovering",
+            "value":"복원 중…",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"label_permission_read_audio",
+            "value":"통화 녹음을 읽는 데 사용됩니다.",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"cancel",
+            "value":"취소",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"menu_multiselect",
+            "value":"복수 선택",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"detailDialog_path",
+            "value":"위치: %s",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"user_filepath_on_phone",
+            "value":"파일/내 휴대폰/사운드",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"agree",
+            "value":"동의",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"migration_remaining_tips",
+            "value":"일부 녹음이 \"%s\"에 성공적으로 동기화되지 않았습니다. 지금 동기화를 계속하시겠습니까?",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"migration_data_preparing",
+            "value":"데이터 준비 중…",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"user_filepath_on_pc",
+            "value":"파일/사용자/개인/오디오/SoundRecorder",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"user_filepath_on_pad",
+            "value":"파일/내 태블릿/개인/오디오/SoundRecorder",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"migrating_records",
+            "value":"오디오 녹음 동기화 중 %s…",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"migration_cancel_tips_title",
+            "value":"동기화를 취소하시겠습니까?",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"migration_cancel",
+            "value":"동기화 취소",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"migration_completed",
+            "value":"녹음 동기화 성공",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"migration_cancel_tips",
+            "value":"현재 녹음이 \"%s\"에 동기화되는 중입니다. 지금 동기화를 취소하면 이 폴더에서 해당 항목을 보고 관리할 수 없게 됩니다.",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"migration_restricted_tips",
+            "value":"녹음이 동기화되는 중에는 이 작업을 수행할 수 없습니다. 나중에 다시 시도하십시오.",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"migrating_call_records",
+            "value":"통화 녹음 동기화 중 %s…",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"migration_continue",
+            "value":"동기화 취소 안 함",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"migration_tips",
+            "value":"이전 녹음을 \"%s\"에 동기화하시겠습니까?\n\n동기화가 완료되면 파일의 이 폴더에서 직접 해당 항목을 보고 관리할 수 있습니다.",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"headset_recording",
+            "value":"헤드폰 녹음",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"file_list_refresh",
+            "value":"새로 고침",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"first_delete_dialog_summary_one",
+            "value":"이 녹음이 이 장치에서 삭제됩니다. %d일 동안 \"최근 삭제\"에 보관됩니다.",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"retranslate",
+            "value":"다시 전사하기",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"mark_added_talkback",
+            "value":"추가됨",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"transcribed_talkback",
+            "value":"필기됨",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"mark_position_at_talkback",
+            "value":"탐색된 위치",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"serial_number",
+            "value":"%s번",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"marked",
+            "value":"태그 지정됨",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"count_list_one",
+            "value":"1개 항목, %s",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"accessibility_drag_down_to_vassistant",
+            "value":"두 번 탭하고 길게 누른 상태로 아래로 드래그하여 Celia로 이동",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"accessibility_long_press",
+            "value":"두 번 탭하고 길게 눌러 더 많은 옵션 표시",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"total_duration",
+            "value":"총 시간 %s",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"show_side_navigation_bar",
+            "value":"측면 메뉴 열기",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"concat_three_strings",
+            "value":"%1$s %2$s %3$s",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"more_options",
+            "value":"옵션 더 보기",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"count_list_info_one",
+            "value":"%1$d에서 %2$d까지, %3$s",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"record_to_text",
+            "value":"텍스트로 변환",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"accessibility_right_swipe",
+            "value":"두 번 탭하고 길게 누른 다음 오른쪽으로 스와이프하여 추가 옵션 축소",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"accessibility_left_swipe",
+            "value":"두 번 탭하고 길게 누른 다음 왼쪽으로 스와이프하여 추가 옵션 확장",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"migrating_records_number",
+            "value":"%1$s, %2$s",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"voice_enhancement_open",
+            "value":"음성 향상이 실행되었습니다.",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"voice_enhancement_close",
+            "value":"음성 향상이 종료되었습니다.",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"mute_skip_disabled",
+            "value":"소리 없는 부분을 건너뛰지 않습니다.",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"mute_skip_enabled",
+            "value":"소리 없는 부분을 건너 뜁니다.",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"migration_resume",
+            "value":"재개",
+            "attr":{
+                "priority":"translate"
+            }
+        },{
+            "name":"privacy_statement_dialog",
+            "value":"전사 및 스마트 요약 기능은 인터넷 연결이 필요하며 오디오 파일을 읽고 업로드/전송해야 합니다. 개인정보 처리 방법에 대한 상세정보는 %s의 내용을 참조하십시오.",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"enable_realtime_transfer",
+            "value":"실시간 전사 켜기",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"recorder_privacy_statement",
+            "value":"녹음기 및 개인 정보 보호에 대한 방침",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name": "off_realtime_transfer",
+            "value": "실시간 전사 끄기",
+            "attr": {
+                "priority": "translate"
+            }
+        },
+        {
+            "name":"network_disconnection_transcribe_stop",
+            "value":"인터넷 연결이 없습니다. 필사가 일시 정지되었습니다.",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"network_connection_interrupt",
+            "value":"네트워크 연결 오류입니다. 네트워크 설정을 확인하십시오.",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"next_step",
+            "value":"다음",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"record_timeout",
+            "value":"단일 녹음의 최대 길이를 초과했습니다.",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"retranslate_text",
+            "value":"전사를 다시 시작하면 말하는 사람에 대한 정보를 포함하여 모든 편집 사항이 삭제됩니다.",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"help_and_feedback",
+            "value":"도움말 및 피드백",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"audiokit_media_recording",
+            "value":"미디어 녹화",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"audiokit_external_recording",
+            "value":"외부 오디오 녹음",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"audiokit_call_recording",
+            "value":"통화 녹음",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"realtime_transfer_turned_off",
+            "value":"실시간 필사가 꺼졌습니다.",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"realtime_transfer_enabled",
+            "value":"실시간 필사가 켜졌습니다.",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"realtime_transfer_button",
+            "value":"실시간 필사",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"all_recordings",
+            "value":"모든 녹음 파일",
+            "attr":{
+                "priority":"translate"
+            }
+        }
+    ]
+}

@@ -1,0 +1,232 @@
+{
+    "plural":[
+        {
+            "name":"predict_hint_plural",
+            "value":[
+                {
+                    "quantity":"one",
+                    "value":"يەنە %1$s سائەت ئالغىلى بولىدۇ",
+                    "attr":{
+                        "priority":"LT"
+                    }
+                },
+                {
+                    "quantity":"other",
+                    "value":"يەنە %1$s سائەت ئالغىلى بولىدۇ",
+                    "attr":{
+                        "priority":"LT"
+                    }
+                }
+            ]
+        },
+        {
+            "name":"selected_recording_plural",
+            "value":[
+                {
+                    "quantity":"one",
+                    "value":"%1$d ئۈن تاللاندى",
+                    "attr":{
+                        "priority":"LT"
+                    }
+                },
+                {
+                    "quantity":"other",
+                    "value":"%1$d ئۈن تاللاندى",
+                    "attr":{
+                        "priority":"LT"
+                    }
+                }
+            ]
+        },
+        {
+            "name":"partial_select_plural",
+            "value":[
+                {
+                    "quantity":"one",
+                    "value":"تاللاندى (%1$d)",
+                    "attr":{
+                        "priority":"translate"
+                    }
+                },
+                {
+                    "quantity":"other",
+                    "value":"تاللاندى (%1$d)",
+                    "attr":{
+                        "priority":"LT"
+                    }
+                }
+            ]
+        },
+        {
+            "name":"partial_delete_record_plural",
+            "value":[
+                {
+                    "quantity":"one",
+                    "value":"%1$d ئۈننى ئۆچۈرەمسىز؟",
+                    "attr":{
+                        "priority":"LT"
+                    }
+                },
+                {
+                    "quantity":"other",
+                    "value":"%1$d ئۈننى ئۆچۈرەمسىز؟",
+                    "attr":{
+                        "priority":"LT"
+                    }
+                }
+            ]
+        },
+        {
+            "name":"count_list_info_two",
+            "value":[
+                {
+                    "quantity":"one",
+                    "value":"جەمئىي %d",
+                    "attr":{
+                        "priority":"translate"
+                    }
+                },
+                {
+                    "quantity":"other",
+                    "value":"جەمئىي %d",
+                    "attr":{
+                        "priority":"translate"
+                    }
+                }
+            ]
+        },
+        {
+            "name":"remaining_days_plural",
+            "value":[
+                {
+                    "quantity":"one",
+                    "value":"(قالدۇق ۋاقىت: %d كۈن)",
+                    "attr":{
+                        "priority":"translate"
+                    }
+                },
+                {
+                    "quantity":"other",
+                    "value":"(قالدۇق ۋاقىت: %d كۈن)",
+                    "attr":{
+                        "priority":"translate"
+                    }
+                }
+            ]
+        },
+        {
+            "name":"search_result_plural",
+            "value":[
+                {
+                    "quantity":"other",
+                    "value":"%1$d خاتىرە تېپىلدى",
+                    "attr":{
+                        "priority":"translate"
+                    }
+                },
+                {
+                    "quantity":"one",
+                    "value":"%1$d خاتىرە تېپىلدى",
+                    "attr":{
+                        "priority":"translate"
+                    }
+                }
+            ]
+        },
+        {
+            "name":"minute_plural",
+            "value":[
+                {
+                    "quantity":"other",
+                    "value":"%d مىنۇت",
+                    "attr":{
+                        "priority":"translate"
+                    }
+                },
+                {
+                    "quantity":"one",
+                    "value":"%d مىنۇت",
+                    "attr":{
+                        "priority":"translate"
+                    }
+                }
+            ]
+        },
+        {
+            "name":"hour_plural",
+            "value":[
+                {
+                    "quantity":"other",
+                    "value":"%d سائەت",
+                    "attr":{
+                        "priority":"translate"
+                    }
+                },
+                {
+                    "quantity":"one",
+                    "value":"%d سائەت",
+                    "attr":{
+                        "priority":"translate"
+                    }
+                }
+            ]
+        },
+        {
+            "name":"second_plural",
+            "value":[
+                {
+                    "quantity":"one",
+                    "value":"%d سېكۇنت",
+                    "attr":{
+                        "priority":"translate"
+                    }
+                },
+                {
+                    "quantity":"other",
+                    "value":"%d سېكۇنت",
+                    "attr":{
+                        "priority":"translate"
+                    }
+                }
+            ]
+        },
+        {
+            "name":"migrating_records_complete_number",
+            "value":[
+                {
+                    "quantity":"other",
+                    "value":"ماسقەدەملەنگەن: %1$d",
+                    "attr":{
+                        "priority":"translate"
+                    }
+                },
+                {
+                    "quantity":"one",
+                    "value":"ماسقەدەملەنگەن: %1$d",
+                    "attr":{
+                        "priority":"translate"
+                    }
+                }
+            ]
+        },
+        {
+            "name":"migrating_records_remain_number",
+            "value":[
+                {
+                    "quantity":"other",
+                    "value":"قالدۇق: %1$d",
+                    "attr":{
+                        "priority":"translate"
+                    }
+                },
+                {
+                    "quantity":"one",
+                    "value":"قالدۇق: %1$d",
+                    "attr":{
+                        "priority":"translate"
+                    }
+                }
+            ]
+        }
+    ]
+}

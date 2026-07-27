@@ -1,16 +1,90 @@
 {
-  "string": [
-    {
-      "name": "phone_desc",
-      "value": "description"
-    },
-    {
-      "name": "MainAbility_desc",
-      "value": "description"
-    },
-    {
-      "name": "MainAbility_label",
-      "value": "录音机"
-    }
-  ]
+    "string":[
+        {
+            "name":"phone_desc",
+            "value":"description"
+        },
+        {
+            "name":"MainAbility_desc",
+            "value":"description"
+        },
+        {
+            "name":"MainAbility_label",
+            "value":"Recorder",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"unInstallAppContent",
+            "value":"This will also delete recordings from your device.",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"label_permission_read_audio",
+            "value":"This is used to read call recordings.",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"label_permission_write_audio",
+            "value":"This is used to modify call recordings.",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"label_permission_microphone",
+            "value":"This is used to record audio.",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"label_permission_microphone_text",
+            "value":"Recorder requires the Microphone permission",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"label_permission_read_audio_text",
+            "value":"Recorder requires the Music & audio permission",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"used_to_named",
+            "value":"This is used for naming recordings.",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"PhoneFormAbility_desc",
+            "value":"form_description"
+        },
+        {
+            "name":"PhoneFormAbility_label",
+            "value":"form_label"
+        },
+        {
+            "name":"record_audio",
+            "value":"Record audio",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"headset_recording",
+            "value":"Headphone recordings",
+            "attr":{
+                "priority":"translate"
+            }
+        }
+    ]
 }

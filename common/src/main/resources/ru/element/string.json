@@ -1,0 +1,1236 @@
+{
+    "string":[
+        {
+            "name":"open_skip_mute",
+            "value":"Включить функцию пропуска пауз",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"close_skip_mute",
+            "value":"Выключить функцию пропуска пауз",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"stop_save",
+            "value":"Недостаточно памяти, чтобы продолжить запись. Запись сохранена.",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"has_call_hint",
+            "value":"Невозможно начать запись во время выполнения вызова.",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"copy_right",
+            "value":"Copyright © Huawei, %1$d–%2$d. Все права защищены.",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"file_list_refresh",
+            "value":"Обновить",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"store_as_filename",
+            "value":"Сохранено как %1$s.",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"first_delete_dialog_summary_one",
+            "value":"Эта запись будет удалена с этого устройства. Она будет храниться в разделе Недавно удаленное в течение %d дней.",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"allow_access",
+            "value":"Разрешить доступ",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"delete_hint",
+            "value":"Удалить эту запись?",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"notice_recording",
+            "value":"Запись",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"back",
+            "value":"Назад",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"untitledRecording",
+            "value":"Запись без имени",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"sort_mode_0",
+            "value":"Сначала новые",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"deleting",
+            "value":"Удаление…",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"sort_mode_1",
+            "value":"Сначала старые",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"sort_mode_2",
+            "value":"По имени",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"end_unmute_notification",
+            "value":"Запись завершена. Звук уведомлений включен.",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"record_list",
+            "value":"Записи",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"saved",
+            "value":"Сохранено",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"start_record",
+            "value":"Начать",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"recent_delete_description",
+            "value":"Удаленные записи хранятся здесь %d дней.",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"audio_recordings",
+            "value":"Аудиозаписи",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"maximum_length",
+            "value":"Достигнута максимальная длина",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"voice_retail",
+            "value":"Сведения",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"closed_speaker",
+            "value":"Динамик выключен.",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"end",
+            "value":"Завершить",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"on_sure",
+            "value":"OK",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"about",
+            "value":"Сведения",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"label_permission_microphone_title",
+            "value":"Разрешите Диктофону доступ к микрофону",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"detailDialog_close",
+            "value":"Закрыть",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"mark",
+            "value":"Тег",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"detailDialog_name_huge_layout",
+            "value":"Имя:",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"pause_recording",
+            "value":"Запись приостановлена. Звук вызовов и уведомлений включен.",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"voice_share",
+            "value":"Отправить",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"play",
+            "value":"Воспроизвести",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"content_already_played",
+            "value":"Воспроизведено: %s",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"start",
+            "value":"Начать",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"permission_welcome_description",
+            "value":"Этому приложению требуется доступ в Интернет и следующее право доступа: %s. Также ему требуется читать аудиофайлы и геоданные для предоставления служб записи аудио. Нажимая Принимаю, вы принимаете данные положения.",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"label_permission_read_audio_title",
+            "value":"Приложению Диктофон требуется право доступа к музыке и аудио",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"recording_delete",
+            "value":"Удалить навсегда",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"no_select",
+            "value":"Не выбрано",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"file_has_been_deleted",
+            "value":"Файл удален",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"detailDialog_name",
+            "value":"Имя: %s",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"data_sort",
+            "value":"Сортировка",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"set_phone_voice",
+            "value":"Мелодия",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"smart_summary",
+            "value":"Сводка",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"collapsed",
+            "value":"Скрыто",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"no_records",
+            "value":"Нет записей",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"rename_marker",
+            "value":"Измените имя этого тега",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"main_remain_days",
+            "value":"%1$s %2$s",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"title",
+            "value":"Диктофон",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"recent_delete_dialog_summary",
+            "value":"Эта запись будет удалена с вашего устройства без возможности восстановления.",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"access_location",
+            "value":"Приложению Диктофон требуется доступ к службам геолокации для присвоения записям имен по местоположению.",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"recent_delete_dialog_title",
+            "value":"Удалить?",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"resume",
+            "value":"Возобновить",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"rename_over",
+            "value":"Такое имя файла уже существует",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"start_recording",
+            "value":"Запись начата. Звук вызовов и уведомлений выключен.",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"drag_quantity_limit",
+            "value":"Максимум %d элементов можно перетащить единовременно.",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"version_info",
+            "value":"Версия",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"recording_recover",
+            "value":"Восстановить",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"go_to_setting",
+            "value":"Настройки",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"expanded",
+            "value":"Раскрыто",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"end_recording",
+            "value":"Запись завершена. Звук вызовов и уведомлений включен.",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"notice_record_pause",
+            "value":"Приостановлено",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"pause",
+            "value":"Пауза",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"detailDialog_time",
+            "value":"Время: %s",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"all_recording_delete",
+            "value":"Удалить все",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"accessibility_double_click",
+            "value":"Нажмите дважды, чтобы активировать",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"label_permission_read_audio_text",
+            "value":"Приложению Диктофон требуется право доступа к музыке и аудио",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"mark_no_name",
+            "value":"Введите имя",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"start_mute_notification",
+            "value":"Запись начата. Звук уведомлений выключен.",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"first_delete_dialog_summary",
+            "value":"Эти записи будут удалены с этого устройства. Они будут храниться в разделе Недавно удаленное в течение %d дней.",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"recent_delete_dialog_summary_multi",
+            "value":"Эти записи будут удалены с вашего устройства без возможности восстановления.",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"cannot_recording",
+            "value":"Недостаточно памяти.",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"mark_filter",
+            "value":"Имя не может содержать / \\ : * ? \" < > |",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"renamed",
+            "value":"Переименовано.",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"all_record",
+            "value":"Все",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"permission_welcome_service_description",
+            "value":"Удобство аудиозаписи.",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"disable_voice_enhancement",
+            "value":"Повышение качества речи выключено.",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"search_recording_files",
+            "value":"Поиск",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"deleted",
+            "value":"%s удален.",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"number_upper_limit",
+            "value":"Достигнуто максимальное число записей. Удалите ненужные записи, чтобы освободить место в памяти.",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"rename_filter",
+            "value":"Название не может содержать / \\ : * ? \" < > |",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"pause_unmute_notification",
+            "value":"Запись приостановлена. Звук уведомлений включен.",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"open_speaker",
+            "value":"Динамик включен.",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"current_location_time",
+            "value":"Текущее место, %s.",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"all_recording_recover",
+            "value":"Восстановить все",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"rename_speaker",
+            "value":"Измените имя этой записи",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"about_privacy",
+            "value":"Уведомления о конфиденциальности",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"toolbar_more",
+            "value":"Еще",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"has_screen_hint",
+            "value":"Другое приложение для записи уже работает в фоновом режиме. Сначала закройте его.",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"detailDialog_size_huge_layout",
+            "value":"Размер:",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"file_rename",
+            "value":"Изменение имени",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"file_has_been_deleted_description",
+            "value":"Некоторые записи удалены. Обновите список.",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"detailDialog_time_huge_layout",
+            "value":"Время:",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"searching",
+            "value":"Поиск",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"recent_delete",
+            "value":"Недавно удаленное",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"permission_welcome_music_and_audio",
+            "value":"Музыка и аудио",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"toolbar_select_all",
+            "value":"Выбрать все",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"speed_play",
+            "value":"Скорость",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"delete",
+            "value":"Удалить",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"no_name",
+            "value":"Введите имя",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"predict_hint",
+            "value":"Можно выполнять запись еще %1$d часов",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"detailDialog_size",
+            "value":"Размер: %s",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"less_than_60",
+            "value":"Память переполнена",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"call_recording",
+            "value":"Записи разговоров",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"enable_voice_enhancement",
+            "value":"Повышение качества речи включено.",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"delete_all_record",
+            "value":"Удалить все записи?",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"close_speaker",
+            "value":"Скорость воспроизведения невозможно изменить, когда динамик выключен.",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"toolbar_cancel_select_all",
+            "value":"Отменить выбор",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"collect_personal_data",
+            "value":"Собираемые персональные данные",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"titles",
+            "value":"Запись",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"size_upper_limit",
+            "value":"Достигнут максимальный размер записи.",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"recovering",
+            "value":"Восстановление…",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"label_permission_read_audio",
+            "value":"Используется для чтения записей разговоров.",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"cancel",
+            "value":"Отмена",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"menu_multiselect",
+            "value":"Выбрать несколько",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"detailDialog_path",
+            "value":"Место: %s",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"user_filepath_on_phone",
+            "value":"Файлы/Мой телефон/Звуки",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"agree",
+            "value":"Принимаю",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"migration_remaining_tips",
+            "value":"Сбой синхронизации некоторых записей с папкой %s. Продолжить их синхронизацию сейчас?",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"migration_data_preparing",
+            "value":"Подготовка данных...",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"user_filepath_on_pc",
+            "value":"Файлы/Пользователи/Личное/Аудио/SoundRecorder",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"user_filepath_on_pad",
+            "value":"Файлы/Мой планшет/Личное/Аудио/SoundRecorder",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"migrating_records",
+            "value":"Синхронизация аудиозаписей (%s)...",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"migration_cancel_tips_title",
+            "value":"Отменить синхронизацию?",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"migration_cancel",
+            "value":"Отмена",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"migration_completed",
+            "value":"Записи синхронизированы",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"migration_cancel_tips",
+            "value":"Записи синхронизируются с папкой %s. Если отменить синхронизацию, вы не сможете просматривать записи и управлять ими в этой папке.",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"migration_restricted_tips",
+            "value":"Невозможно выполнить это действие во время синхронизации записей. Повторите попытку позже.",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"migrating_call_records",
+            "value":"Синхронизация записей разговоров (%s)...",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"migration_continue",
+            "value":"Не отменять",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"migration_tips",
+            "value":"Синхронизировать последние записи с папкой %s?\n\nПосле синхронизации вы сможете просматривать записи и управлять ими в приложении Файлы прямо из этой папки.",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"headset_recording",
+            "value":"Аудиозаписи с наушников",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"retranslate",
+            "value":"Повторить преобразование в текст",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"mark_added_talkback",
+            "value":"Добавлено",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"transcribed_talkback",
+            "value":"Преобразовано в текст",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"mark_position_at_talkback",
+            "value":"Выполнен переход к",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"collapse_side_navigation_bar",
+            "value":"Закрыть боковое меню",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"serial_number",
+            "value":"Номер %s",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"marked",
+            "value":"Тег добавлен",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"count_list_one",
+            "value":"Один элемент, %s",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"accessibility_drag_down_to_vassistant",
+            "value":"Нажмите дважды и удерживайте, затем перетащите вниз к Celia",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"accessibility_long_press",
+            "value":"Нажмите дважды и удерживайте для отображения других опций",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"total_duration",
+            "value":"Общая длительность %s",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"show_side_navigation_bar",
+            "value":"Открыть боковое меню",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"concat_three_strings",
+            "value":"%1$s %2$s %3$s",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"more_options",
+            "value":"Другие опции",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"count_list_info_one",
+            "value":"От %1$d до %2$d, %3$s",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"record_to_text",
+            "value":"Преобразовать в текст",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"accessibility_right_swipe",
+            "value":"Нажмите дважды и удерживайте, затем проведите вправо, чтобы скрыть дополнительные опции",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"accessibility_left_swipe",
+            "value":"Нажмите дважды и удерживайте, затем проведите влево, чтобы отобразить дополнительные опции",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"migrating_records_number",
+            "value":"%1$s, %2$s",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"voice_enhancement_open",
+            "value":"Усиление голоса включено.",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"voice_enhancement_close",
+            "value":"Усиление голоса выключено.",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"mute_skip_disabled",
+            "value":"Места пауз не будут пропускаться.",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"mute_skip_enabled",
+            "value":"Места пауз будут пропускаться.",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"migration_resume",
+            "value":"Возобновить",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"privacy_statement_dialog",
+            "value":"Функциям преобразования аудио в текст и генерации умного резюме требуется доступ в Интернет, а также читать и выгружать или передавать аудиофайлы. Подробную информацию об обработке ваших персональных данных см. в документе %s.",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"enable_realtime_transfer",
+            "value":"Включить преобразование аудио в текст в реальном времени",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"recorder_privacy_statement",
+            "value":"Уведомление о приложении Диктофон и конфиденциальности",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name": "off_realtime_transfer",
+            "value": "Выключить преобразование аудио в текст в реальном времени",
+            "attr": {
+                "priority": "translate"
+            }
+        },
+        {
+            "name":"network_disconnection_transcribe_stop",
+            "value":"Нет интернет-соединения. Преобразование аудио в текст приостановлено.",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"network_connection_interrupt",
+            "value":"Ошибка сетевого соединения. Проверьте настройки сети.",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"next_step",
+            "value":"Далее",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"record_timeout",
+            "value":"Достигнута максимальная длительность для одной записи.",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name": "retranslate_text",
+            "value": "После перезапуска преобразования аудио в текст все изменения будут удалены, включая данные о выступающих.",
+            "attr": {
+                "priority": "translate"
+            }
+        },
+        {
+            "name":"help_and_feedback",
+            "value":"Справка и обратная связь",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"audiokit_media_recording",
+            "value":"Запись медиа",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"audiokit_external_recording",
+            "value":"Запись внешних звуков",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"audiokit_call_recording",
+            "value":"Запись вызова",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"realtime_transfer_turned_off",
+            "value":"Преобразование аудио в текст в реальном времени выключено.",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"realtime_transfer_enabled",
+            "value":"Преобразование аудио в текст в реальном времени включено.",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"realtime_transfer_button",
+            "value":"Преобразование аудио в текст в реальном времени",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"all_recordings",
+            "value":"Все записи",
+            "attr":{
+                "priority":"translate"
+            }
+        }
+    ]
+}

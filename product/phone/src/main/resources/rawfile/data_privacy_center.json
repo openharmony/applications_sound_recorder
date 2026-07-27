@@ -1,0 +1,6 @@
+{
+  "mainTitleResource": "$string:app_name",
+  "dstBundleName": "com.ohos.soundrecorder",
+  "dstAbilityName": "PrivacyAgreementAbility",
+  "displayOOBE": false
+}

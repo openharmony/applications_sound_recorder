@@ -1,0 +1,148 @@
+{
+    "plural":[
+        {
+            "name":"predict_hint_plural",
+            "value":[
+                {
+                    "quantity":"other",
+                    "value":"预计还能录制 %1$s 小时",
+                    "attr":{
+                        "priority":"translate"
+                    }
+                }
+            ]
+        },
+        {
+            "name":"selected_recording_plural",
+            "value":[
+                {
+                    "quantity":"other",
+                    "value":"已选择 %1$d 段录音",
+                    "attr":{
+                        "priority":"translate"
+                    }
+                }
+            ]
+        },
+        {
+            "name":"partial_select_plural",
+            "value":[
+                {
+                    "quantity":"other",
+                    "value":"已选择 %1$d 项",
+                    "attr":{
+                        "priority":"translate"
+                    }
+                }
+            ]
+        },
+        {
+            "name":"partial_delete_record_plural",
+            "value":[
+                {
+                    "quantity":"other",
+                    "value":"是否删除 %1$d 个录音？",
+                    "attr":{
+                        "priority":"translate"
+                    }
+                }
+            ]
+        },
+        {
+            "name":"count_list_info_two",
+            "value":[
+                {
+                    "quantity":"other",
+                    "value":"共 %d 项",
+                    "attr":{
+                        "priority":"translate"
+                    }
+                }
+            ]
+        },
+        {
+            "name":"remaining_days_plural",
+            "value":[
+                {
+                    "quantity":"other",
+                    "value":"(剩余 %d 天)",
+                    "attr":{
+                        "priority":"translate"
+                    }
+                }
+            ]
+        },
+        {
+            "name":"search_result_plural",
+            "value":[
+                {
+                    "quantity":"other",
+                    "value":"共找到 %1$d 条记录",
+                    "attr":{
+                        "priority":"translate"
+                    }
+                }
+            ]
+        },
+        {
+            "name":"hour_plural",
+            "value":[
+                {
+                    "quantity":"other",
+                    "value":"%d 小时",
+                    "attr":{
+                        "priority":"translate"
+                    }
+                }
+            ]
+        },
+        {
+            "name":"minute_plural",
+            "value":[
+                {
+                    "quantity":"other",
+                    "value":"%d 分",
+                    "attr":{
+                        "priority":"translate"
+                    }
+                }
+            ]
+        },
+        {
+            "name":"second_plural",
+            "value":[
+                {
+                    "quantity":"other",
+                    "value":"%d 秒",
+                    "attr":{
+                        "priority":"translate"
+                    }
+                }
+            ]
+        },
+        {
+            "name":"migrating_records_complete_number",
+            "value":[
+                {
+                    "quantity":"other",
+                    "value":"已完成同步 %1$d 条",
+                    "attr":{
+                        "priority":"translate"
+                    }
+                }
+            ]
+        },
+        {
+            "name":"migrating_records_remain_number",
+            "value":[
+                {
+                    "quantity":"other",
+                    "value":"剩余 %1$d 条",
+                    "attr":{
+                        "priority":"translate"
+                    }
+                }
+            ]
+        }
+    ]
+}

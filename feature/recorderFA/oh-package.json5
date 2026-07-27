@@ -1,0 +1,12 @@
+{
+  "license": "ISC",
+  "dependencies": {
+    "@ohos/common": "file:../../common",
+    "@ohos/recorder": "file:../../feature/recorder"
+  },
+  "name": "@ohos/recorderFA",
+  "version": "1.0.0",
+  "description": "Please describe the basic information.",
+  "main": "Index.ets",
+  "author": "",
+}

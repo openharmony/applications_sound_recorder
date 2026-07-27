@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>编组 7</title>
+    <defs>
+        <path d="M11.25,0 C12.9068542,0 14.25,1.34314575 14.25,3 C14.25,4.65685425 12.9068542,6 11.25,6 C11.073172,6 10.8999172,5.98470122 10.731487,5.95535509 L5.11841001,14.3757733 C5.43294022,14.6894476 5.67821942,15.0725268 5.82932572,15.5000889 L16.1706743,15.5000889 C16.5824856,14.3348501 17.6937479,13.5 19,13.5 C20.6568542,13.5 22,14.8431458 22,16.5 C22,18.1568542 20.6568542,19.5 19,19.5 C17.6941178,19.5 16.5831148,18.6656226 16.1710242,17.5009007 L5.82897577,17.5009007 C5.41688515,18.6656226 4.30588222,19.5 3,19.5 C1.34314575,19.5 0,18.1568542 0,16.5 C0,14.8431458 1.34314575,13.5 3,13.5 C3.09714009,13.5 3.19320185,13.5046169 3.2879778,13.5136433 L8.985928,4.96831066 C8.52754117,4.44149399 8.25,3.7531586 8.25,3 C8.25,1.34314575 9.59314575,0 11.25,0 Z" id="path-1"></path>
+        <rect id="path-3" x="-1" y="-2" width="24" height="24"></rect>
+        <filter x="-135.4%" y="-114.6%" width="370.8%" height="370.8%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="5" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="10" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.10266644 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="首屏-支持左滑-分享和删除" transform="translate(-256.000000, -496.000000)">
+            <g id="编组-7" transform="translate(256.000000, 496.000000)">
+                <g id="ic/share/ic_share_filled" transform="translate(8.000000, 8.000000)">
+                    <g id="symbol/frame/symbol_grid24-copy-2"></g>
+                    <g id="1" transform="translate(1.000000, 2.000000)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="合并形状" fill="#000000" fill-rule="nonzero" xlink:href="#path-1"></use>
+                        <g id="color/#000000" mask="url(#mask-2)">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-3"></use>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

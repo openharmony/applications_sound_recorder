@@ -1,11 +1,13 @@
 {
   "app": {
-    "bundleName": "com.hihope.recorder",
-    "vendor": "example",
-    "versionCode": 1000000,
-    "versionName": "1.0.0",
-    "icon": "$media:app_icon",
+    "bundleName": "com.ohos.soundrecorder",
+    "vendor": "ohos",
+    "versionCode": 6000390,
+    "versionName": "6.0.0.390",
+    "icon": "$media:recorderIcon",
     "label": "$string:app_name",
-    "distributedNotificationEnabled": true
+    "minAPIVersion": 9,
+    "targetAPIVersion": 10,
+    "configuration": "$profile:configuration"
   }
 }

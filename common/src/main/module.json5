@@ -5,7 +5,7 @@
     "deviceTypes": [
       "default",
       "tablet"
-    ],
-    "uiSyntax": "ets"
+    ]
   }
 }
+
