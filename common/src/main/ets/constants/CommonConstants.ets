@@ -238,7 +238,6 @@ export class CommonConstants {
   public static readonly ONE_HUNDRED: number = 100;
   public static readonly ONE_THOUSAND: number = 1000;
   public static readonly TEN_THOUSAND: number = 10000;
-  public static readonly SYMKEY: string = '7f288d9088ec304d4ed5d6e43121016a';
   //双框架（-1转写失败,2转写中，3转写成功） 对应单框架（0转写失败,1转写中,2转成写成功）
   public static readonly STATE_DOUBLE_FAIL: number = -1;
   public static readonly STATE_DOUBLE_TRANSLATING: number = 2;

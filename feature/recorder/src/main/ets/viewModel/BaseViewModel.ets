@@ -180,8 +180,6 @@ export class BaseViewModel {
       LogUtil.info(TAG + ' isLocationEnabled true.');
       //位置权限检擦通过和位置按钮已开启，说明定位可以用，把开启了定位的录音先用时间命名
       this.recordingData.setCurrentLocation(Util.dateFormat(new Date(), 'M月d日'));
-      // todo 先注释现在逆地理编码接口无法使用
-      // this.getCurrentLocation();
     }
     let avProfile: media.AVRecorderProfile = {
       audioBitrate: 148000, // 音频比特率

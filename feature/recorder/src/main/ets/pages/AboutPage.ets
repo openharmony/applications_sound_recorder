@@ -36,14 +36,6 @@ export struct AboutPage {
       this.version = data.versionName;
       this.isShowContent = true;
     });
-
-  //   this.footnotes = [
-  //     new PafText().appendHyperlink($r('app.string.filing_number'), () => {
-  //       LogUtil.info(TAG + 'click filing number');
-  //       this.openBrowser(getContext(this).resourceManager.getStringSync($r('app.string.filing_number_url').id));
-  //     }),
-  //     new PafText().appendNormal($r('app.string.copy_right', ABOUT_START_TIME, ABOUT_END_TIME))
-  //   ];
   }
 
   openBrowser(url: string) {
@@ -156,27 +148,4 @@ export struct AboutPage {
     .hideTitleBar(false)
     .title({ builder: this.AboutTitleBar(), height: DeviceUtil.isPC() ? 64 : 56 })
   }
-
-  // @Builder
-  // aboutContent() {
-  //   if (this.isShowPaf) {
-  //     PafAbout({
-  //       isModal: true,
-  //       fullPage: true,
-  //       appImg: $r('app.media.app_icon'),
-  //       appName: $r('app.string.title'),
-  //       versionString: this.version,
-  //       listFixed: {
-  //         customerService: '950800'
-  //       },
-  //       footnotes: $footnotes,
-  //       customBackgroundColor: '',
-  //       versionMessage: {
-  //         hideRightArrow: true
-  //       },
-  //       abilityContextType: AbilityContextType.WindowProxy,
-  //       inAppListBorder: InAppListBorder.Border_20
-  //     })
-  //   }
-  // }
 }

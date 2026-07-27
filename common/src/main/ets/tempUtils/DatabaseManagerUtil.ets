@@ -1147,8 +1147,8 @@ class DatabaseManager {
     return item;
   }
 
-  public getRestDays(delete_time: number): number {
-    const deleteDuration = (Date.now() - delete_time) / (24 * 60 * 60 * 1000);
+  public getRestDays(deleteTime: number): number {
+    const deleteDuration = (Date.now() - deleteTime) / (24 * 60 * 60 * 1000);
     let restDays = CommonConstants.RECYCLE_DAYS_LIMIT - Math.floor(deleteDuration);
     restDays = restDays <= 0 ? 1 : (restDays > 30 ? 30 : restDays);
     return restDays;

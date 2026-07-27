@@ -861,13 +861,3 @@ export default struct RecordingPage {
     this.isFloating = WindowUtil.isFloating();
   }
 }
-
-// @ObservedV2
-// class ActionBarButtonExt extends ActionBarButton {
-//   @Trace public buttonModifier?: ButtonModifier;
-//
-//   constructor(actionBarButtonOptions: ActionBarButtonOptions, buttonModifier?: ButtonModifier) {
-//     super(actionBarButtonOptions);
-//     this.buttonModifier = buttonModifier;
-//   }
-// }

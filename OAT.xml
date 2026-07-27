@@ -65,8 +65,6 @@
                             desc="Application vector image resource"/>
                 <filteritem type="filepath" name="AppScope/resources/.*/media/.*"
                             desc="Application icon resource"/>
-                <filteritem type="filepath" name="lib/harmonyos_sdk_for_openharmony.har"
-                            desc="OpenHarmony compatibility SDK archive"/>
                 <filteritem type="filepath"
                             name="feature/recorder/src/main/resources/rawfile/grs_config/config/cbg_root.pem"
                             desc="GRS root certificate"/>

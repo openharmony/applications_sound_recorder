@@ -1676,7 +1676,6 @@ export struct AudioRecordItemComponent {
         let item = this.item;
         this.selectedRecordList.push(item);
         this.isClickDeleteInSwipeMenu = true;
-        // this.isCloseAllSwipe = true;
         this.isSearchCloseSwipe = true;
       })
     }

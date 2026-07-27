@@ -44,19 +44,13 @@ class AudioSDKManager {
    * SDK初始化
    */
   public init(context: ESObject): void {
-    // AamSdkClient.init(context);
     LogUtil.info(`${TAG} audio sdk init `);
-    // AamSdkClient.onSmartRecordData((data: ArrayBuffer) => {
-    //   this.recordDataCallbackMap.forEach(callback => callback(data));
-    // });
   }
 
   /**
    * SDK销毁
    */
   public destroy(): void {
-    // AamSdkClient.offSmartRecordData();
-    // AamSdkClient.destroy();
     LogUtil.info(`${TAG} audio sdk destroy`);
   }
 
@@ -65,7 +59,6 @@ class AudioSDKManager {
    */
   public pauseRecord(): void {
     LogUtil.info(`${TAG} pauseRecord`);
-    // AamSdkClient.setSmartRecordState(RecordState.PAUSE);
   }
 
   /**
@@ -73,7 +66,6 @@ class AudioSDKManager {
    */
   public resumeRecord(): void {
     LogUtil.info(`${TAG} resumeRecord`);
-    // AamSdkClient.setSmartRecordState(RecordState.START);
   }
 
   /**
@@ -81,7 +73,6 @@ class AudioSDKManager {
    */
   public stopRecord(): void {
     LogUtil.info(`${TAG} stopRecord`);
-    // AamSdkClient.setSmartRecordState(RecordState.STOP);
   }
 
   public addRecordStateChangeCallback(tag: string, callback: Callback<AudioRecordInfo>): void {

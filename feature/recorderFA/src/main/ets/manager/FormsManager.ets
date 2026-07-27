@@ -37,8 +37,6 @@ import { statfs } from '@kit.CoreFileKit';
 import { MarkDataGroup } from '@ohos/common/src/main/ets/model/RecordData';
 import { FormDbManager } from '../storage/FormDbManager';
 import AudioSDKManager from '@ohos/recorder/src/main/ets/audiokit/manager/AudioSDKManager';
-// import EarphonesRecordManager from '@ohos/recorder/src/main/ets/audiokit/manager/EarphonesRecordManager';
-// import { RecordState } from '@hw-audio/lib_aamsdkclient/src/main/ets/bean/RecordState';
 
 /**
  * [录音机所有卡片管理类]
@@ -95,8 +93,6 @@ export class FormsManager {
     this.context?.eventHub.on('updateFaFileNameWhenKill', this.updateFaFileNameWhenKill);
     this.context?.eventHub.on('refreshRecordLiveView', this.refreshRecordLiveViewNotification);
     BaseViewModel.getInstance().subscribeMarkList(this.subscription);
-    this.registerEarphoneRecordStateListener();
-    this.queryEarphoneRecordState();
   }
 
   /**
@@ -488,53 +484,4 @@ export class FormsManager {
     }
     return false;
   }
-
-  /* instrument ignore next */
-  private registerEarphoneRecordStateListener() {
-    // AudioSDKManager.addRecordStateChangeCallback(TAG, info => this.onEarphoneRecordStateChange(info.recordState));
-  }
-
-  /* instrument ignore next */
-  private queryEarphoneRecordState() {
-    // const state = EarphonesRecordManager.getCurrentRecordState();
-    // if (state === RecordState.STOP) {
-    //   return;
-    // }
-    // this.onEarphoneRecordStateChange(state);
-  }
-
-  /* instrument ignore next */
-  // private onEarphoneRecordStateChange(state: RecordState) {
-  //   LogUtil.info(`${TAG} earphone record state is: ${state}`);
-  //   // switch (state) {
-  //   //   case RecordState.START:
-  //   //     this.recordState = 'started';
-  //   //     break;
-  //   //   case RecordState.PAUSE:
-  //   //     this.recordState = 'paused';
-  //   //     break;
-  //   //   case RecordState.STOP:
-  //   //     this.recordState = 'released';
-  //   //     break;
-  //   // }
-  //   let param: Record<string, string | boolean | number> = {
-  //     'isRecording': this.recordState === 'started' || this.recordState === 'paused' || this.recordState === 'stopped',
-  //     'recordState': this.recordState,
-  //   };
-  //   if (this.recordState === 'started') {
-  //     clearInterval(this.updateCurrentTimer);
-  //     this.updateCurrentTimer = this.updateFaTime();
-  //   }
-  //   if (this.recordState === 'paused') {
-  //     clearInterval(this.updateCurrentTimer);
-  //   }
-  //   if (this.recordState === 'released') {
-  //     clearInterval(this.updateCurrentTimer);
-  //     this.lastMarkTime = 0;
-  //     this.markList = new MarkDataGroup();
-  //   }
-  //   let data: formBindingData.FormBindingData = formBindingData.createFormBindingData(param);
-  //   FormUpdateUtil.getInstance().updateAllForm(data);
-  //   LogUtil.info(`${TAG} earphone record state changed, state = ${this.recordState}`);
-  // }
 }
