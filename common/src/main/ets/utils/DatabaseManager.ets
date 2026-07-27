@@ -1193,8 +1193,8 @@ class DatabaseManager {
     return item;
   }
 
-  public getRestDays(delete_time: number): number {
-    const deleteDuration = (Date.now() - delete_time) / (24 * 60 * 60 * 1000);
+  public getRestDays(deleteTime: number): number {
+    const deleteDuration = (Date.now() - deleteTime) / (24 * 60 * 60 * 1000);
     let restDays = CommonConstants.RECYCLE_DAYS_LIMIT - Math.floor(deleteDuration);
     restDays = restDays <= 0 ? 1 : (restDays > 30 ? 30 : restDays);
     return restDays;
@@ -1440,8 +1440,8 @@ class DatabaseManager {
     let recentDelete = recentDeleteList.map(item => item._data.substring(item._data.lastIndexOf('/') + 1));
 
     const newFilenames =
-      sandboxAudios.filter(item => !normalRecord.includes(item) && !recentDelete.includes(item) && item !== 'fileShare'
-        && !(fileName && item.startsWith(fileName) && FileUtil.AUDIO_SUFFIX.some(suffix => item.endsWith(suffix))));
+      sandboxAudios.filter(item => !normalRecord.includes(item) && !recentDelete.includes(item) && item !== 'fileShare' &&
+        !(fileName && item.startsWith(fileName) && FileUtil.AUDIO_SUFFIX.some(suffix => item.endsWith(suffix))));
 
     // newFilenames.length > 0时，说明沙箱有手工推送文件
     if (newFilenames.length > 0) {

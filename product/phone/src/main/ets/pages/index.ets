@@ -142,22 +142,6 @@ function menuComponent(params: ParamsInterface) {
       })
         .id('sortBtn')
         .padding({ left: 16 })
-      // if (params.sideFolderNameFlag === SideBarMode.ALL_RECORDINGS) {
-        // MenuItem({
-        //   content: $r('app.string.about'),
-        // })
-        //   .padding({ left: 16 })
-        //   .onClick(() => {
-        //     params.openAbout();
-        //   })
-        // MenuItem({
-        //   content: $r('app.string.help_and_feedback'),
-        // })
-        //   .padding({ left: 16 })
-        //   .onClick(() => {
-        //     params.openHelps();
-        //   })
-      // }
     }
     .menuItemDivider({
       strokeWidth: LengthMetrics.px(1),

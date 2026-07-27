@@ -304,7 +304,6 @@ export default class MainAbility extends UIAbility {
     let fontSizeScale = newConfig.fontSizeScale;
     LogUtil.info(`${TAG}, onConfigurationUpdate, current fontSizeScale: ${fontSizeScale}`);
     AppStorage.setOrCreate('fontSizeScale', fontSizeScale);
-    // PafUiWidget.configurationUpdate(newConfig);
     this.updateBreakpoint(AppStorage.get('windowWidthOri') as number);
   }
 
@@ -353,7 +352,6 @@ export default class MainAbility extends UIAbility {
 
   /* instrument ignore next */
   async onWindowStageCreate(windowStage: window.WindowStage) {
-    // PafUiWidget.init(windowStage, this.context);
     try {
       call.on('callDetailsChange', (data: call.CallAttributeOptions) => {
         AppStorage.setOrCreate<number>('callType', data.callType);

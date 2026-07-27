@@ -1,6 +1,4 @@
 // Script for compiling build behavior. It is built in the build plug-in and cannot be modified currently.
-// FA模型此处改为：
-// import { legacyHapTasks as hapTasks } from '@ohos/hvigor-ohos-plugin';
 import { hapTasks } from '@ohos/hvigor-ohos-plugin';
 import * as path from 'path';
 import { hvigor, getHvigorNode } from '@ohos/hvigor';
@@ -20,7 +18,6 @@ const config = {
         commandParams: hvigor.getExtraConfig(), // hvigor 命令行参数
         module: mModule, // 当前模块对象,
         entryName: ''
-        //packageType:'shared'  //配置这个参数时，该模块在hypium-plugin中按照hsp来打包和签名
     }
 }
 
@@ -34,23 +31,14 @@ ohosPlugin.getNeedExecTargetServiceList().forEach(targetServices => {
     // 注册在线签名任务和创建任务依赖
     const onlineSignTask = mModule.task(() => {
         // 构建的未签名的hap的输出根目录
-        const moduleBuildOutputDir = path.resolve(projectRootPath, mModuleName, `build/default/outputs/${curTargetName }/`);
+        const moduleBuildOutputDir = path.resolve(projectRootPath, mModuleName, `build/default/outputs/${curTargetName}/`);
 
         // 未签名的hap包路径
-        const inputFile = path.resolve(moduleBuildOutputDir, `${mModuleName}${entryName? '-' + entryName: ''}-${curTargetName }-unsigned.hap`);
+        const inputFile = path.resolve(moduleBuildOutputDir, `${mModuleName}${entryName? '-' + entryName: ''}-${curTargetName}-unsigned.hap`);
         // 签名后的hap包路径
-        const outputFile = path.resolve(moduleBuildOutputDir, `${mModuleName}${entryName? '-' + entryName: ''}-${curTargetName }-signed.hap`);
+        const outputFile = path.resolve(moduleBuildOutputDir, `${mModuleName}${entryName? '-' + entryName: ''}-${curTargetName}-signed.hap`);
 
-        // executeOnlineSign(inputFile, outputFile);
-
-        // FA模型此处改为：
-        // }, onlineSignHapTaskName).dependsOn(`${curTargetName}@LegacyPackageHap`);
     }, onlineSignHapTaskName).dependsOn(`${curTargetName}@PackageHap`);
-
-    // 使用在线签名,可以把离线签名任务disable掉
-    if (onlineSignTask.getEnabled()) {
-        // mModule.getTaskByName(`${curTargetName}@SignHap`).setEnabled(false);
-    }
 });
 
 let initTesting: ((config: object) => void) | undefined;
@@ -65,7 +53,7 @@ if (initTesting) {
 }
 
 // 将在线签名任务挂接在assembleHap任务上,如果需要在IDE上使用,assembleHap任务是固定的
-mModule.getTaskByName("assembleHap").dependsOn(onlineSignHapTaskName);
+mModule.getTaskByName('assembleHap').dependsOn(onlineSignHapTaskName);
 
 module.exports = {
     ohos: ohosPlugin

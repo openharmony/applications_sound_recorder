@@ -1835,13 +1835,3 @@ export struct RecordPlayPage {
     })
   }
 }
-
-// @ObservedV2
-// class ActionBarButtonExt extends ActionBarButton {
-//   @Trace public buttonModifier?: ButtonModifier;
-//
-//   constructor(actionBarButtonOptions: ActionBarButtonOptions, buttonModifier?: ButtonModifier) {
-//     super(actionBarButtonOptions);
-//     this.buttonModifier = buttonModifier;
-//   }
-// }
