@@ -1,0 +1,74 @@
+{
+    "string":[
+        {
+            "name":"unInstallAppContent",
+            "value":"С вашего устройства также будут удалены записи.",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"label_permission_microphone",
+            "value":"Используется для записи аудио.",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"label_permission_read_audio_text",
+            "value":"Приложению Диктофон требуется право доступа к музыке и аудио",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"label_permission_write_audio",
+            "value":"Используется для изменения записей разговоров.",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"label_permission_read_audio",
+            "value":"Используется для чтения записей разговоров.",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"used_to_named",
+            "value":"Используется для присвоения записям имен.",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"record_audio",
+            "value":"Запись аудио",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"MainAbility_label",
+            "value":"Диктофон",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"label_permission_microphone_text",
+            "value":"Приложению Диктофон требуется право доступа к микрофону",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"headset_recording",
+            "value":"Аудиозаписи с наушников",
+            "attr":{
+                "priority":"translate"
+            }
+        }
+    ]
+}

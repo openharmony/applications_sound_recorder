@@ -1,0 +1,1236 @@
+{
+    "string":[
+        {
+            "name":"title",
+            "value":"ئۈنئالغۇ",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"titles",
+            "value":"ئۈن ئېلىش",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"about",
+            "value":"ھەققىدە",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"search_recording_files",
+            "value":"ئۈن ھۆججىتىنى ئىزدەش",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"mark",
+            "value":"بەلگە",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"predict_hint",
+            "value":"يەنە %1$d سائەت ئالالايدۇ",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"delete_hint",
+            "value":"بۇ ئۈننى ئۆچۈرەمسىز؟",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"cancel",
+            "value":"بىكار قىلىش",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"delete",
+            "value":"ئۆچۈرۈش",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"has_call_hint",
+            "value":"سۆزلىشىۋاتقاندا ئۈن ئالغىلى بولمايدۇ.",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"has_screen_hint",
+            "value":"ئارقا سۇپىدا ئۈن ئېلىش ئەپى ئىشلەۋاتىدۇ، ئېتىپ قايتا سىناڭ.",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"on_sure",
+            "value":"جەزملەش",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"file_rename",
+            "value":"نام ئۆزگەرتىش",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"voice_share",
+            "value":"ئورتاقلىشىش",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"set_phone_voice",
+            "value":"قوڭغۇراق قىلىش",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"voice_retail",
+            "value":"تەپسىلات",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"rename_filter",
+            "value":"ھۆججەت نامدا بۇ بەلگىلەر بولمىسۇن: / \\ : * ? \" < > |",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"rename_over",
+            "value":"بۇ ناملىق ھۆججەت بار.",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"renamed",
+            "value":"نام ئۆزگەرتىلدى.",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"no_name",
+            "value":"ھۆججەت نامى كىرگۈزۈلمىدى",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"maximum_length",
+            "value":"ئۇزۇنلۇقى چەككە يەتتى",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"open_speaker",
+            "value":"ياڭراتقۇ ئېچىلدى",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"closed_speaker",
+            "value":"ياڭراتقۇ ئېتىلدى",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"close_speaker",
+            "value":"ياڭراتقۇ ئېتىك. قويۇش تېزلىكى ئۆزگەرمەيدۇ.",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"rename_speaker",
+            "value":"ئۈن نامىنى ئۆزگەرتىش...",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"rename_marker",
+            "value":"بەلگە نامىنى ئۆزگەرتىش...",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"cannot_recording",
+            "value":"سىغىم ئاز، ئۈنگە ئالغىلى بولمايدۇ",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"stop_save",
+            "value":"بوشلۇق يېتەرسىز، ئۈن ئېلىش توختاپ، ئالغان ئۈن ساقلاندى.",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"less_than_60",
+            "value":"سىغىم ئاز، ئۈنگە ئېلىش ئۈسكۈنىسىنى ئالماشتۇرۇڭ",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"notice_recording",
+            "value":"ئۈن ئېلىۋاتىدۇ",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"notice_record_pause",
+            "value":"ئۈن ئېلىش تورمۇزلاندى",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"delete_all_record",
+            "value":"بارلىق ئالغان ئۈننى ئۆچۈرەمسىز؟",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"go_to_setting",
+            "value":"تەڭشەك",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"store_as_filename",
+            "value":"ساقلاش (%1$s)",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"no_select",
+            "value":"تاللانمىدى",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"no_records",
+            "value":"ئالغان ئۈن يوق",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"toolbar_select_all",
+            "value":"ﮬﻪﻣﻤﯩﻨﻰ ﺗﺎﻟﻼﺵ",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"toolbar_cancel_select_all",
+            "value":"قالدۇرۇش",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"toolbar_more",
+            "value":"كۆپرەك",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"detailDialog_name",
+            "value":"نامى: %s",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"detailDialog_time",
+            "value":"ۋاقىت: %s",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"detailDialog_size",
+            "value":"سىغىمى: %s",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"pause",
+            "value":"تورمۇزلاش",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"back",
+            "value":"قايتىش",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"detailDialog_name_huge_layout",
+            "value":"نامى:",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"start",
+            "value":"باشلاش",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"detailDialog_size_huge_layout",
+            "value":"سىغىمى:",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"detailDialog_time_huge_layout",
+            "value":"ۋاقتى:",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"end",
+            "value":"ئاخىرلاشتۇرۇش",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"play",
+            "value":"قويۇش",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"content_already_played",
+            "value":"\u200f%s قويغان",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"resume",
+            "value":"داۋاملاشتۇرۇش",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"current_location_time",
+            "value":"نۆۋەتتىكى ئورۇن، %s",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"speed_play",
+            "value":"تېزلىتىپ قويۇش",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"total_duration",
+            "value":"ئومۇمىي ۋاقىت %s",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"more_options",
+            "value":"باشقا تاللانمىلار",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"detailDialog_close",
+            "value":"ئېتىش",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"mark_no_name",
+            "value":"بەلگە نامى كىرگۈزۈلمىدى",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"mark_filter",
+            "value":"بەلگە نامىدا بۇ بەلگىلەر بولمىسۇن: / \\ : * ? \" < > |",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"start_recording",
+            "value":"ئۈن ئېلىش باشلاندى. چاقىرىق ۋە ئۇقتۇرۇش ئۈنسىزلىنىدۇ.",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"end_recording",
+            "value":"ئۈن ئېلىش ئاياغلاشتى. چاقىرىق ۋە ئۇقتۇرۇش ئۈنى ئەسلىگە كېلىدۇ.",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"pause_recording",
+            "value":"ئۈن ئېلىش تورمۇزلاندى. چاقىرىق ۋە ئۇقتۇرۇش ئۈنى ئەسلىگە كېلىدۇ.",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"call_recording",
+            "value":"چاقىرىقتىن ئالغان ئۈن",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"size_upper_limit",
+            "value":"ئالغان ئۈن سىغىمى چەككە يەتتى.",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"number_upper_limit",
+            "value":"ئالغان ئۈن سانى چەككە يەتتى. ئىشلەتمەيدىغانلىرىنى ئۆچۈرۈڭ.",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"label_permission_read_audio",
+            "value":"بۇ ئىجازەت چاقىرىقتىن ئالغان ئۈننى ئوقۇشقا ئىشلىتىلىدۇ.",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"label_permission_read_audio_text",
+            "value":"تەڭشەكتىن ئۈنئالغۇ ئۈچۈن مۇزىكا ۋە ئاۋاز ئىجازىتى بېرىڭ",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"untitledRecording",
+            "value":"نامسىز ئۈن",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"permission_welcome_description",
+            "value":"بۇ ئەپ تور ئىشلىتىدۇ؛ %s ئىجازىتى ئالىدۇ؛ ئاۋاز ھۆججىتى ۋە ئورۇن ئۇچۇرىنى ئوقۇيدۇ؛ يۇقىرىقىلار ئۈن ئېلىش مۇلازىمىتى تەمىنلەش ئۈچۈن ئىشلىتىلىدۇ. «قوشۇلىمەن» نى چەكسىڭىز، يۇقىرىقىلارغا قوشۇلغان بولىسىز.",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"permission_welcome_music_and_audio",
+            "value":"مۇزىكا ۋە ئاۋاز",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"label_permission_microphone_title",
+            "value":"«ئۈنئالغۇ» غا مىكروفون ئىجازىتى كېرەك",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"label_permission_read_audio_title",
+            "value":"«ئۈنئالغۇ» ئۈچۈن مۇزىكا ۋە ئاۋاز ئىجازىتى كېرەك",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"deleting",
+            "value":"ئۆچۈرۈۋاتىدۇ...",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"file_list_refresh",
+            "value":"يېڭىلاش",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"file_has_been_deleted",
+            "value":"ھۆججەت ئۆچۈرۈلدى",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"file_has_been_deleted_description",
+            "value":"بەزى ئۈن ھۆججىتى ئۆچۈرۈلگەن، تىزىملىكنى يېڭىلاڭ.",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"permission_welcome_service_description",
+            "value":"ئەپلىك ۋە قولايلىق ئاۋاز خاتىرىلىگۈچ",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"menu_multiselect",
+            "value":"كۆپ تاللاش",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"end_unmute_notification",
+            "value":"ئۈن ئېلىش ئاياغلاشتى، ئۇقتۇرۇش ئاۋازى ئېچىلدى.",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"start_mute_notification",
+            "value":"ئۈن ئېلىش باشلاندى، ئۇقتۇرۇش ئاۋازى ئېتىلدى.",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"count_list_info_one",
+            "value":"%1$d دىن %2$d گىچە، %3$s",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"serial_number",
+            "value":"%s-نومۇر",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"count_list_one",
+            "value":"بىر، %s",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"collapsed",
+            "value":"يىغىلدى",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"expanded",
+            "value":"يېيىلدى",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"deleted",
+            "value":"%s ئۆچۈرۈلدى.",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"pause_unmute_notification",
+            "value":"ئۈن ئېلىش تورمۇزلاندى، ئۇقتۇرۇش ئاۋازى ئېچىلدى.",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"record_list",
+            "value":"ئۈنگە ئالغان ھۆججەتلەر تىزىملىكىنى كۆرۈش",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"start_record",
+            "value":"ئۈنگە ئېلىشنى باشلاش",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"first_delete_dialog_summary_one",
+            "value":"ئالغان ئۈن بۇ ئۈسكۈنىدىن ئۆچۈرۈلۈپ، «يېقىندا ئۆچۈرگەن» قىسقۇچىدا %d كۈن ساقلىنىدۇ.",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"recent_delete_description",
+            "value":"يېقىندا ئۆچۈرگەن ئۈن ھۆججەتلىرى بۇ يەردە %d كۈن ساقلىنىپ، ئاندىن ئۈسكۈنىدىن مەڭگۈلۈك ئۆچۈرۈلىدۇ.",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"audio_recordings",
+            "value":"ئۈن ئېلىش",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"recording_delete",
+            "value":"ئۆچۈرۈش",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"recent_delete_dialog_summary",
+            "value":"ئۈن ھۆججىتى بۇ ئۈسكۈنىدىن مەڭگۈلۈك ئۆچۈرۈلىدۇ، ئەسلىگە كەلتۈرگىلى بولمايدۇ.",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"recent_delete_dialog_title",
+            "value":"ئۆچۈرەمسىز؟",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"recording_recover",
+            "value":"ئەسلىگە كەلتۈرۈش",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"all_recording_delete",
+            "value":"ھەممىنى ئۆچۈرۈش",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"first_delete_dialog_summary",
+            "value":"ئالغان ئۈن بۇ ئۈسكۈنىدىن ئۆچۈرۈلۈپ، «يېقىندا ئۆچۈرگەن» قىسقۇچىدا %d كۈن ساقلىنىدۇ.",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"recent_delete_dialog_summary_multi",
+            "value":"ئۈن ھۆججىتى بۇ ئۈسكۈنىدىن مەڭگۈلۈك ئۆچۈرۈلىدۇ، ئەسلىگە كەلتۈرگىلى بولمايدۇ.",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"all_record",
+            "value":"بارلىق ئالغان ئۈن",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"all_recording_recover",
+            "value":"ھەممىنى ئەسلىگە كەلتۈرۈش",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"recent_delete",
+            "value":"يېقىندا ئۆچۈرگەن",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"smart_summary",
+            "value":"ئاڭلىق ئۈزۈندى",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"main_remain_days",
+            "value":"\u200f%1$s %2$s",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"sort_mode_0",
+            "value":"ۋاقىت (يېڭىسى باشتا)",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"sort_mode_1",
+            "value":"ۋاقىت (كونىسى باشتا)",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"sort_mode_2",
+            "value":"نام",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"data_sort",
+            "value":"تىزىش",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"searching",
+            "value":"ئىزدەش...",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"copy_right",
+            "value":"نەشر ھوقۇقى ©%1$d-%2$d خۇاۋېيغا تەۋە",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"version_info",
+            "value":"نەشر ئۇچۇرى",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"about_privacy",
+            "value":"مەخپىيەتلىك باياناتى",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"collapse_side_navigation_bar",
+            "value":"يانبالداقنى يىغىش",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"show_side_navigation_bar",
+            "value":"يانبالداقنى يېيىش",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"record_to_text",
+            "value":"ئاۋازنى خەتكە ئايلاندۇرۇش",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"concat_three_strings",
+            "value":"%1$s %2$s %3$s",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"recovering",
+            "value":"ئەسلىگە كېلىۋاتىدۇ...",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"accessibility_long_press",
+            "value":"قوش چېكىپ تۇرسىڭىز باشقا تاللانمىلار چىقىدۇ",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"accessibility_double_click",
+            "value":"قوش چەكسىڭىز يۈرگۈزۈلىدۇ",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"allow_access",
+            "value":"رۇخسەت",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"access_location",
+            "value":"ئۈنئالغۇ ئۈچۈن ئورۇن ئىجازىتى كېرەك؛ ئورۇن ئۇچۇرى ئاۋاز ھۆججىتىگە ئىسىم قويۇش ۋە ئورتاقلىشىش ئۈچۈن ئىشلىتىلىدۇ.",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"accessibility_right_swipe",
+            "value":"قوش بېسىپ تۇرۇپ سولغا سىيرىسىڭىز، باشقا تاللانمىلار يوشۇرۇنىدۇ",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"accessibility_left_swipe",
+            "value":"قوش بېسىپ تۇرۇپ ئوڭغا سىيرىسىڭىز، باشقا تاللانمىلار كۆرۈنىدۇ",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"detailDialog_path",
+            "value":"يولى: %s",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"drag_quantity_limit",
+            "value":"بىر قېتىمدا كۆپىدە %d نەرسە سۆرىلىدۇ.",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"collect_personal_data",
+            "value":"توپلايدىغان شەخسىي ئۇچۇر تىزىملىكى",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"marked",
+            "value":"بەلگە سېلىندى",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"accessibility_drag_down_to_vassistant",
+            "value":"قوش بېسىپ تۇرۇپ ئاستىغا تارتىپ شياۋيىغا سۆرەپ كىرىسىز",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"saved",
+            "value":"ساقلاندى",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"disable_voice_enhancement",
+            "value":"ئاۋاز كۈچەيتكۈچ ئېتىلدى.",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"enable_voice_enhancement",
+            "value":"ئاۋاز كۈچەيتكۈچ ئېچىلدى.",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"open_skip_mute",
+            "value":"ئۈنسىز يەردىن ئاتلاشنى ئېچىش",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"close_skip_mute",
+            "value":"ئۈنسىز يەردىن ئاتلاشنى ئېتىش",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"retranslate",
+            "value":"قايتا ئايلاندۇرۇش",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"user_filepath_on_phone",
+            "value":"ھۆججەت باشقۇرغۇچ/يانفونۇم/Sounds",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"agree",
+            "value":"قوشۇلىمەن",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"migration_remaining_tips",
+            "value":"ئالغان ئۈن ماسقەدەملەش ئالدىنقى قېتىم پۈتمىگەن، ماسقەدەملىنىپ بولمىغان ئۈن ھۆججەتلىرىنى %s دېگەن قىسقۇچقا داۋاملىق ماسقەدەملەمسىز؟",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"migration_data_preparing",
+            "value":"مەلۇمات تەييارلىنىۋاتىدۇ...",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"user_filepath_on_pc",
+            "value":"ھۆججەت باشقۇرغۇچ/user/شەخسىي/ئاۋاز/SoundRecorder",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"user_filepath_on_pad",
+            "value":"ھۆججەت باشقۇرغۇچ/تاختا كومپيۇتېرىم/شەخسىي/ئاۋاز/SoundRecorder",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"migrating_records",
+            "value":"ئالغان ئۈن ماسقەدەملىنىۋاتىدۇ ‎%s",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"migration_cancel_tips_title",
+            "value":"ماسقەدەملەشنى ئېتەمسىز؟",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"migration_cancel",
+            "value":"ئېتىش",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"migration_completed",
+            "value":"ماسقەدەملىنىپ بولدى.",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"migration_cancel_tips",
+            "value":"بارلىق ئالغان ئۈن %s دېگەن قىسقۇچقا ماسقەدەملىنىۋاتىدۇ، ئەتسىڭىز ئالغان ئۈن ھۆججەتلىرىنى بۇ مۇندەرىجىدە باشقۇرالمايسىز. ماسقەدەملەشنى ئېتەمسىز ياكى داۋاملاشتۇرامسىز؟",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"migration_restricted_tips",
+            "value":"ئالغان ئۈن ماسقەدەملىنىۋاتقاندا باشقا مەشغۇلات يۈرمەيدۇ، كېيىنرەك قايتا سىناڭ.",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"migrating_call_records",
+            "value":"چاقىرىقتىن ئالغان ئۈن ماسقەدەملىنىۋاتىدۇ ‎%s",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"migration_continue",
+            "value":"داۋاملاشتۇرۇش",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"migration_tips",
+            "value":"بۇرۇنقى ئالغان ئۈن ھۆججەتلىرىنى %s دېگەن قىسقۇچقا ماسقەدەملەمسىز؟ ماسقەدەملەپ بولغاندا مۇشۇ مۇندەرىجە ئارقىلىق كۆرۈش ۋە باشقۇرۇشقا بولىدۇ.",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"headset_recording",
+            "value":"تىڭشىغۇچتا ئالغان ئۈن",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"mark_added_talkback",
+            "value":"قوشقان",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"transcribed_talkback",
+            "value":"ئايلاندۇرغان",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"mark_position_at_talkback",
+            "value":"ئورۇن",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"migrating_records_number",
+            "value":"%1$s، %2$s",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"voice_enhancement_open",
+            "value":"ئاۋاز كۈچەيتىش ئېچىلدى.",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"voice_enhancement_close",
+            "value":"ئاۋاز كۈچەيتىش ئېتىلدى.",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"mute_skip_disabled",
+            "value":"ئۈنسىز يەردىن ئاتلاش ئېتىلدى.",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"mute_skip_enabled",
+            "value":"ئۈنسىز يەردىن ئاتلاش ئېچىلدى.",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"migration_resume",
+            "value":"داۋاملاشتۇرۇش",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"privacy_statement_dialog",
+            "value":"ئاۋازنى خەتكە ئايلاندۇرۇش ۋە ئاڭلىق ئۈزۈندى مۇلازىمىتى تور ئىشلىتىدۇ؛ ئاۋاز ئوقۇپ يۈكلەيدۇ. شەخسىي ئۇچۇر بىر تەرەپ قىلىش ھەققىدىكى تەپسىلاتلارنى «%s» ئارقىلىق كۆرۈڭ.",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"enable_realtime_transfer",
+            "value":"شۇئان خەتكە ئايلاندۇرۇشنى ئېچىش",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"recorder_privacy_statement",
+            "value":"ئۈنئالغۇ ۋە مەخپىيەتلىك ھەققىدە بايانات",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"off_realtime_transfer",
+            "value":"شۇئان خەتكە ئايلاندۇرۇشنى ئېتىش",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"network_disconnection_transcribe_stop",
+            "value":"تور يوق، ئايلاندۇرۇش تورمۇزلاندى.",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"network_connection_interrupt",
+            "value":"تور ئۈزۈلگەن، تور تەڭشىكىنى تەكشۈرۈڭ.",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"next_step",
+            "value":"كېيىنكى",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"record_timeout",
+            "value":"بىر قېتىملىق ئاۋازنى خەتكە ئايلاندۇرۇش چېكى توشتى.",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"retranslate_text",
+            "value":"قايتا ئايلاندۇرسىڭىز، مەزمۇن قايتا قۇرۇلىدۇ، تەھرىرلىگەن تېكىست ياكى سۆزلىگۈچى ئۇچۇرى قايتا بەلگىلىنىدۇ.",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"help_and_feedback",
+            "value":"ياردەم ۋە تەكلىپ",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"audiokit_media_recording",
+            "value":"مېدىيا خاتىرىسى",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"audiokit_external_recording",
+            "value":"نەقمەيدان ئاۋاز",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"audiokit_call_recording",
+            "value":"چاقىرىق خاتىرىسى",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"realtime_transfer_turned_off",
+            "value":"شۇئان خەتكە ئايلاندۇرۇش ئېتىك.",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"realtime_transfer_enabled",
+            "value":"شۇئان خەتكە ئايلاندۇرۇش ئوچۇق.",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"realtime_transfer_button",
+            "value":"شۇئان خەتكە ئايلاندۇرۇش",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"all_recordings",
+            "value":"بارلىق ئالغان ئۈن",
+            "attr":{
+                "priority":"translate"
+            }
+        }
+    ]
+}

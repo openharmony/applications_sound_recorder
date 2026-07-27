@@ -27,6 +27,42 @@
     {
       "name": "text_color",
       "value": "#182431"
+    },
+    {
+      "name": "rgb_color",
+      "value": "#182431"
+    },
+    {
+      "name": "text_colors",
+      "value": "#949597"
+    },
+    {
+      "name": "record_title",
+      "value": "#000000"
+    },
+    {
+      "name": "icon_backgroundColor",
+      "value": "#E5E6E8"
+    },
+    {
+      "name": "icon_backgroundColors",
+      "value": "#F2F2F2"
+    },
+    {
+      "name": "play_line",
+      "value": "#FB654E"
+    },
+    {
+      "name": "play_line_backgroundColor",
+      "value": "#30000000"
+    },
+    {
+      "name": "themed_red",
+      "value": "#FB654E"
+    },
+    {
+      "name": "hwtips_mask_window_unfocused",
+      "value": "#99f0f2f5"
     }
   ]
 }

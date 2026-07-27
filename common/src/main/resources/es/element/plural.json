@@ -1,0 +1,232 @@
+{
+    "plural":[
+        {
+            "name":"minute_plural",
+            "value":[
+                {
+                    "quantity":"other",
+                    "value":"%d minutos",
+                    "attr":{
+                        "priority":"translate"
+                    }
+                },
+                {
+                    "quantity":"one",
+                    "value":"%d minuto",
+                    "attr":{
+                        "priority":"translate"
+                    }
+                }
+            ]
+        },
+        {
+            "name":"predict_hint_plural",
+            "value":[
+                {
+                    "quantity":"other",
+                    "value":"Puedes grabar durante %1$s horas más",
+                    "attr":{
+                        "priority":"translate"
+                    }
+                },
+                {
+                    "quantity":"one",
+                    "value":"Puedes grabar durante %1$s hora más",
+                    "attr":{
+                        "priority":"translate"
+                    }
+                }
+            ]
+        },
+        {
+            "name":"partial_delete_record_plural",
+            "value":[
+                {
+                    "quantity":"one",
+                    "value":"¿Eliminar %1$d grabación?",
+                    "attr":{
+                        "priority":"translate"
+                    }
+                },
+                {
+                    "quantity":"other",
+                    "value":"¿Eliminar %1$d grabaciones?",
+                    "attr":{
+                        "priority":"translate"
+                    }
+                }
+            ]
+        },
+        {
+            "name":"hour_plural",
+            "value":[
+                {
+                    "quantity":"other",
+                    "value":"%d horas",
+                    "attr":{
+                        "priority":"translate"
+                    }
+                },
+                {
+                    "quantity":"one",
+                    "value":"%d hora",
+                    "attr":{
+                        "priority":"translate"
+                    }
+                }
+            ]
+        },
+        {
+            "name":"partial_select_plural",
+            "value":[
+                {
+                    "quantity":"one",
+                    "value":"%1$d elemento seleccionado",
+                    "attr":{
+                        "priority":"translate"
+                    }
+                },
+                {
+                    "quantity":"other",
+                    "value":"%1$d elementos seleccionados",
+                    "attr":{
+                        "priority":"translate"
+                    }
+                }
+            ]
+        },
+        {
+            "name":"second_plural",
+            "value":[
+                {
+                    "quantity":"one",
+                    "value":"%d segundo",
+                    "attr":{
+                        "priority":"translate"
+                    }
+                },
+                {
+                    "quantity":"other",
+                    "value":"%d segundos",
+                    "attr":{
+                        "priority":"translate"
+                    }
+                }
+            ]
+        },
+        {
+            "name":"remaining_days_plural",
+            "value":[
+                {
+                    "quantity":"one",
+                    "value":"(%d día restante)",
+                    "attr":{
+                        "priority":"translate"
+                    }
+                },
+                {
+                    "quantity":"other",
+                    "value":"(%d días restantes)",
+                    "attr":{
+                        "priority":"translate"
+                    }
+                }
+            ]
+        },
+        {
+            "name":"search_result_plural",
+            "value":[
+                {
+                    "quantity":"other",
+                    "value":"Se han encontrado %1$d elementos",
+                    "attr":{
+                        "priority":"translate"
+                    }
+                },
+                {
+                    "quantity":"one",
+                    "value":"Se ha encontrado %1$d elemento",
+                    "attr":{
+                        "priority":"translate"
+                    }
+                }
+            ]
+        },
+        {
+            "name":"selected_recording_plural",
+            "value":[
+                {
+                    "quantity":"one",
+                    "value":"%1$d grabación seleccionada",
+                    "attr":{
+                        "priority":"translate"
+                    }
+                },
+                {
+                    "quantity":"other",
+                    "value":"%1$d grabaciones seleccionadas",
+                    "attr":{
+                        "priority":"translate"
+                    }
+                }
+            ]
+        },
+        {
+            "name":"count_list_info_two",
+            "value":[
+                {
+                    "quantity":"other",
+                    "value":"%d elementos",
+                    "attr":{
+                        "priority":"translate"
+                    }
+                },
+                {
+                    "quantity":"one",
+                    "value":"%d elemento",
+                    "attr":{
+                        "priority":"translate"
+                    }
+                }
+            ]
+        },
+        {
+            "name":"migrating_records_complete_number",
+            "value":[
+                {
+                    "quantity":"other",
+                    "value":"Se han sincronizado %1$d elementos",
+                    "attr":{
+                        "priority":"translate"
+                    }
+                },
+                {
+                    "quantity":"one",
+                    "value":"Se ha sincronizado %1$d elemento",
+                    "attr":{
+                        "priority":"translate"
+                    }
+                }
+            ]
+        },
+        {
+            "name":"migrating_records_remain_number",
+            "value":[
+                {
+                    "quantity":"other",
+                    "value":"%1$d restantes",
+                    "attr":{
+                        "priority":"translate"
+                    }
+                },
+                {
+                    "quantity":"one",
+                    "value":"%1$d restante",
+                    "attr":{
+                        "priority":"translate"
+                    }
+                }
+            ]
+        }
+    ]
+}

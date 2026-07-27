@@ -1,0 +1,28 @@
+{
+  "color": [
+    {
+      "name": "white",
+      "value": "#FFFFFF"
+    },
+    {
+      "name": "red",
+      "value": "#FB654E"
+    },
+    {
+      "name": "gray",
+      "value": "#E5E5E5"
+    },
+    {
+      "name": "start_window_background",
+      "value": "#FFFFFF"
+    },
+    {
+      "name": "bind_sheet_background",
+      "value": "#F1F3F5"
+    },
+    {
+      "name": "side_bar_item_background_selected",
+      "value": "#1AFB654E"
+    }
+  ]
+}

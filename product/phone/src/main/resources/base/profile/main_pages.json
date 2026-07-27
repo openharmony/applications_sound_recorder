@@ -1,6 +1,5 @@
 {
   "src": [
-    "pages/index",
-    "pages/RecordingPage"
+    "pages/Index"
   ]
 }

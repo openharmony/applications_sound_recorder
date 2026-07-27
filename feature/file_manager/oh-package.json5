@@ -1,0 +1,12 @@
+{
+  "name": "file_manager",
+  "version": "1.0.0",
+  "description": "file manager",
+  "main": "index.ets",
+  "author": "",
+  "license": "",
+  "dependencies": {
+    "@ohos/common": "file:../../common",
+    "@ohos/databaseManager": "file:../database_manager"
+  }
+}

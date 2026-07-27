@@ -1,0 +1,74 @@
+{
+    "string":[
+        {
+            "name":"label_permission_microphone",
+            "value":"Ceci est utilisé pour enregistrer de l'audio.",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"MainAbility_label",
+            "value":"Enregistreur sonore",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"unInstallAppContent",
+            "value":"Cela supprimera également les enregistrements de votre appareil.",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"label_permission_read_audio_text",
+            "value":"Enregistreur sonore nécessite l'autorisation Musique et audio",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"label_permission_write_audio",
+            "value":"Cette autorisation permet de modifier les enregistrements d'appels.",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"label_permission_read_audio",
+            "value":"Cette autorisation permet de lire les enregistrements d'appels.",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"used_to_named",
+            "value":"Cette autorisation est utilisée pour nommer les enregistrements.",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"record_audio",
+            "value":"Enregistrer l'audio",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"label_permission_microphone_text",
+            "value":"Enregistreur sonore nécessite l'autorisation du microphone",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"headset_recording",
+            "value":"Enregistrements au casque",
+            "attr":{
+                "priority":"translate"
+            }
+        }
+    ]
+}

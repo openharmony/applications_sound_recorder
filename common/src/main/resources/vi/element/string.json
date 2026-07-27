@@ -1,0 +1,1236 @@
+{
+    "string":[
+        {
+            "name":"open_skip_mute",
+            "value":"Bật tính năng bỏ qua im lặng",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"close_skip_mute",
+            "value":"Tắt tính năng bỏ qua im lặng",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"stop_save",
+            "value":"Sắp hết bộ nhớ để tiếp tục ghi âm. Đã lưu bản ghi âm.",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"has_call_hint",
+            "value":"Không thể ghi âm khi cuộc gọi đang diễn ra.",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"copy_right",
+            "value":"Bản quyền © %1$d – %2$d  Bảo lưu mọi quyền.",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"file_list_refresh",
+            "value":"Làm mới",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"store_as_filename",
+            "value":"Đã lưu với tên %1$s.",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"allow_access",
+            "value":"Cho phép truy cập",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"delete_hint",
+            "value":"Xóa bản ghi này?",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"notice_recording",
+            "value":"Đang ghi âm",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"back",
+            "value":"Quay lại",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"untitledRecording",
+            "value":"Bản ghi âm chưa đặt tên",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"sort_mode_0",
+            "value":"Mới nhất đến cũ nhất",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"deleting",
+            "value":"Đang xóa…",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"sort_mode_1",
+            "value":"Cũ nhất đến mới nhất",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"collapse_side_navigation_bar",
+            "value":"Đóng menu bên",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"sort_mode_2",
+            "value":"Tên",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"end_unmute_notification",
+            "value":"Đã kết thúc ghi âm. Đã bật tiếng thông báo.",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"record_list",
+            "value":"Bản ghi âm",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"saved",
+            "value":"Đã lưu",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"start_record",
+            "value":"Bắt đầu",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"recent_delete_description",
+            "value":"Các bản ghi âm đã xóa sẽ được lưu giữ ở đây trong %d ngày.",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"audio_recordings",
+            "value":"Bản ghi âm thanh",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"maximum_length",
+            "value":"Đã đạt đến độ dài tối đa",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"voice_retail",
+            "value":"Chi tiết",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"closed_speaker",
+            "value":"Loa tắt.",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"end",
+            "value":"Kết thúc",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"on_sure",
+            "value":"OK",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"about",
+            "value":"Giới thiệu",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"label_permission_microphone_title",
+            "value":"Cho phép Máy ghi âm truy cập Micrô",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"detailDialog_close",
+            "value":"Đóng",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"mark",
+            "value":"Thẻ",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"detailDialog_name_huge_layout",
+            "value":"Tên:",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"pause_recording",
+            "value":"Đã tạm dừng ghi âm. Đã bật tiếng cuộc gọi và thông báo.",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"voice_share",
+            "value":"Chia sẻ",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"play",
+            "value":"Phát",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"content_already_played",
+            "value":"Đã phát: %s",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"start",
+            "value":"Bắt đầu",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"permission_welcome_description",
+            "value":"Ứng dụng này yêu cầu kết nối Internet và quyền truy cập %s, đồng thời cần đọc tệp tin âm thanh cũng như thông tin vị trí nhằm cung cấp dịch vụ ghi âm. Bằng việc chạm vào Đồng ý, bạn đồng ý với các điều khoản này.",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"label_permission_read_audio_title",
+            "value":"Máy ghi âm yêu cầu quyền truy cập Nhạc và âm thanh",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"recording_delete",
+            "value":"Xóa vĩnh viễn",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"no_select",
+            "value":"Chưa chọn",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"file_has_been_deleted",
+            "value":"Tệp tin đã bị xóa",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"detailDialog_name",
+            "value":"Tên: %s",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"data_sort",
+            "value":"Sắp xếp",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"set_phone_voice",
+            "value":"Làm nhạc chuông",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"smart_summary",
+            "value":"Tóm tắt",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"collapsed",
+            "value":"Đã thu gọn",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"no_records",
+            "value":"Không có bản ghi",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"rename_marker",
+            "value":"Đổi tên thẻ này",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"main_remain_days",
+            "value":"%1$s %2$s",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"title",
+            "value":"Máy ghi âm",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"recent_delete_dialog_summary",
+            "value":"Bản ghi âm này sẽ bị xóa vĩnh viễn khỏi thiết bị này.",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"access_location",
+            "value":"Máy ghi âm yêu cầu quyền truy cập Vị trí để đặt tên cho bản ghi âm theo vị trí.",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"recent_delete_dialog_title",
+            "value":"Xóa?",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"resume",
+            "value":"Tiếp tục",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"rename_over",
+            "value":"Tên tệp tin đã tồn tại",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"start_recording",
+            "value":"Đã bắt đầu ghi âm. Đã tắt tiếng cuộc gọi và thông báo.",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"drag_quantity_limit",
+            "value":"Có thể kéo tối đa %d mục cùng lúc.",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"version_info",
+            "value":"Phiên bản",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"recording_recover",
+            "value":"Khôi phục",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"go_to_setting",
+            "value":"Vào Cài đặt",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"expanded",
+            "value":"Đã mở rộng",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"end_recording",
+            "value":"Đã kết thúc ghi âm. Đã bật tiếng cuộc gọi và thông báo.",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"notice_record_pause",
+            "value":"Đã tạm dừng",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"pause",
+            "value":"Tạm dừng",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"detailDialog_time",
+            "value":"Thời gian: %s",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"all_recording_delete",
+            "value":"Xóa tất cả",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"accessibility_double_click",
+            "value":"Chạm hai lần để kích hoạt",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"label_permission_read_audio_text",
+            "value":"Máy ghi âm yêu cầu quyền truy cập Nhạc và âm thanh",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"mark_no_name",
+            "value":"Chưa nhập tên",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"start_mute_notification",
+            "value":"Đã bắt đầu ghi âm. Đã tắt tiếng thông báo.",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"first_delete_dialog_summary",
+            "value":"Những bản ghi này sẽ bị xóa khỏi thiết bị này. Các bản ghi sẽ được lưu trong mục \"Đã xóa gần đây\" trong %d ngày.",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"recent_delete_dialog_summary_multi",
+            "value":"Những bản ghi âm này sẽ bị xóa vĩnh viễn khỏi thiết bị này.",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"cannot_recording",
+            "value":"Không đủ dung lượng bộ nhớ.",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"mark_filter",
+            "value":"Tên không được chứa / \\ : * ? \" < > |",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"renamed",
+            "value":"Đã đổi tên.",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"all_record",
+            "value":"Tất cả",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"permission_welcome_service_description",
+            "value":"Ghi âm dễ dàng.",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"disable_voice_enhancement",
+            "value":"Đã tắt tăng cường giọng thoại.",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"search_recording_files",
+            "value":"Tìm kiếm",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"deleted",
+            "value":"Đã xóa %s.",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"number_upper_limit",
+            "value":"Đã đạt đến số lượng bản ghi âm tối đa. Xóa các bản ghi âm không mong muốn để giải phóng dung lượng.",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"rename_filter",
+            "value":"Tên không được chứa / \\ : * ? \" < > |",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"pause_unmute_notification",
+            "value":"Đã tạm dừng ghi âm. Đã bật tiếng thông báo.",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"open_speaker",
+            "value":"Loa bật.",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"current_location_time",
+            "value":"Vị trí hiện tại, %s.",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"all_recording_recover",
+            "value":"Khôi phục tất cả",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"rename_speaker",
+            "value":"Đổi tên bản ghi âm này",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"about_privacy",
+            "value":"Tuyên bố Quyền riêng tư",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"toolbar_more",
+            "value":"Thêm",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"has_screen_hint",
+            "value":"Một ứng dụng ghi âm khác đang chạy dưới nền. Vui lòng đóng ứng dụng đó trước.",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"detailDialog_size_huge_layout",
+            "value":"Kích cỡ:",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"file_rename",
+            "value":"Đổi tên",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"file_has_been_deleted_description",
+            "value":"Một số bản ghi đã bị xóa. Vui lòng làm mới danh sách.",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"detailDialog_time_huge_layout",
+            "value":"Thời gian:",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"searching",
+            "value":"Tìm kiếm",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"recent_delete",
+            "value":"Đã xóa gần đây",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"permission_welcome_music_and_audio",
+            "value":"Nhạc và âm thanh",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"toolbar_select_all",
+            "value":"Chọn tất cả",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"speed_play",
+            "value":"Tốc độ",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"delete",
+            "value":"Xóa",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"no_name",
+            "value":"Chưa nhập tên",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"predict_hint",
+            "value":"Bạn có thể ghi nhiều hơn %1$d giờ",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"detailDialog_size",
+            "value":"Kích thước: %s",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"less_than_60",
+            "value":"Bộ nhớ thấp",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"call_recording",
+            "value":"Bản ghi cuộc gọi",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"enable_voice_enhancement",
+            "value":"Đã bật tăng cường giọng thoại.",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"delete_all_record",
+            "value":"Xóa tất cả bản ghi?",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"close_speaker",
+            "value":"Không thể thay đổi tốc độ phát khi loa ngoài tắt.",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"toolbar_cancel_select_all",
+            "value":"Bỏ chọn tất cả",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"collect_personal_data",
+            "value":"Thông tin cá nhân được thu thập",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"titles",
+            "value":"Ghi",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"size_upper_limit",
+            "value":"Bản ghi đã đạt đến giới hạn kích thước.",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"recovering",
+            "value":"Đang khôi phục…",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"label_permission_read_audio",
+            "value":"Quyền này dùng để đọc bản ghi âm cuộc gọi.",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"cancel",
+            "value":"Hủy",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"menu_multiselect",
+            "value":"Chọn nhiều",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"detailDialog_path",
+            "value":"Vị trí: %s",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"user_filepath_on_phone",
+            "value":"Tệp tin/Điện thoại của tôi/Âm thanh",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"agree",
+            "value":"Đồng ý",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"migration_remaining_tips",
+            "value":"Một số bản ghi của bạn không được đồng bộ thành công với \"%s\". Tiếp tục đồng bộ ngay bây giờ?",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"migration_data_preparing",
+            "value":"Đang chuẩn bị dữ liệu…",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"user_filepath_on_pc",
+            "value":"Tệp tin/Người dùng/Cá nhân/Âm thanh/SoundRecorder",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"user_filepath_on_pad",
+            "value":"Tệp tin/Máy tính bảng của tôi/Cá nhân/Âm thanh/SoundRecorder",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"migrating_records",
+            "value":"Đang đồng bộ bản ghi âm %s…",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"migration_cancel_tips_title",
+            "value":"Hủy đồng bộ?",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"migration_cancel",
+            "value":"Hủy đồng bộ",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"migration_completed",
+            "value":"Đã đồng bộ bản ghi thành công",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"migration_cancel_tips",
+            "value":"Các bản ghi của bạn hiện đang được đồng bộ với \"%s\". Nếu hủy quá trình đồng bộ ngay bây giờ, bạn sẽ không thể xem và quản lý các bản ghi từ thư mục này.",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"migration_restricted_tips",
+            "value":"Không thực hiện được thao tác này khi đang đồng bộ các bản ghi. Hãy thử lại sau.",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"migrating_call_records",
+            "value":"Đang đồng bộ bản ghi cuộc gọi %s…",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"migration_continue",
+            "value":"Không hủy đồng bộ",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"migration_tips",
+            "value":"Bạn có muốn đồng bộ bản ghi trước đây của mình với \"%s\" không?\n\nSau khi đồng bộ, bạn có thể xem và quản lý trực tiếp các bản ghi đó từ thư mục này trong Tệp tin.",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"headset_recording",
+            "value":"Bản ghi âm qua tai nghe",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"first_delete_dialog_summary_one",
+            "value":"Bản ghi âm này sẽ bị xóa khỏi thiết bị này. Bản ghi sẽ được lưu trong mục \"Đã xóa gần đây\" trong %d ngày.",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"retranslate",
+            "value":"Chép lời lại",
+            "attr":{
+                "priority":"LT"
+            }
+        },
+        {
+            "name":"mark_added_talkback",
+            "value":"Đã thêm",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"transcribed_talkback",
+            "value":"Đã chép lời",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"mark_position_at_talkback",
+            "value":"Đã điều hướng đến",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"serial_number",
+            "value":"Số %s",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"marked",
+            "value":"Đã gắn thẻ",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"count_list_one",
+            "value":"Một mục, %s",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"accessibility_drag_down_to_vassistant",
+            "value":"Chạm đúp và giữ, sau đó kéo xuống Celia",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"accessibility_long_press",
+            "value":"Chạm đúp và giữ để hiển thị thêm tùy chọn",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"total_duration",
+            "value":"Tổng thời lượng %s",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"show_side_navigation_bar",
+            "value":"Mở menu bên",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"concat_three_strings",
+            "value":"%1$s %2$s %3$s",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"more_options",
+            "value":"Tùy chọn khác",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"count_list_info_one",
+            "value":"%1$d đến %2$d, %3$s",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"record_to_text",
+            "value":"Chuyển đổi thành văn bản",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"accessibility_right_swipe",
+            "value":"Chạm đúp và giữ, sau đó vuốt sang phải để thu gọn các tùy chọn bổ sung",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"accessibility_left_swipe",
+            "value":"Chạm đúp và giữ, sau đó vuốt sang trái để mở rộng các tùy chọn bổ sung",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"migrating_records_number",
+            "value":"%1$s, %2$s",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"voice_enhancement_open",
+            "value":"Đã bật tăng cường giọng nói.",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"voice_enhancement_close",
+            "value":"Đã tắt tăng cường giọng nói.",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"mute_skip_disabled",
+            "value":"Khoảng lặng sẽ không bị bỏ qua.",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"mute_skip_enabled",
+            "value":"Khoảng lặng sẽ bị bỏ qua.",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"migration_resume",
+            "value":"Tiếp tục",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"privacy_statement_dialog",
+            "value":"Các tính năng chép lời và tóm tắt thông minh yêu cầu kết nối Internet và cần đọc, tải lên/truyền các tệp tin âm thanh. Để biết thêm chi tiết về cách thông tin của bạn được xử lý, hãy tham khảo %s.",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"enable_realtime_transfer",
+            "value":"Bật chép lời theo thời gian thực",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"recorder_privacy_statement",
+            "value":"Tuyên bố về Máy ghi âm và Quyền riêng tư",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"off_realtime_transfer",
+            "value":"Tắt chép lời theo thời gian thực",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"network_disconnection_transcribe_stop",
+            "value":"Không có kết nối Internet. Đã tạm dừng chép lời.",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"network_connection_interrupt",
+            "value":"Lỗi kết nối mạng. Hãy kiểm tra các cài đặt mạng.",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"next_step",
+            "value":"Tiếp",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"record_timeout",
+            "value":"Đã đạt thời lượng tối đa cho một lần ghi âm.",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"retranslate_text",
+            "value":"Việc khởi động lại quá trình chép lời sẽ xóa mọi chỉnh sửa bạn đã thực hiện, bao gồm cả thông tin về người nói.",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"help_and_feedback",
+            "value":"Trợ giúp và phản hồi",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"audiokit_media_recording",
+            "value":"Ghi âm phương tiện",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"audiokit_external_recording",
+            "value":"Ghi âm bên ngoài",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"audiokit_call_recording",
+            "value":"Ghi âm cuộc gọi",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"realtime_transfer_turned_off",
+            "value":"Tính năng Chép lời theo thời gian thực đã tắt.",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"realtime_transfer_enabled",
+            "value":"Tính năng Chép lời theo thời gian thực đã bật.",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"realtime_transfer_button",
+            "value":"Chép lời theo thời gian thực",
+            "attr":{
+                "priority":"translate"
+            }
+        },
+        {
+            "name":"all_recordings",
+            "value":"Tất cả bản ghi âm",
+            "attr":{
+                "priority":"translate"
+            }
+        }
+    ]
+}
