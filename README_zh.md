@@ -6,10 +6,6 @@
 
 本应用为系统预置应用，用户可从桌面图标、锁屏入口或服务卡片进入录音机。
 
-> **说明**：本仓定位为录音机**应用层**，负责 UI 交互、录音业务流程管理、录音数据持久化，以及卡片 / 通知等系统入口协同。底层音频采集、编码与系统媒体能力由 OpenHarmony 媒体 / 音频框架提供。
-
-![SoundRecorder in OpenHarmony](docs/figures/soundrecorder_in_os.png)
-
 ### 核心能力
 
 **录音控制**
@@ -23,7 +19,7 @@
 - 通过 `PlayManager` 管理 AVPlayer 状态，并与 AVSession、后台播放能力协同。
 
 **录音文件管理** 
-- 提供全部录音、普通录音、通话录音、最近删除等分类视图。
+- 提供录音、最近删除等分类视图。
 - 设备具备通话录音能力时，可展示与管理通话录音文件。
 - 支持搜索、排序、多选、左滑快捷操作、滑动多选。
 - 支持重命名、查看详情、删除与恢复。
@@ -31,24 +27,13 @@
 **录音标记**
 - 录音或播放过程中可添加、编辑与跳转录音标记，便于定位关键片段。
 
-**服务卡片与多形态适配**
+**服务卡片**
 - 提供 2×1、2×2 及锁屏等录音卡片，支持快捷进入录音或查看录音状态。
-- 适配手机、平板形态，以及深色模式等系统显示能力。
-
-### 主要业务场景
-
-| 场景     | 关键模块                                                       | 应用侧处理概要                      |
-|--------|------------------------------------------------------------|------------------------------|
-| 录音控制   | `RecordingPage`、`RecordManager`、`BaseViewModel`            | 权限检查、状态机流转、波形展示              |
-| 录音播放   | `RecordPlayPage`、`PlayManager`                             | 打开文件、波形采样、播放控制、AVSession     |
-| 录音文件管理 | `Index`、`AudioRecordListComponent`、`DatabaseManager`、`FileManager`      | 同步全部 / 普通录音 / 通话录音 / 最近删除数据源 |
-| 录音标记   | `MarkComponent`、`MarkListComponent`、数据库标记表                 | 添加、重命名、跳转标记位置                |
-| 服务卡片   | `PhoneFormAbility`、`recorderFA`、`widget/pages`             | 卡片拉起录音、状态刷新                  |
 
 **事件与调用关系**：
 1. 应用通过 `MainAbility` 启动首页 `Index`，完成数据库初始化、文件监听与列表加载。
 2. 用户触发录音后进入 `RecordingPage`，由 `BaseViewModel` 调用 `RecordManager` 完成录制与保存。
-3. 用户点击列表项进入 `RecordPlayPage`，由 `PlayManager` 完成播放与媒体会话控制。
+3. 用户点击列表项进入 `RecordPlayPage`，由 `PlayManager` 完成录音播放与媒体会话控制。
 4. 服务卡片、锁屏快捷入口等通过 Want / Form 能力拉起对应录音或播放场景。
 
 > 例如，一次典型的录音流程：
@@ -61,46 +46,50 @@
 录音机采用分层与模块化设计，按产品形态、业务特性与公共能力组织代码，如图：
 ![架构说明](./docs/figures/SoundRecorder.png)
 
-### 分层设计
+### 应用层分层设计
 
-整体可划分为产品层（Ability / 首页 / 卡片入口）、特性层（录音机业务）、公共层（模型 / 组件 / 工具）：
+整体可划分为产品层（Ability / 首页 / 卡片入口）、特性层（录音机业务）、公共层（模型 / 工具）：
 
-| 层次           | 主要目录 / 组件 | 说明                                             |
-|--------------| --------------- |------------------------------------------------|
-| 产品层 / 系统交互入口 | `product/phone` | AbilityStage、MainAbility、应用首页、FormAbility、卡片页面 |
-| 特性层 / 录音机业务  | `feature/recorder`、`feature/database_manager`、`feature/file_manager`、`feature/recorderFA` | 录音基础功能、录音播放、录音文件管理、录音标记、服务卡片                   |
-| 公共层 / 公共基础能力 | `common` | 通用UI组件、数据模型管理、设备形态检测、日志工具                      |
+| 层次   | 主要目录 / 组件 | 说明                                       |
+|------| -------------- |------------------------------------------|
+| 产品层 | `product` | 系统交互入口，包括屏幕组件、零层界面、产品配置等，支持手机、平板形态       |
+| 特性层 | `feature/recorder`、`feature/database_manager`、`feature/file_manager`、`feature/recorderFA` | 录音机业务，包括录音控制、录音播放、录音文件管理、录音标记、服务卡片       |
+| 公共层 | `common` | 公共基础能力，包括数据模型管理、后台任务管理、日志工具、音频采样处理、DFX工具 |
 
-### Ability 与 UI 场景
+**特性层模块说明**：
 
-应用由 `MainAbility` 加载首页 `Index`。录音页通常以半模态（`bindSheet`）展示，播放详情在窄屏下走 Navigation，在宽屏下可保持分栏；桌面图标与卡片可直接拉起录音场景。
+| 核心能力   | 模块       | 说明        |
+|--------|-----------------|---------------------------|
+| 录音控制   | RecordingPage, RecordManager, BaseViewModel, AudioSDKManager     | 录音状态机、音频采集、波形展示         |
+| 录音播放   | RecordPlayPage, PlayManager, AvSessionManager, MediaController	  | 播放控制、AVSession媒体会话、倍速播放 |
+| 录音文件管理 | AudioRecordListComponent, DatabaseManager, FileManager, RecordWatcher | 列表/搜索/排序/最近删除           |
+| 录音标记   | MarkComponent, MarkListComponent    | 添加/编辑/跳转标记              |
+| 服务卡片   | FormAbility,recorderFA   | 卡片状态同步                  |
 
-**数据流概览**：
+**与其他系统应用/三方应用的关系**：
 
-```text
-用户入口（桌面 / 卡片 / 锁屏）
-  → MainAbility / PhoneFormAbility
-  → Index（列表、侧栏、权限检查）
-  → RecordingPage（录音） / RecordPlayPage（播放）
-  → BaseViewModel / RecordManager / PlayManager
-  → DatabaseManager + FileManager
-  → 列表 / 卡片 / 通知刷新
-```
+| 项目          | 说明                                                      |
+|-------------|---------------------------------------------------------|
+| 是否允许其他应用调用  | 允许。MainAbility 声明 exported=true，外部应用可通过 Want 拉起         |
+| 谁能调用        | 调用方需持有 ohos.permission.GET_BUNDLE_INFO 系统权限，仅系统应用可调用    |
+| 什么时候能调用     | 应用安装后即可调用；录音场景需用户授权麦克风权限后方可执行                           |
+| 支持的 Want 参数 | 通过 ohos.aafwk.param.callerBundleName 参数判断，目前支持联系人、桌面、锁屏 |
+| 跨进程服务       | 通过 RecorderDataRequestService 提供 RPC 数据请求服务，仅系统内部进程可调用  |
 
-### 模块说明
 
-| 模块           | 路径 | 说明                        |
-|--------------| ---- |---------------------------|
-| AbilityStage | product/phone/src/main/ets/Application/ | 应用级生命周期                   |
-| MainAbility  | product/phone/src/main/ets/MainAbility/ | UI 主入口，加载首页并处理外部 Want     |
-| 应用首页         | product/phone/src/main/ets/pages/Index.ets | 列表、侧栏、录音入口、Navigation     |
-| FormAbility  | product/phone/src/main/ets/form/ | 服务卡片 Ability              |
-| 卡片页面         | product/phone/src/main/ets/widget/pages/ | 2×1、2×2、锁屏卡片              |
-| 录音播放业务       | feature/recorder/ | 录音页、播放页、控制器、波形、通知、ViewModel |
-| 数据库管理        | feature/database_manager/ | 录音、通话录音、标记等数据访问           |
-| 文件管理         | feature/file_manager/ | 文件监听、通话录音文件相关服务           |
-| 卡片控制         | feature/recorderFA/ | 卡片数据、状态同步与更新              |
-| 公共能力         | common/ | 通用UI组件、数据模型管理、设备形态检测、日志工具      |
+### 框架和服务层依赖
+本应用依赖的 Kit 与系统能力详见下表。
+
+| 使用的Kit / 系统能力 | 用途                            |
+|-----------|-------------------------------|
+| AbilityKit | Stage模型Ability生命周期管理          |
+| ArkUI     | 应用组件、事件、动效、状态管理               |
+| FormKit   | 服务卡片数据更新与状态同步                 |
+| MediaKit  | AVRecorder 录音采集、AVPlayer 录音播放 |
+| AudioKit  | AVSession 媒体会话控制、音频路由管理       |
+| ArkData   | 关系型数据库（RDB）读写录音、标记、最近删除等表     |
+| NotificationKit | 录音中实况窗 / 通知栏控制                |
+| FileManagement | 录音文件管理                        |
 
 ## 编译构建
 
@@ -276,21 +265,20 @@ hvigorw assembleHap
 soundrecorder
 ├─AppScope                              # 应用级配置与多语言资源
 │  ├─app.json5                          # bundleName、版本号等
-│  └─resources/                         # 全局 string / 图标等资源
+│  └─resources/                         # 全局字符串 / 图标等资源
 ├─common                                # 公共能力层
 │  └─src/main/ets/
-│     ├─components/                     # 通用 UI 组件
-│     ├─constants/                      # 常量
-│     ├─enums/                          # 枚举
-│     ├─model/                          # 公共数据模型
-│     ├─utils/                          # 通用工具
-│     ├─tempUtils/                      # 兼容 / 临时工具
+│     ├─components/                     # 通用 UI 组件，包括弹框、操作栏、列表项等
+│     ├─constants/                      # 业务常量，包括录音配置、播放速度、搜索状态等
+│     ├─enums/                          # 业务枚举，包括录音类型、设备类型、布局尺寸等
+│     ├─model/                          # 公共数据模型，包括录音状态、录音记录等数据实体
+│     ├─utils/                          # 通用工具，包括数据模型管理、文件管理等
 │     └─logUtils/                       # 日志框架
 ├─feature                               # 特性层
 │  ├─recorder/                          # 录音与播放核心业务
 │  │  └─src/main/ets/
 │  │     ├─audiokit/                    # 录音 SDK 封装
-│  │     ├─components/                  # 列表、波形、侧栏等
+│  │     ├─components/                  # 页面组件，包括列表、波形、侧栏等
 │  │     ├─controller/                  # 录音 / 播放等控制器
 │  │     ├─pages/                       # 录音页、播放页、关于页
 │  │     ├─notification/                # 通知与状态监听
@@ -299,7 +287,7 @@ soundrecorder
 │  ├─database_manager/                  # 录音 / 通话 / 标记数据库
 │  ├─file_manager/                      # 文件监听与通话录音文件服务
 │  └─recorderFA/                        # 服务卡片数据与控制
-├─product
+├─product                               # 产品层
 │  └─phone/                             # 手机 / 平板形态 HAP
 │     └─src/main/ets/
 │        ├─Application/                 # AbilityStage
@@ -319,11 +307,28 @@ soundrecorder
 ```
 
 ## 约束
-- 语言版本：ArkTS
-- 运行形态：系统预置应用（`com.ohos.soundrecorder`），依赖麦克风、媒体播放、通知、文件访问等系统能力
-- 设备类型：`default`、`tablet`（见 `product/phone/src/main/module.json5`）
-- 权限：录音需麦克风权限；读取通话录音等场景可能依赖媒体库读取权限
-- 形态适配：悬浮窗、平板等会改变 Navigation / Sheet / 侧栏布局，修改 UI 时需覆盖多形态验证
+- **语言版本**：ArkTS
+- **运行形态**：系统预置应用（`com.ohos.soundrecorder`），依赖麦克风、媒体播放、通知、文件访问等系统能力
+- **设备类型**：`default`、`tablet`（见 `product/phone/src/main/module.json5`）
+- **权限**：录音机所需的主要权限如下（见 `product/phone/src/main/module.json5`）
+
+  | 权限 | 授权方式 | 使用场景 |
+  |------|---------|---------|
+  | ohos.permission.MICROPHONE | 用户授权 | 录音音频采集 |
+  | ohos.permission.KEEP_BACKGROUND_RUNNING | 系统授权 | 录音后台连续任务保活 |
+  | ohos.permission.SET_UNREMOVABLE_NOTIFICATION | 系统授权 | 录音中显示不可移除通知 |
+  | ohos.permission.ACCESS_NOTIFICATION_POLICY | 系统授权 | 免打扰策略控制 |
+  | ohos.permission.GET_TELEPHONY_STATE | 系统授权 | 通话状态监听，来电自动暂停录音 |
+  | ohos.permission.MODIFY_AUDIO_SETTINGS | 系统授权 | 音频路由设置 |
+  | ohos.permission.FILE_ACCESS_PERSIST | 系统授权 | 录音文件持久访问 |
+  | ohos.permission.FILE_ACCESS_MANAGER | 系统授权 | 文件访问管理 |
+  | ohos.permission.PUBLISH_SYSTEM_COMMON_EVENT | 系统授权 | 系统公共事件发布 |
+  | ohos.permission.VIBRATE | 系统授权 | 录音操作触觉反馈 |
+  | ohos.permission.GET_BUNDLE_INFO | 系统授权 | 获取应用包信息 |
+  | ohos.permission.START_ABILITIES_FROM_BACKGROUND | 系统授权 | 后台拉起Ability |
+
+- 支持的音频格式：m4a、wav、amr
+- 形态适配：分屏、悬浮窗、平板等会改变 Navigation / Sheet / 侧栏布局，修改 UI 时需覆盖多形态验证
 - 本仓定位为应用层实现，不包含底层音频驱动 / 编解码器源码
 
 ## 参与贡献
