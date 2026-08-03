@@ -27,7 +27,7 @@ This application is a system preset app. Users can enter the recorder from the d
 - Supports adding, editing, and jumping to tags during recording or playback for quick navigation to key segments.
 
 **Service Widgets**
-- Provides 2×1 and 2×2 recording widgets for quick recording entry and status display.
+- Provides 2×1 and 2×2 recording widgets for quick recording or entering the recorder.
 
 ## Architecture
 
