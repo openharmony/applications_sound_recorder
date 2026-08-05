@@ -4,7 +4,7 @@
       "name": "LockscreenForm",
       "displayName": "$string:title",
       "description": "$string:record_audio",
-      "src": "./ets/widget/pages/LockscreenForm.ets",
+      "src": "./ets/form/pages/LockscreenForm.ets",
       "uiSyntax": "arkts",
       "window": {
         "designWidth": 720,
@@ -24,7 +24,7 @@
       "name": "Record2x1Form",
       "displayName": "$string:title",
       "description": "$string:record_audio",
-      "src": "./ets/widget/pages/Record2x1Form.ets",
+      "src": "./ets/form/pages/Record2x1Form.ets",
       "uiSyntax": "arkts",
       "window": {
         "designWidth": 720,
@@ -44,7 +44,7 @@
       "name": "Record2x2Form",
       "displayName": "$string:title",
       "description": "$string:record_audio",
-      "src": "./ets/widget/pages/Record2x2Form.ets",
+      "src": "./ets/form/pages/Record2x2Form.ets",
       "uiSyntax": "arkts",
       "window": {
         "designWidth": 720,
