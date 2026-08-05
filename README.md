@@ -2,9 +2,9 @@
 
 ## Introduction
 
-**SoundRecorder** (bundle name: `com.ohos.soundrecorder`) is a pre-installed **system application** in OpenHarmony. It captures audio through the microphone, providing recording control, recording playback, recording file management, recording tags, and service widgets. It adapts to phone and tablet device forms.
+**SoundRecorder** (bundle name: `com.ohos.soundrecorder`) is a pre-installed **system application** in OpenHarmony. It captures audio through the microphone, providing recording control, recording playback, recording file management, recording tags, and service cards. It adapts to phone and tablet device forms.
 
-This application is a system preset app. Users can enter the recorder from the desktop icon or service widgets.
+This application is a system preset app. Users can enter the recorder from the desktop icon or service cards.
 
 ### Core Capabilities
 
@@ -12,7 +12,8 @@ This application is a system preset app. Users can enter the recorder from the d
 - Supports start, pause, resume, and stop, with waveform and duration display during recording.
 - Supports notification / Live View controls.
 - Supports background continuous task keep-alive.
-- Manages the recording state machine. After recording ends, files are saved to the application directory and synchronized to the database.
+- Does not support call recording or in-app recording. It follows the audio framework focus policy and only records microphone audio.
+- Manages the recording state machine. After recording ends, files are saved to the system public directory `/storage/Users/currentUser/Sounds` and synchronized to the database.
 
 **Recording Playback**
 - Supports play, pause, seek, and playback speed control.
@@ -26,8 +27,8 @@ This application is a system preset app. Users can enter the recorder from the d
 **Recording Tags**
 - Supports adding, editing, and jumping to tags during recording or playback for quick navigation to key segments.
 
-**Service Widgets**
-- Provides 2×1 and 2×2 recording widgets for quick recording or entering the recorder.
+**Service Cards**
+- Provides 2×1 and 2×2 recording cards for quick recording or entering SoundRecorder.
 
 ## Architecture
 
@@ -38,40 +39,36 @@ SoundRecorder uses a layered and modular design organized by product form, busin
 
 The overall structure is divided into the product layer, feature layer, and common layer:
 
-| Layer | Main Directories / Components | Description |
-| ----- | ----------------------------- | ----------- |
+| Layer | Main Directories | Description |
+| ----- | ---------------- | ----------- |
 | Product layer | `product` | Supports phone and tablet forms |
-| Feature layer | `feature/recorder`, `feature/database_manager`, `feature/file_manager`, `feature/recorderFA` | Recording control, recording playback, recording file management, recording tags, service widgets |
+| Feature layer | `feature/recorder`, `feature/database_manager`, `feature/file_manager`, `feature/recorderFA` | Recording control, recording playback, recording file management, recording tags, service cards |
 | Common layer | `common` | Data model management, background task management, logging, audio sampling, DFX utilities |
 
 **Feature layer module description**:
 
-| Core Capability | Module | Description |
-| --------------- | ------ | ----------- |
-| Recording control | RecordingPage, RecordManager, BaseViewModel, AudioSDKManager | Recording state machine, audio capture, waveform display |
-| Recording playback | RecordPlayPage, PlayManager, AvSessionManager, MediaController | Playback control, AVSession media session, speed control |
-| Recording file management | AudioRecordListComponent, DatabaseManager, FileManager, RecordWatcher | Recording list, recently deleted, search, sorting |
-| Recording tags | MarkComponent, MarkListComponent | Add, edit, and jump to tags |
-| Service widgets | FormAbility | Widget management, widget status sync |
+| Core Capability | Module and Key Classes | Description |
+| --------------- | ---------------------- | ----------- |
+| Recording control | `feature/recorder` (RecordingPage, RecordManager, BaseViewModel) | Recording state machine, audio capture, waveform display |
+| Recording playback | `feature/recorder` (RecordPlayPage, PlayManager, MediaController) | Playback control, AVSession media session, speed control |
+| Recording tags | `feature/recorder` (MarkComponent, MarkListComponent) | Add, edit, and jump to tags |
+| Recording file management | `feature/file_manager`, `feature/database_manager` (AudioRecordListComponent, DatabaseManager, FileManager) | Recording list, recently deleted, search, sorting |
+| Service cards | `feature/recorderFA` (FormAbility) | Card management, card status sync |
 
 ### Relationship with Other Applications
 
-SoundRecorder currently only allows calls from SceneBoard.
+SoundRecorder currently only allows SceneBoard to launch it from the desktop icon or service card entry.
 
 **Calling method**:
 
 SoundRecorder MainAbility declares exported=true. SceneBoard can launch SoundRecorder via Want.
-
-**Calling scenarios**:
-
-Scenarios include desktop icon, service widgets, lock-screen entry, and notification bar.
 
 ## Build
 
 This project is a multi-module application project, containing 1 entry HAP (`product/phone`) and 5 HAR static shared libraries (`common`, `recorder`, `recorderFA`, `database_manager`, `file_manager`). HARs are packaged into the HAP at compile time. The project is built with Hvigor, and the output is the `com.ohos.soundrecorder` system application package.
 
 ### Environment Requirements
-- OpenHarmony SDK (this project uses `compileSdkVersion` 23 and `compatibleSdkVersion` / `targetSdkVersion` 20)
+- OpenHarmony SDK (this project uses `compileSdkVersion` 26 and `compatibleSdkVersion` / `targetSdkVersion` 20)
 - DevEco Studio or command-line Hvigor toolchain
 - System signing certificates (see `signature/`)
 
@@ -90,7 +87,7 @@ SoundRecorder is developed in **ArkTS**, with UI based on the ArkUI Stage model.
 
 ### Development Based on Existing Modules
 
-Applicable scenarios: customize existing capabilities, such as adjusting playback interaction, extending list features, modifying widget display, or optimizing delete/recover logic.
+Applicable scenarios: customize existing capabilities, such as adjusting playback interaction, extending list features, modifying card display, or optimizing delete/recover logic.
 
 Locate the change by business boundary: `product/phone` (entry and home), `feature/recorder` (recording/playback), `feature/database_manager` (data), `feature/file_manager` (files), or `common` (shared capabilities).
 
@@ -181,12 +178,12 @@ Common modification entry points:
 | Recording playback page | `feature/recorder/src/main/ets/pages/RecordPlayPage.ets` |
 | Recording file management | `feature/file_manager/`, `feature/database_manager/`, `common/src/main/ets/utils/DatabaseManager.ets` |
 | Recording tag component | `feature/recorder/src/main/ets/components/MarkComponent.ets` |
-| Service widgets | `product/phone/src/main/ets/widget/pages/`, `feature/recorderFA/` |
+| Service cards | `product/phone/src/main/ets/form`, `feature/recorderFA/` |
 | UI components | `feature/recorder/src/main/ets/components`, `common/src/main/ets/components/` |
 
 ### Developing New Capabilities
 
-Applicable scenarios: add recording-related capabilities, extend widget forms, introduce differentiated interaction, or adapt new device forms.
+Applicable scenarios: add recording-related capabilities, extend card forms, introduce differentiated interaction, or adapt new device forms.
 
 > **Note**: The current project uses a multi-module `product + feature + common` structure, with the main product entry under `product/phone`. New capabilities are usually extended within the existing layers. If a new product-form HAP is needed, add a directory under `product/` and register it in `build-profile.json5`.
 
@@ -195,7 +192,7 @@ Applicable scenarios: add recording-related capabilities, extend widget forms, i
 1. Add page, controller, or ViewModel logic in `feature/recorder`.
 2. If persistence is involved, extend table access in `feature/database_manager` and expose it through the `DatabaseManager` facade.
 3. If file changes are involved, extend watching or file services in `feature/file_manager`.
-4. If widgets are involved, extend both `feature/recorderFA` and widget pages under `product/phone`.
+4. If service cards are involved, extend both `feature/recorderFA` and card pages under `product/phone`.
 5. Add UT / DT cases under `product/phone/src/ohosTest` and register them in `List.test.ets`.
 6. Configure / confirm Ability entry
 
@@ -232,7 +229,7 @@ Applicable scenarios: add recording-related capabilities, extend widget forms, i
 
 **Scenario 2: Customize UI**
 
-After business capabilities and Ability configuration are ready, extend the home page, recording page, playback page, list components, or widget pages as described in the previous section for UI component modification.
+After business capabilities and Ability configuration are ready, extend the home page, recording page, playback page, list components, or card pages as described in the previous section for UI component modification.
 
 If a new independent page is required:
 1. Add the page file under the module `pages/` directory;
@@ -256,7 +253,6 @@ soundrecorder
 ├─feature                               # Feature layer
 │  ├─recorder/                          # Core recording and playback business
 │  │  └─src/main/ets/
-│  │     ├─audiokit/                    # Recording SDK wrappers
 │  │     ├─components/                  # Page components, including list, waveform, sidebar, etc.
 │  │     ├─controller/                  # Recording / playback controllers
 │  │     ├─pages/                       # Recording, playback, about pages
@@ -265,19 +261,18 @@ soundrecorder
 │  │     └─service/                     # Data request services
 │  ├─database_manager/                  # Recording / call / tag database
 │  ├─file_manager/                      # File watching and call-recording file services
-│  └─recorderFA/                        # Service widget data and control
+│  └─recorderFA/                        # Service card data and control
 ├─product                               # Product layer
 │  └─phone/                             # Phone / tablet HAP
 │     └─src/main/ets/
 │        ├─Application/                 # Application lifecycle management
 │        ├─MainAbility/                 # Application main entry
 │        ├─pages/                       # Home page
-│        ├─form/                        # Service widget lifecycle management
-│        └─widget/pages/                # 2×1, 2×2 widgets
+│        ├─form/                        # Service card lifecycle management, 2×1 and 2×2 cards
 ├─hvigor                                # Build tool configuration
 ├─signature                             # Signing certificates and profile
 ├─open_source                           # Open-source notice materials
-├─build-profile.json5                   # Project-level SDK / signing / product config
+├─build-profile.json5                   # Project-level configuration
 ├─oh-package.json5
 ├─OAT.xml                               # OSS compliance audit
 ├─LICENSE
@@ -297,11 +292,9 @@ soundrecorder
   | ohos.permission.MICROPHONE | User authorization | Audio recording capture |
   | ohos.permission.KEEP_BACKGROUND_RUNNING | System grant | Background continuous task keep-alive during recording |
   | ohos.permission.GET_TELEPHONY_STATE | System grant | Call state monitoring, auto-pause recording on incoming call |
-  | ohos.permission.MODIFY_AUDIO_SETTINGS | System grant | Audio settings |
   | ohos.permission.FILE_ACCESS_MANAGER | System grant | File access management |
 
 - **Supported audio formats**: m4a, wav
-
 
 ## Contribution
 

@@ -2,9 +2,9 @@
 
 ## 简介
 
-**录音机**（包名：`com.ohos.soundrecorder`）是 OpenHarmony 中预置的 **系统应用**，应用通过麦克风采集音频，提供录音控制、录音播放、录音文件管理、录音标记、服务卡片能力，并适配手机、平板设备形态。
+**录音机**（包名：`com.ohos.soundrecorder`）是 OpenHarmony 中预置的 **系统应用**，应用通过麦克风采集音频，提供录音控制、录音播放、录音文件管理、录音标记、服务卡片能力，并适配手机、平板设备形态。用户可从桌面图标、服务卡片进入录音机。
 
-本应用为系统预置应用，用户可从桌面图标、服务卡片进入录音机。
+本应用不支持通话录音与应用内录音，遵从音频框架的音频焦点策略，只录制麦克风音频。
 
 ### 核心能力
 
@@ -12,7 +12,7 @@
 - 支持开始、暂停、继续与结束录音，录音过程中展示波形与时长。
 - 支持通知栏 / 实况窗控制。
 - 支持后台连续任务保活。
-- 完成录音状态机管理，录音结束后将文件保存到应用目录并同步写入数据库。
+- 完成录音状态机管理，录音结束后将文件保存到系统公共目录`/storage/Users/currentUser/Sounds`下并同步写入数据库。
 
 **录音播放**
 - 支持播放、暂停、进度拖动与倍速播放。
@@ -38,40 +38,36 @@
 
 整体可划分为产品层、特性层、公共层：
 
-| 层次   | 主要目录 / 组件 | 说明                                     |
-|------| -------------- |----------------------------------------|
-| 产品层 | `product` | 支持手机、平板形态       |
+| 层次   | 主要目录     | 说明     |
+|------|-------------------------------------------------------------------------------------------|----------------------------------------|
+| 产品层 | `product`                                                                                 | 支持手机、平板形态       |
 | 特性层 | `feature/recorder`、`feature/database_manager`、`feature/file_manager`、`feature/recorderFA` | 录音控制、录音播放、录音文件管理、录音标记、服务卡片       |
-| 公共层 | `common` | 数据模型管理、后台任务管理、日志工具、音频采样处理、DFX工具 |
+| 公共层 | `common`                                                                                  | 数据模型管理、后台任务管理、日志工具、音频采样处理、DFX工具 |
 
 **特性层模块说明**：
 
-| 核心能力   | 模块       | 说明                      |
-|--------|----------------|-------------------------|
-| 录音控制   | RecordingPage, RecordManager, BaseViewModel, AudioSDKManager    | 录音状态机、音频采集、波形展示         |
-| 录音播放   | RecordPlayPage, PlayManager, AvSessionManager, MediaController	 | 播放控制、AVSession媒体会话、倍速播放 |
-| 录音文件管理 | AudioRecordListComponent, DatabaseManager, FileManager, RecordWatcher | 录音列表/最近删除/搜索/排序         |
-| 录音标记   | MarkComponent, MarkListComponent   | 添加/编辑/跳转标记              |
-| 服务卡片   | FormAbility   | 卡片管理、卡片状态同步             |
+| 核心能力   | 模块与关键类                | 说明                      |
+|--------|-----------------------------------------------------------------------------------------------------------|-------------------------|
+| 录音控制   | `feature/recorder`（RecordingPage, RecordManager, BaseViewModel）                                           | 录音状态机、音频采集、波形展示         |
+| 录音播放   | `feature/recorder`（RecordPlayPage, PlayManager, MediaController）	                                         | 播放控制、AVSession媒体会话、倍速播放 |
+| 录音标记   | `feature/recorder`（MarkComponent, MarkListComponent）                                                      | 添加/编辑/跳转标记              |
+| 录音文件管理 | `feature/file_manager`、`feature/database_manager`（AudioRecordListComponent, DatabaseManager, FileManager） | 录音列表/最近删除/搜索/排序         |
+| 服务卡片   | `feature/recorderFA`（FormAbility）                                                                         | 卡片管理、卡片状态同步             |
 
 ### 与其它应用的关系
 
-录音机目前仅允许SceneBoard调用。
+录音机目前仅允许SceneBoard从桌面图标、服务卡片入口拉起。
 
 **调用方式**：
 
 录音机 MainAbility 声明 exported=true，SceneBoard 可通过 Want 拉起录音机。
-
-**调用场景**：
-
-场景包括桌面图标、服务卡片、锁屏入口、通知栏。
 
 ## 编译构建
 
 本工程为多模块应用工程，包含 1 个入口 HAP（`product/phone`）和 5 个 HAR 静态共享库（`common`、`recorder`、`recorderFA`、`database_manager`、`file_manager`），HAR 在编译时打包进 HAP，使用 Hvigor 构建，产物为 `com.ohos.soundrecorder` 系统应用包。
 
 ### 环境要求
-- OpenHarmony SDK（本工程 `compileSdkVersion` 为 23，`compatibleSdkVersion` / `targetSdkVersion` 为 20）
+- OpenHarmony SDK（本工程 `compileSdkVersion` 为 26，`compatibleSdkVersion` / `targetSdkVersion` 为 20）
 - DevEco Studio 或命令行 Hvigor 工具链
 - 系统签名证书（见 `signature/`）
 
@@ -180,9 +176,9 @@ function recordNameStyle() {
 | 录音控制   | `feature/recorder/src/main/ets/controller/RecordManager.ets`                                        |
 | 录音播放页  | `feature/recorder/src/main/ets/pages/RecordPlayPage.ets`                                            |
 | 录音文件管理 | `feature/file_manager/`、`feature/database_manager/`、`common/src/main/ets/utils/DatabaseManager.ets` |
-| 录音标记组件 | `feature/recorder/src/main/ets/components/MarkComponent.ets` |
-| 服务卡片   | `product/phone/src/main/ets/widget/pages/`、`feature/recorderFA/`                                    |
-| UI组件   | `feature/recorder/src/main/ets/components`、`common/src/main/ets/components/`                          |
+| 录音标记组件 | `feature/recorder/src/main/ets/components/MarkComponent.ets`                                        |
+| 服务卡片   | `product/phone/src/main/ets/form`、`feature/recorderFA/`                                             |
+| UI组件   | `feature/recorder/src/main/ets/components`、`common/src/main/ets/components/`                        |
 
 ### 新特性能力的开发
 
@@ -195,7 +191,7 @@ function recordNameStyle() {
 1. 在 `feature/recorder` 中补充页面、控制器或 ViewModel 逻辑。
 2. 如涉及持久化，在 `feature/database_manager` 中扩展表访问，并经 `DatabaseManager` 暴露。
 3. 如涉及文件变化，在 `feature/file_manager` 中补充监听或文件服务。
-4. 如涉及卡片，在 `feature/recorderFA` 与 `product/phone` 的 widget 页面中同步扩展。
+4. 如涉及卡片，在 `feature/recorderFA` 与 `product/phone` 的卡片页面中同步扩展。
 5. 在 `product/phone/src/ohosTest` 中补充对应 UT / DT 用例，并在 `List.test.ets` 中注册。
 6. 配置 / 确认 Ability 入口
 
@@ -256,7 +252,6 @@ soundrecorder
 ├─feature                               # 特性层
 │  ├─recorder/                          # 录音与播放核心业务
 │  │  └─src/main/ets/
-│  │     ├─audiokit/                    # 录音 SDK 封装
 │  │     ├─components/                  # 页面组件，包括列表、波形、侧栏等
 │  │     ├─controller/                  # 录音 / 播放等控制器
 │  │     ├─pages/                       # 录音页、播放页、关于页
@@ -272,12 +267,11 @@ soundrecorder
 │        ├─Application/                 # 应用生命周期管理
 │        ├─MainAbility/                 # 应用主入口
 │        ├─pages/                       # 首页
-│        ├─form/                        # 服务卡片生命周期管理
-│        └─widget/pages/                # 2×1、2×2卡片
+│        ├─form/                        # 服务卡片生命周期管理、2×1、2×2卡片
 ├─hvigor                                # 构建工具配置
 ├─signature                             # 签名证书与 profile
 ├─open_source                           # 开源声明材料
-├─build-profile.json5                   # 工程级 SDK / 签名 / product 配置
+├─build-profile.json5                   # 工程级配置
 ├─oh-package.json5
 ├─OAT.xml                               # 开源合规审计
 ├─LICENSE
@@ -297,11 +291,9 @@ soundrecorder
   | ohos.permission.MICROPHONE | 用户授权 | 录音音频采集 |
   | ohos.permission.KEEP_BACKGROUND_RUNNING | 系统授权 | 录音后台任务保活 |
   | ohos.permission.GET_TELEPHONY_STATE | 系统授权 | 通话状态监听，来电自动暂停录音 |
-  | ohos.permission.MODIFY_AUDIO_SETTINGS | 系统授权 | 音频设置 |
   | ohos.permission.FILE_ACCESS_MANAGER | 系统授权 | 文件访问管理 |
 
 - **支持的音频格式**：m4a、wav
-
 
 ## 参与贡献
 
