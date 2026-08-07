@@ -1394,8 +1394,8 @@ class DatabaseManager {
     let recentDelete = recentDeleteList.map(item => item._data.substring(item._data.lastIndexOf('/') + 1));
 
     const newFilenames =
-      sandboxAudios.filter(item => !normalRecord.includes(item) && !recentDelete.includes(item) && item !== 'fileShare'
-        && !(fileName && item.startsWith(fileName) && FileUtil.AUDIO_SUFFIX.some(suffix => item.endsWith(suffix))));
+      sandboxAudios.filter(item => !normalRecord.includes(item) && !recentDelete.includes(item) && item !== 'fileShare' &&
+        !(fileName && item.startsWith(fileName) && FileUtil.AUDIO_SUFFIX.some(suffix => item.endsWith(suffix))));
 
     // newFilenames.length > 0时，说明沙箱有手工推送文件
     if (newFilenames.length > 0) {

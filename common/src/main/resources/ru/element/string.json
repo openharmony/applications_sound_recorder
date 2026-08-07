@@ -30,7 +30,7 @@
         },
         {
             "name":"copy_right",
-            "value":"Copyright © Huawei, %1$d–%2$d. Все права защищены.",
+            "value":"",
             "attr":{
                 "priority":"LT"
             }
