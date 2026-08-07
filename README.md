@@ -2,9 +2,9 @@
 
 ## Introduction
 
-**SoundRecorder** (bundle name: `com.ohos.soundrecorder`) is a pre-installed **system application** in OpenHarmony. It captures audio through the microphone, providing recording control, recording playback, recording file management, recording tags, and service cards. It adapts to phone and tablet device forms.
+**SoundRecorder** (bundle name: `com.ohos.soundrecorder`) is a pre-installed **system application** in OpenHarmony. It captures audio through the microphone, providing recording control, recording playback, recording file management, recording tags, and service cards. It adapts to phone and tablet device forms. Users can enter SoundRecorder from the desktop icon or service cards.
 
-This application is a system preset app. Users can enter the recorder from the desktop icon or service cards.
+This application does not support call recording or in-app recording. It follows the audio framework audio focus policy and only records microphone audio.
 
 ### Core Capabilities
 
@@ -12,8 +12,7 @@ This application is a system preset app. Users can enter the recorder from the d
 - Supports start, pause, resume, and stop, with waveform and duration display during recording.
 - Supports notification / Live View controls.
 - Supports background continuous task keep-alive.
-- Does not support call recording or in-app recording. It follows the audio framework focus policy and only records microphone audio.
-- Manages the recording state machine. After recording ends, files are saved to the system public directory `/storage/Users/currentUser/Sounds` and synchronized to the database.
+- Manages the recording state machine. After recording ends, files are saved to the system public directory `/storage/Users/currentUser/Sounds` and synchronized to the `recorderSound.db` database.
 
 **Recording Playback**
 - Supports play, pause, seek, and playback speed control.
@@ -39,21 +38,22 @@ SoundRecorder uses a layered and modular design organized by product form, busin
 
 The overall structure is divided into the product layer, feature layer, and common layer:
 
-| Layer | Main Directories | Description |
-| ----- | ---------------- | ----------- |
-| Product layer | `product` | Supports phone and tablet forms |
+| Layer | Module | Capabilities |
+| ----- | ------ | ------------ |
+| Product layer | `product` | Phone and tablet form support |
 | Feature layer | `feature/recorder`, `feature/database_manager`, `feature/file_manager`, `feature/recorderFA` | Recording control, recording playback, recording file management, recording tags, service cards |
 | Common layer | `common` | Data model management, background task management, logging, audio sampling, DFX utilities |
 
-**Feature layer module description**:
+**Module description**:
 
-| Core Capability | Module and Key Classes | Description |
-| --------------- | ---------------------- | ----------- |
-| Recording control | `feature/recorder` (RecordingPage, RecordManager, BaseViewModel) | Recording state machine, audio capture, waveform display |
-| Recording playback | `feature/recorder` (RecordPlayPage, PlayManager, MediaController) | Playback control, AVSession media session, speed control |
-| Recording tags | `feature/recorder` (MarkComponent, MarkListComponent) | Add, edit, and jump to tags |
-| Recording file management | `feature/file_manager`, `feature/database_manager` (AudioRecordListComponent, DatabaseManager, FileManager) | Recording list, recently deleted, search, sorting |
-| Service cards | `feature/recorderFA` (FormAbility) | Card management, card status sync |
+| Module | Key Classes | Dependencies | Description |
+| ------ | ----------- | ------------ | ----------- |
+| product | MainAbility, Index | common, feature/recorder, feature/recorderFA, feature/database_manager, feature/file_manager | Application main entry and home page, adapting to both phone (default) and tablet forms via device detection in common for responsive layout |
+| feature/recorder | RecordingPage, RecordPlayPage, RecordManager, PlayManager | common, feature/file_manager | Recording control (state machine, audio capture, waveform display), recording playback (playback control, speed, AVSession media session), recording tags (add, edit, jump) |
+| feature/database_manager | RecordDbManager | common | RDB CRUD for recording data; database tables include normal_record_table, tag, recent_delete_record_table |
+| feature/file_manager | FileManager, RecordWatcher | common, database_manager | Recording list, recently deleted, search, sorting; file change detection via RecordWatcher triggers database sync and list refresh |
+| feature/recorderFA | FormsManager, FormController | common, feature/recorder | Service card data management, status sync and updates; 2×1 and 2×2 card interaction control |
+| common | FileUtil, SampleUtil, AesGcmUtil, CommonConstants, RecordData, MarkData | - | File operations and path resolution; background continuous task management; audio waveform sampling; DFX event reporting; business constants and enumerations; shared data models |
 
 ### Relationship with Other Applications
 
@@ -268,7 +268,7 @@ soundrecorder
 │        ├─Application/                 # Application lifecycle management
 │        ├─MainAbility/                 # Application main entry
 │        ├─pages/                       # Home page
-│        ├─form/                        # Service card lifecycle management, 2×1 and 2×2 cards
+│        └─form/                        # Service card lifecycle management, 2×1 and 2×2 cards
 ├─hvigor                                # Build tool configuration
 ├─signature                             # Signing certificates and profile
 ├─open_source                           # Open-source notice materials

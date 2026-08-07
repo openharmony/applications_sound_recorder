@@ -12,7 +12,7 @@
 - 支持开始、暂停、继续与结束录音，录音过程中展示波形与时长。
 - 支持通知栏 / 实况窗控制。
 - 支持后台连续任务保活。
-- 完成录音状态机管理，录音结束后将文件保存到系统公共目录`/storage/Users/currentUser/Sounds`下并同步写入数据库。
+- 完成录音状态机管理，录音结束后将文件保存到系统公共目录`/storage/Users/currentUser/Sounds`下并同步写入`recorderSound.db`数据库。
 
 **录音播放**
 - 支持播放、暂停、进度拖动与倍速播放。
@@ -38,21 +38,22 @@
 
 整体可划分为产品层、特性层、公共层：
 
-| 层次   | 主要目录     | 说明     |
-|------|-------------------------------------------------------------------------------------------|----------------------------------------|
-| 产品层 | `product`                                                                                 | 支持手机、平板形态       |
-| 特性层 | `feature/recorder`、`feature/database_manager`、`feature/file_manager`、`feature/recorderFA` | 录音控制、录音播放、录音文件管理、录音标记、服务卡片       |
+| 层次   | 模块                                                                                        | 功能点                             |
+|------|-------------------------------------------------------------------------------------------|---------------------------------|
+| 产品层 | `product`                                                                                 | 手机、平板形态支持                       |
+| 特性层 | `feature/recorder`、`feature/database_manager`、`feature/file_manager`、`feature/recorderFA` | 录音控制、录音播放、录音文件管理、录音标记、服务卡片      |
 | 公共层 | `common`                                                                                  | 数据模型管理、后台任务管理、日志工具、音频采样处理、DFX工具 |
 
-**特性层模块说明**：
+**模块说明**：
 
-| 核心能力   | 模块与关键类                | 说明                      |
-|--------|-----------------------------------------------------------------------------------------------------------|-------------------------|
-| 录音控制   | `feature/recorder`（RecordingPage, RecordManager, BaseViewModel）                                           | 录音状态机、音频采集、波形展示         |
-| 录音播放   | `feature/recorder`（RecordPlayPage, PlayManager, MediaController）	                                         | 播放控制、AVSession媒体会话、倍速播放 |
-| 录音标记   | `feature/recorder`（MarkComponent, MarkListComponent）                                                      | 添加/编辑/跳转标记              |
-| 录音文件管理 | `feature/file_manager`、`feature/database_manager`（AudioRecordListComponent, DatabaseManager, FileManager） | 录音列表/最近删除/搜索/排序         |
-| 服务卡片   | `feature/recorderFA`（FormAbility）                                                                         | 卡片管理、卡片状态同步             |
+| 模块                       | 关键类                                                                     | 依赖                                                                                           | 说明                                                                       |
+|--------------------------|-------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|--------------------------------------------------------------------------|
+| product                  | MainAbility, Index                                                      | common, feature/recorder, feature/recorderFA, feature/database_manager, feature/file_manager | 应用主入口与首页，同时适配手机（default）和平板（tablet）形态，通过 common 中的设备检测实现自适应布局            |
+| feature/recorder         | RecordingPage, RecordPlayPage, RecordManager, PlayManager               | common, feature/file_manager                                                                 | 功能包括录音控制（状态机、音频采集、波形展示）、录音播放（播放控制、倍速、AVSession媒体会话）、录音标记（添加、编辑、跳转）       |
+| feature/database_manager | RecordDbManager                                                         | common                                                                                       | 录音数据的 RDB 增删改查,数据库表包括 normal_record_table、tag、recent_delete_record_table |
+| feature/file_manager     | FileManager, RecordWatcher                                              | common, database_manager                                                                     | 录音列表/最近删除/搜索/排序，文件监听通过 RecordWatcher 检测录音文件变化，触发数据库同步与列表刷新               |
+| feature/recorderFA       | FormsManager, FormController                                            | common, feature/recorder                                                                     | 服务卡片数据管理、状态同步与更新；2×1、2×2 卡片交互控制                                          |
+| common                   | FileUtil, SampleUtil, AesGcmUtil, CommonConstants, RecordData, MarkData | -                                                                                            | 文件操作与路径解析；后台连续任务管理；音频波形采样；DFX 事件上报；业务常量与枚举定义；公共数据模型                      |
 
 ### 与其它应用的关系
 
