@@ -36,8 +36,8 @@ export interface ActionBarStyleOptions {
 
 @ObservedV2
 export class ActionBarStyle {
-  @Trace isPrimaryIconChanged?: boolean;
-  @Trace backgroundColor?: ColorMetrics;
+  @Trace public isPrimaryIconChanged?: boolean;
+  @Trace public backgroundColor?: ColorMetrics;
 
   constructor(options?: ActionBarStyleOptions) {
     this.isPrimaryIconChanged = options?.isPrimaryIconChanged;
@@ -47,18 +47,18 @@ export class ActionBarStyle {
 
 @ObservedV2
 export class ActionBarButton {
-  @Trace id: string = '';
-  @Trace baseIcon: Resource = $r('sys.symbol.bookmark');
-  @Trace altIcon?: Resource;
-  @Trace iconFillColor?: ColorMetrics;
-  @Trace backgroundColor?: ColorMetrics;
-  @Trace shadowStyle?: ShadowStyle;
-  @Trace onClick?: () => void;
-  @Trace enabled: boolean = true;
-  @Trace accessibilityText?: ResourceStr;
-  @Trace hoverTips?: ResourceStr;
-  @Trace accessibilityDescription?: ResourceStr;
-  @Trace buttonModifier?: ButtonModifier;
+  @Trace public id: string = '';
+  @Trace public baseIcon: Resource = $r('sys.symbol.bookmark');
+  @Trace public altIcon?: Resource;
+  @Trace public iconFillColor?: ColorMetrics;
+  @Trace public backgroundColor?: ColorMetrics;
+  @Trace public shadowStyle?: ShadowStyle;
+  @Trace public onClick?: () => void;
+  @Trace public enabled: boolean = true;
+  @Trace public accessibilityText?: ResourceStr;
+  @Trace public hoverTips?: ResourceStr;
+  @Trace public accessibilityDescription?: ResourceStr;
+  @Trace public buttonModifier?: ButtonModifier;
 
   constructor(options: ActionBarButtonOptions, buttonModifier?: ButtonModifier) {
     this.id = options.id;
