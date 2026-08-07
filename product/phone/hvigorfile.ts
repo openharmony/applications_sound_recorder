@@ -6,8 +6,8 @@ import { hvigor, getHvigorNode } from '@ohos/hvigor';
 const mModule = getHvigorNode(__filename);
 const ohosPlugin = hapTasks(mModule);
 
-const onlineSignHapTaskName = "onlineSignHap";
-let curTargetName = "default";
+const onlineSignHapTaskName = 'onlineSignHap';
+let curTargetName = 'default';
 const mModuleName = mModule.getName();
 const projectRootPath = process.cwd() + '/product';
 
@@ -19,7 +19,7 @@ const config = {
         module: mModule, // 当前模块对象,
         entryName: ''
     }
-}
+};
 
 // 若是feature模块签名，此处填写依赖的entry模块名称
 const entryName = '';
@@ -34,9 +34,9 @@ ohosPlugin.getNeedExecTargetServiceList().forEach(targetServices => {
         const moduleBuildOutputDir = path.resolve(projectRootPath, mModuleName, `build/default/outputs/${curTargetName}/`);
 
         // 未签名的hap包路径
-        const inputFile = path.resolve(moduleBuildOutputDir, `${mModuleName}${entryName? '-' + entryName: ''}-${curTargetName}-unsigned.hap`);
+        const inputFile = path.resolve(moduleBuildOutputDir, `${mModuleName}${entryName ? '-' + entryName : ''}-${curTargetName}-unsigned.hap`);
         // 签名后的hap包路径
-        const outputFile = path.resolve(moduleBuildOutputDir, `${mModuleName}${entryName? '-' + entryName: ''}-${curTargetName}-signed.hap`);
+        const outputFile = path.resolve(moduleBuildOutputDir, `${mModuleName}${entryName ? '-' + entryName : ''}-${curTargetName}-signed.hap`);
 
     }, onlineSignHapTaskName).dependsOn(`${curTargetName}@PackageHap`);
 });
@@ -57,9 +57,9 @@ mModule.getTaskByName('assembleHap').dependsOn(onlineSignHapTaskName);
 
 module.exports = {
     ohos: ohosPlugin
-}
+};
 
 export default {
-    system: ohosPlugin,  /* Built-in plugin of Hvigor. It cannot be modified. */
-    plugins:[]         /* Custom plugin to extend the functionality of Hvigor. */
-}
+    system: ohosPlugin, /* Built-in plugin of Hvigor. It cannot be modified. */
+    plugins:[] /* Custom plugin to extend the functionality of Hvigor. */
+};

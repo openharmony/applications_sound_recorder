@@ -18,7 +18,7 @@ const config = {
       moduleName: 'phone'
     }
   ]
-}
+};
 
 if (uploadTestCases) {
   uploadTestCases(config); // 执行上述配置的模块测试，并上传对应的用例信息。注意：本地调试时该方法务必注释掉，不然会影响流水线文本用例
@@ -26,5 +26,5 @@ if (uploadTestCases) {
 
 export default {
   system: appTasks, /* Built-in plugin of Hvigor. It cannot be modified. */
-  plugins: []         /* Custom plugin to extend the functionality of Hvigor. */
-}
+  plugins: [] /* Custom plugin to extend the functionality of Hvigor. */
+};

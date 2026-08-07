@@ -267,7 +267,7 @@ soundrecorder
 │        ├─Application/                 # 应用生命周期管理
 │        ├─MainAbility/                 # 应用主入口
 │        ├─pages/                       # 首页
-│        ├─form/                        # 服务卡片生命周期管理、2×1、2×2卡片
+│        └─form/                        # 服务卡片生命周期管理、2×1、2×2卡片
 ├─hvigor                                # 构建工具配置
 ├─signature                             # 签名证书与 profile
 ├─open_source                           # 开源声明材料
