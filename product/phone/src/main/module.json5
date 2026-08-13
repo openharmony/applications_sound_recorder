@@ -128,13 +128,7 @@
         "name": "ohos.permission.VIBRATE"
       },
       {
-        "name": "ohos.permission.WAKEUP_VOICE"
-      },
-      {
         "name": "ohos.permission.FILE_ACCESS_PERSIST"
-      },
-      {
-        "name": "ohos.permission.GET_NETWORK_INFO"
       },
       {
         "name": "ohos.permission.PUBLISH_SYSTEM_COMMON_EVENT"
@@ -147,12 +141,6 @@
       },
       {
         "name": "ohos.permission.GET_BUNDLE_INFO"
-      },
-      {
-        "name": "ohos.permission.ACCESS_HIVIEWCARE"
-      },
-      {
-        "name": "ohos.permission.LAUNCH_DATA_PRIVACY_CENTER"
       },
       {
         "name": "ohos.permission.START_ABILITIES_FROM_BACKGROUND"

@@ -10,15 +10,15 @@ This application does not support call recording or in-app recording. It follows
 
 **Recording Control**
 - Supports start, pause, resume, and stop, with waveform and duration display during recording.
-- Supports notification / Live View controls.
 - Supports background continuous task keep-alive.
-- Manages the recording state machine. After recording ends, files are saved to the system public directory `/storage/Users/currentUser/Sounds` and synchronized to the `recorderSound.db` database.
+- Manages the recording state machine, supports notification bar and desktop card controls.
 
 **Recording Playback**
 - Supports play, pause, seek, and playback speed control.
 - Manages AVPlayer state and coordinates with AVSession and background playback.
 
 **Recording File Management**
+- After recording ends, files are saved to the system public directory `Sounds` (apps can access via the URI `file://docs/storage/Users/currentUser/`; users can find files under "My Phone > Sounds" in the file manager) and synchronized to the `recorderSound.db` database.
 - Provides category views such as recording list and recently deleted list.
 - Supports search, sorting, multi-select, swipe actions, and slide-select.
 - Supports rename, view details, delete, and recover.
@@ -68,7 +68,7 @@ SoundRecorder MainAbility declares exported=true. SceneBoard can launch SoundRec
 This project is a multi-module application project, containing 1 entry HAP (`product/phone`) and 5 HAR static shared libraries (`common`, `recorder`, `recorderFA`, `database_manager`, `file_manager`). HARs are packaged into the HAP at compile time. The project is built with Hvigor, and the output is the `com.ohos.soundrecorder` system application package.
 
 ### Environment Requirements
-- OpenHarmony SDK (this project uses `compileSdkVersion` 26 and `compatibleSdkVersion` / `targetSdkVersion` 20)
+- OpenHarmony SDK (this project uses `compileSdkVersion` 26.0.0 and `compatibleSdkVersion` / `targetSdkVersion` 23)
 - DevEco Studio or command-line Hvigor toolchain
 - System signing certificates (see `signature/`)
 
