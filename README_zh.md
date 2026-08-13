@@ -10,16 +10,16 @@
 
 **录音控制**
 - 支持开始、暂停、继续与结束录音，录音过程中展示波形与时长。
-- 支持通知栏 / 实况窗控制。
 - 支持后台连续任务保活。
-- 完成录音状态机管理，录音结束后将文件保存到系统公共目录`/storage/Users/currentUser/Sounds`下并同步写入`recorderSound.db`数据库。
+- 完成录音状态机管理，支持通知栏、桌面卡片控制。
 
 **录音播放**
 - 支持播放、暂停、进度拖动与倍速播放。
 - 管理 AVPlayer 状态，并与 AVSession、后台播放能力协同。
 
-**录音文件管理** 
-- 提供录音列表、最近删除列表等分类视图。
+**录音文件管理**
+- 录音结束后将文件保存到系统公共目录`Sounds`下（应用通过 `file://docs/storage/Users/currentUser/Sounds` URI 访问；用户可在文件管理器Sounds目录下查看）并同步写入 `recorderSound.db` 数据库。
+- 提供录音列表、最近删除列表等分类视图。 
 - 支持搜索、排序、多选、左滑快捷操作、滑动多选。
 - 支持重命名、查看详情、删除与恢复。
 
@@ -68,7 +68,7 @@
 本工程为多模块应用工程，包含 1 个入口 HAP（`product/phone`）和 5 个 HAR 静态共享库（`common`、`recorder`、`recorderFA`、`database_manager`、`file_manager`），HAR 在编译时打包进 HAP，使用 Hvigor 构建，产物为 `com.ohos.soundrecorder` 系统应用包。
 
 ### 环境要求
-- OpenHarmony SDK（本工程 `compileSdkVersion` 为 26，`compatibleSdkVersion` / `targetSdkVersion` 为 20）
+- OpenHarmony SDK（本工程 `compileSdkVersion` 为 26.0.0，`compatibleSdkVersion` / `targetSdkVersion` 为 23）
 - DevEco Studio 或命令行 Hvigor 工具链
 - 系统签名证书（见 `signature/`）
 

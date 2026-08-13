@@ -4,11 +4,10 @@
       {
         "name": "default",
         "signingConfig": "default",
-        "compileSdkVersion": 23,
-        //        "compatibleSdkVersionStage": "beta1",
-        "compatibleSdkVersion": 20,
+        "compileSdkVersion": "26.0.0",
+        "compatibleSdkVersion": 23,
+        "targetSdkVersion": 23,
         "runtimeOS": "OpenHarmony",
-        "targetSdkVersion": "20",
         "buildOption": {
           "nativeCompiler": "BiSheng"
         }
