@@ -1,0 +1,32 @@
+{
+  "name": "@ohos/applications_sound_recorder",
+  "description": "SoundRecorder app for standard system.",
+  "version": "3.0",
+  "license": "Apache License 2.0",
+  "publishAs": "code-segment",
+  "segment": {
+    "destPath": "applications/standard/sound_recorder"
+  },
+  "dirs": {},
+  "scripts": {},
+  "component": {
+    "name": "applications_sound_recorder",
+    "subsystem": "applications",
+    "syscap": [],
+    "features": [],
+    "adapted_system_type": [
+      "standard"
+    ],
+    "rom": "2979KB",
+    "ram": "18793KB",
+    "deps": {
+      "components": [],
+      "third_party": []
+    },
+    "build": {
+      "sub_component": [],
+      "inner_kits": [],
+      "test": []
+    }
+  }
+}
