@@ -2,7 +2,7 @@
 
 ## Introduction
 
-**SoundRecorder** (bundle name: `com.ohos.soundrecorder`) is a pre-installed **system application** in OpenHarmony. It captures audio through the microphone, providing recording control, recording playback, recording file management, recording tags, and service cards. It adapts to phone and tablet device forms. Users can enter SoundRecorder from the desktop icon or service cards.
+**SoundRecorder** (bundle name: `com.ohos.soundrecorder`) is a pre-installed **system application** in the OpenHarmony standard system. It captures audio through the microphone, providing recording control, recording playback, recording file management, recording tags, and service cards. It adapts to phone and tablet device forms. Users can enter SoundRecorder from the desktop icon or service cards.
 
 This application does not support call recording or in-app recording. It follows the audio framework audio focus policy and only records microphone audio.
 
@@ -273,6 +273,7 @@ soundrecorder
 ├─signature                             # Signing certificates and profile
 ├─open_source                           # Open-source notice materials
 ├─build-profile.json5                   # Project-level configuration
+├─bundle.json                           # Component definition (including ROM/RAM)
 ├─oh-package.json5
 ├─OAT.xml                               # OSS compliance audit
 ├─LICENSE

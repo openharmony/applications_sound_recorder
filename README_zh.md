@@ -2,7 +2,7 @@
 
 ## 简介
 
-**录音机**（包名：`com.ohos.soundrecorder`）是 OpenHarmony 中预置的 **系统应用**，应用通过麦克风采集音频，提供录音控制、录音播放、录音文件管理、录音标记、服务卡片能力，并适配手机、平板设备形态。用户可从桌面图标、服务卡片进入录音机。
+**录音机**（包名：`com.ohos.soundrecorder`）是 OpenHarmony 标准系统中预置的 **系统应用**，应用通过麦克风采集音频，提供录音控制、录音播放、录音文件管理、录音标记、服务卡片能力，并适配手机、平板设备形态。用户可从桌面图标、服务卡片进入录音机。
 
 本应用不支持通话录音与应用内录音，遵从音频框架的音频焦点策略，只录制麦克风音频。
 
@@ -273,6 +273,7 @@ soundrecorder
 ├─signature                             # 签名证书与 profile
 ├─open_source                           # 开源声明材料
 ├─build-profile.json5                   # 工程级配置
+├─bundle.json                           # 部件定义（含 ROM/RAM）
 ├─oh-package.json5
 ├─OAT.xml                               # 开源合规审计
 ├─LICENSE
